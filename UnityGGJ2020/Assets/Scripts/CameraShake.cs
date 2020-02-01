@@ -5,11 +5,11 @@ using UnityEngine;
 public class CameraShake : MonoBehaviour
 {
     [SerializeField] private Camera mainCamera;
-    [SerializeField] private float radius;
-    [SerializeField] private float intensity;
+    [SerializeField] private float radius = 10f;
+    [SerializeField] private float intensity = 10;
+    [SerializeField] private float duration = 1f;
 
     private float timeElapsed;
-    private float startTime;
 
     private Vector3 randomPos;
     private Vector3 lastPos;
@@ -21,22 +21,32 @@ public class CameraShake : MonoBehaviour
 
     public void ShakeCamera()
     {
-        randomPos = Random.insideUnitSphere * radius;
         lastPos = mainCamera.transform.position;
 
         StartCoroutine(ShakeLerp());
     }
 
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            ShakeCamera();
+        }
+    }
+
     IEnumerator ShakeLerp()
     {
         timeElapsed = 0;
-        startTime = Time.time;
 
-        while (timeElapsed <= 1f)
+        while (timeElapsed <= duration)
         {
-            timeElapsed += Time.deltaTime * (Time.time - startTime);
-            mainCamera.transform.position = (randomPos - lastPos) * timeElapsed;
-            yield return new WaitForEndOfFrame();
+            randomPos = Random.insideUnitSphere * radius + mainCamera.transform.position;
+            mainCamera.transform.position = new Vector3(randomPos.x, randomPos.y, mainCamera.transform.position.z);
+
+            timeElapsed += Time.deltaTime + (1/intensity);
+            yield return new WaitForSeconds(1/intensity);
         }
+
+        mainCamera.transform.position = lastPos;
     }
 }

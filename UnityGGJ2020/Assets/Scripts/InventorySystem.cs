@@ -5,13 +5,12 @@ using UnityEngine.UI;
 
 public class InventorySystem : MonoBehaviour
 {
-
-    public GameObject inventoryUI;
+    [SerializeField] private GameObject inventoryUI = null;
 
     [SerializeField] private Item[] itemList = new Item[15];
     [SerializeField] private Button[] itembuttons = new Button[15];
 
-    [SerializeField] private Image uiWindow = null;
+    public static System.Action<bool> OnOpenInventory;
 
     public void Remove(Item item)
     {
@@ -19,25 +18,26 @@ public class InventorySystem : MonoBehaviour
         itembuttons[(int)item.itemAsset].image.sprite = null;
     }
 
-    public void Add(Item item){
-            itemList[(int)item.itemAsset] = item;
-
+    public void Add(Item item)
+    {
+        itemList[(int)item.itemAsset] = item;
     } 
 
-    // Start is called before the first frame update
     void Start()
     {
-        if (Input.GetButtonDown("i")) {
-            inventoryUI.SetActive(!inventoryUI.activeSelf);
-        }
-
+        inventoryUI.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
-     /*   if (Input.GetKey("r")) {
-        } */
+        /*   if (Input.GetKey("r")) {
+           } */
+
+        if (Input.GetKeyDown(KeyCode.I))
+        {
+            inventoryUI.SetActive(!inventoryUI.activeSelf);
+            OnOpenInventory(inventoryUI.activeSelf);
+        }
     }
 }
 

@@ -5,10 +5,6 @@ using UnityEngine.UI;
 
 public class DialogSystem : MonoBehaviour
 {
-    public static System.Action onOpenInventory;
-
-    public enum Items { HasCarrot, HasPizza };
-
     //UI
     [SerializeField] private Dialog curDialog = null;
     [SerializeField] private Image dialogWindow = null;
@@ -20,7 +16,8 @@ public class DialogSystem : MonoBehaviour
 
     void Start()
     {
-        onOpenInventory += InventoryInterrupt;
+        InventorySystem.OnOpenInventory += InventoryInterrupt;
+        dialogWindow.gameObject.SetActive(false);
     }
 
     void Update()
@@ -78,7 +75,7 @@ public class DialogSystem : MonoBehaviour
         doneSentence = true;
     }
 
-    private void InventoryInterrupt()
+    private void InventoryInterrupt(bool inventoryIsOpen)
     {
         //TODO:
     }
