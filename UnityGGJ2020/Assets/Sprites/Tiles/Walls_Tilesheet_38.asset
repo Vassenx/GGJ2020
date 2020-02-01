@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 13312, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: Furniture_Tilesheet_10
+  m_Name: Walls_Tilesheet_38
   m_EditorClassIdentifier: 
-  m_Sprite: {fileID: 5953513318479844600, guid: 37702171203a1e242b8431cb309adb6f,
+  m_Sprite: {fileID: 7420934776144719694, guid: eb9c18225a1329848b7179d46ef49f89,
     type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Transform:

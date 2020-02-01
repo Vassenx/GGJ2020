@@ -17,8 +17,8 @@ MonoBehaviour:
   m_DefaultGameObject: {fileID: 0}
   m_DefaultColliderType: 1
   m_siblings:
-  - {fileID: 11400000, guid: 39a6b86e58ab9d242854dd4f24ea1113, type: 2}
-  - {fileID: 11400000, guid: 4e78dadc374b3174ca976884f6365cb6, type: 2}
+  - {fileID: 11400000, guid: 19286ef7748dc6b4288fe9765a5c1395, type: 2}
+  - {fileID: 11400000, guid: 0bda0c2d4dfdb1e41847b4155198812d, type: 2}
   - {fileID: 11400000}
   - {fileID: 11400000, guid: 89875adf474e71c40b83174c5b4418a3, type: 2}
   - {fileID: 11400000, guid: 90d00dcd8c2488b41b20a30abd5d0014, type: 2}
