@@ -13,19 +13,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 2
-  lastUpdatedAtString: 2020-02-01T06:14:46.412-05:00
-  initializedAtString: 2020-02-01T06:14:46.282-05:00
+  lastUpdatedAtString: 2020-02-01T06:39:52.309-05:00
+  initializedAtString: 2020-02-01T06:39:52.193-05:00
   localBranches:
   - name: dev
-    tracking: 
-  - name: origin/dev
-    tracking: 
+    tracking: origin/dev
+  - name: master
+    tracking: origin/master
   remoteBranches:
-  - name: origin/dev
-    tracking: '[None]'
   - name: origin/HEAD
     tracking: '[None]'
-  - name: origin/master
+  - name: origin/dev
     tracking: '[None]'
   remotes:
   - name: origin
@@ -38,39 +36,33 @@ MonoBehaviour:
   localConfigBranches:
     keys:
     - dev
-    - origin/dev
+    - master
     values:
     - name: dev
       remote:
-        name: 
-        url: 
-      trackingBranch: 
-    - name: origin/dev
+        name: origin
+        url: https://github.com/Vassenx/GGJ2020.git
+      trackingBranch: dev
+    - name: master
       remote:
-        name: 
-        url: 
-      trackingBranch: 
+        name: origin
+        url: https://github.com/Vassenx/GGJ2020.git
+      trackingBranch: master
   remoteConfigBranches:
     keys:
     - origin
     subKeys:
     - Values:
-      - dev
       - HEAD
-      - master
+      - dev
     subKeyValues:
     - Values:
-      - name: dev
-        remote:
-          name: origin
-          url: https://github.com/Vassenx/GGJ2020.git
-        trackingBranch: 
       - name: HEAD
         remote:
           name: origin
           url: https://github.com/Vassenx/GGJ2020.git
         trackingBranch: 
-      - name: master
+      - name: dev
         remote:
           name: origin
           url: https://github.com/Vassenx/GGJ2020.git

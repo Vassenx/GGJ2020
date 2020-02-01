@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cacheType: 1
-  lastUpdatedAtString: 2020-02-01T06:14:46.431-05:00
-  initializedAtString: 2020-02-01T05:55:02.320-05:00
+  lastUpdatedAtString: 2020-02-01T06:39:52.278-05:00
+  initializedAtString: 2020-02-01T06:27:08.078-05:00
   currentGitRemote:
     name: origin
     url: https://github.com/Vassenx/GGJ2020.git
@@ -25,13 +25,13 @@ MonoBehaviour:
     token: 
   currentGitBranch:
     name: dev
-    tracking: 
+    tracking: origin/dev
   currentConfigBranch:
     name: dev
     remote:
-      name: 
-      url: 
-    trackingBranch: 
+      name: origin
+      url: https://github.com/Vassenx/GGJ2020.git
+    trackingBranch: dev
   currentConfigRemote:
     name: origin
     url: https://github.com/Vassenx/GGJ2020.git
