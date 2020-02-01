@@ -2,7 +2,7 @@
 
 public class PlayerController : MonoBehaviour
 {
-    [SerializeField] private float speed;
+    [SerializeField] private float speed = 1;
 
     void FixedUpdate()
     {
