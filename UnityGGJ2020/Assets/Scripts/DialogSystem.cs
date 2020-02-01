@@ -66,7 +66,7 @@ public class DialogSystem : MonoBehaviour
 
     private IEnumerator TypeSentence(string sentence)
     {
-        curSentenceIndex = dialogText.text.Length;
+        curSentenceIndex = dialogText.text.ToCharArray().Length;
         dialogText.text += ' ';
 
         foreach (char letter in sentence.ToCharArray())

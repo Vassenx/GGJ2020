@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3822838472615559910}
   - component: {fileID: 1770475809010624169}
-  - component: {fileID: 4377491170028545510}
+  - component: {fileID: 6754070388675408175}
   m_Layer: 0
   m_Name: ShadowObject
   m_TagString: Untagged
@@ -72,7 +72,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 6b96813c425ffd84f86a7afed2b74b11, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.9647059}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -82,7 +82,7 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &4377491170028545510
+--- !u!114 &6754070388675408175
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,9 +99,8 @@ MonoBehaviour:
   m_UseRendererSilhouette: 1
   m_CastsShadows: 1
   m_SelfShadows: 0
-  m_ApplyToSortingLayers: 000000004f4ec80017afe79a
+  m_ApplyToSortingLayers: 00000000ff0e6a1cf37b64fa
   m_ShapePath:
-  - {x: -13, y: 0.5, z: 0}
   - {x: -13, y: -0.5, z: 0}
   - {x: -1, y: -6.5, z: 0}
   - {x: 1, y: -6.5, z: 0}
@@ -109,6 +108,7 @@ MonoBehaviour:
   - {x: 13, y: 0.5, z: 0}
   - {x: 1, y: 6.5, z: 0}
   - {x: -1, y: 6.5, z: 0}
-  m_ShapePathHash: 948007269
+  - {x: -13, y: 0.5, z: 0}
+  m_ShapePathHash: -329158299
   m_Mesh: {fileID: 0}
-  m_InstanceId: -80374
+  m_InstanceId: 32230
