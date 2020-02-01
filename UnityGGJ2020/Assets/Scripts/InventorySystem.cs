@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class InventorySystem : MonoBehaviour
 {
     [SerializeField] private Item[] itemList = new Item[15];
-    [SerializeField] private Button[] itembuttoms = new Button[15];
+    [SerializeField] private Button[] itembuttons = new Button[15];
 
     [SerializeField] private Image uiWindow = null;
 
@@ -14,6 +14,7 @@ public class InventorySystem : MonoBehaviour
     public void Remove(Item item)
     {
         itemList[(int)item.itemAsset] = null;
+        itembuttons[(int)item.itemAsset].image.sprite = null;
     }
 
     public void Add(Item item){
