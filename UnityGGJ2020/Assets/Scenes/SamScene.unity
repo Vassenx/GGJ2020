@@ -3933,7 +3933,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bf8547bf078543919a71099d08d11ef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inventoryUI: {fileID: 0}
+  inventoryUI: {fileID: 1062297780}
   itemList:
   - {fileID: 11400000, guid: 8cadec0ad376d4e79a06905c6cc3e3ad, type: 2}
   - {fileID: 11400000, guid: 7e02c6e91cd4d4aabac6376ebaea78cd, type: 2}
@@ -3966,7 +3966,6 @@ MonoBehaviour:
   - {fileID: 0}
   - {fileID: 0}
   - {fileID: 0}
-  uiWindow: {fileID: 1062297782}
 --- !u!4 &1818305606
 Transform:
   m_ObjectHideFlags: 0
