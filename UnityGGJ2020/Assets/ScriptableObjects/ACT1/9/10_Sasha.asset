@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 10_Sasha
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: SASHA
+  sentences: Why is this so important?
+  children:
+  - {fileID: 11400000, guid: 9097a12005c6c5d4ebeb7c8dac2b6916, type: 2}
   conditions: []

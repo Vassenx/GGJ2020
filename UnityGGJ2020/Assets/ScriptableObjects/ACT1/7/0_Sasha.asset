@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 0_Sasha
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: SASHA
+  sentences: You heard the crash earlier, right? Any chance you saw what caused it?
+  children:
+  - {fileID: 11400000, guid: 07b87a1588553a14a8bce22aae82f9e4, type: 2}
   conditions: []

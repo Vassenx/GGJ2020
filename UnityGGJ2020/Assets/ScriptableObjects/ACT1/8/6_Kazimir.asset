@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 6_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: KAZIMIR
+  sentences: I'm standing there, thinking, damn, that was scary, but at least the
+    sub's fine. And then I see it.
+  children:
+  - {fileID: 11400000, guid: 0dd20f0ef22b69c4c8ed7fe0388bcf28, type: 2}
   conditions: []

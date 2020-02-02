@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 6_Radinka
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: RADINKA
+  sentences: It is that crazy little man, Kazimir, being overdramatic as per usual.
+  children:
+  - {fileID: 11400000, guid: 8eb299adc93337542ac74cf37dc14ff6, type: 2}
   conditions: []

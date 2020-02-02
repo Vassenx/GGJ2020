@@ -10,9 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
-  m_Name: 8_Sasha
+  m_Name: 9_Radinka
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: RADINKA
+  sentences: "Have more faith. We must reach the bottom of the ocean before the Americans
+    do\u2014that is our mission."
+  children:
+  - {fileID: 11400000, guid: 1ee988076d592524082d0aef671af411, type: 2}
+  - {fileID: 11400000, guid: 91d4ed237481f1d4b8a1d70dba055b2e, type: 2}
   conditions: []

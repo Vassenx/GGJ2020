@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 7_Sasha
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: SASHA
+  sentences: I'm just concerned that was we venture deeper into the trench, these
+    collisions will become a more common occurence.
+  children:
+  - {fileID: 11400000, guid: 2297df623f8cf6c4da888c9d00e25756, type: 2}
   conditions: []

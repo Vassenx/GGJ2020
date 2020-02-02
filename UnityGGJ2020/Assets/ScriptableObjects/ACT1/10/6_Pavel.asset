@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 6_Pavel
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: PAVEL
+  sentences: I'm-I'm Pavel.
+  children:
+  - {fileID: 11400000, guid: e04ef51e943e97a4a9a5e71d10ebc8f2, type: 2}
   conditions: []

@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 5_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: KAZIMIR
+  sentences: "Nah. After the first one, I turn around and face the window\u2014you
+    know, the one that has all the cracks one. Crackless."
+  children:
+  - {fileID: 11400000, guid: e1934a7d21d63dc46af428ea8cc66ade, type: 2}
   conditions: []

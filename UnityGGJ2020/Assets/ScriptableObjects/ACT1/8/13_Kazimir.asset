@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 13_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: KAZIMIR
+  sentences: What, do you think I can see in the dark now?
+  children:
+  - {fileID: 11400000, guid: f17a6597c96a3ef42b71b7a819ed8a65, type: 2}
   conditions: []

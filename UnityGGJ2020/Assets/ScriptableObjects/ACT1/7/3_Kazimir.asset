@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 3_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: Kazimir
+  sentences: "Nah man, really\u2014hear me out: I was just minding my own business,
+    right? Just fucking around with the terminal by the torpedo. Suddenly, I get
+    hungry."
+  children:
+  - {fileID: 0}
   conditions: []

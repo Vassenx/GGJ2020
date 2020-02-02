@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 11_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: KAZIMIR
+  sentences: No one else has really been down here.... At least, not as long as we
+    have. We're bound to run across some random shit.
+  children:
+  - {fileID: 11400000, guid: c68120d494023a542b3e399af0df55f8, type: 2}
   conditions: []

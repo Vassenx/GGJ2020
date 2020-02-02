@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: SASHA
   sentences: By the way, did you hear those wails earlier?
-  children: []
+  children:
+  - {fileID: 11400000, guid: 520f75391ad786246a704dfe3ffc1c19, type: 2}
   conditions: []

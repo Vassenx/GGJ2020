@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
-  m_Name: New Choice
+  m_Name: 2_Pavel
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: PAVEL
+  sentences: I don't know. I just want to go home.
+  children:
+  - {fileID: 11400000, guid: 6737d38d2eaa4cf489bbdf165e2ad16c, type: 2}
   conditions: []

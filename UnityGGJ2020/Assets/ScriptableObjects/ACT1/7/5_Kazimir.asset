@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 5_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: KAZIMIR
+  sentences: Yeah, yeah, exactly. I go into the mess hall, and I'm tip-tapping my
+    way to the food when suddenly, there's this thump.
+  children:
+  - {fileID: 0}
   conditions: []

@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 2_Sasha
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: SASHA
+  sentences: Wait, did you hear that?
+  children:
+  - {fileID: 11400000, guid: 21f8ce79ba38c124fbc8faf3c26878c4, type: 2}
   conditions: []

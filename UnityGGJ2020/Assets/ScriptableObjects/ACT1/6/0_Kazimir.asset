@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 0_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
-  conditions: []
+  speaker: KAZIMIR
+  sentences: "\u0417\u0434\u0440\u0430\u0432\u0441\u0442\u0432\u0443\u0439\u0442\u0435,
+    \u0442\u043E\u0432\u0430\u0440\u0438\u0449"
+  children:
+  - {fileID: 11400000, guid: a42695ee6b2697342966a8007758b849, type: 2}
+  conditions:
+  - {fileID: 0}

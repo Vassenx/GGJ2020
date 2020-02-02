@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 13_Radinka
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
+  speaker: RADINKA
+  sentences: Farewell.
   children: []
   conditions: []

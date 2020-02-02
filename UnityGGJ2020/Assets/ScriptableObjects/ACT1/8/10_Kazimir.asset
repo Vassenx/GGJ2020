@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 10_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: KAZIMIR
+  sentences: Sasha, my man. Think about it. We're so fucking deep in the sea, dude,
+    in a test submarine, of all things. Those dicks up there sent us down here to
+    scope the 'scape right?
+  children:
+  - {fileID: 11400000, guid: c3decea945cc5fe458786e34f54a3259, type: 2}
   conditions: []

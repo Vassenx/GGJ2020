@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 2_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
-  conditions: []
+  speaker: KAZIMIR
+  sentences: Nope, not me.
+  children:
+  - {fileID: 11400000, guid: d70185a1fae12f340b05f8fd2290b101, type: 2}
+  conditions:
+  - {fileID: 0}

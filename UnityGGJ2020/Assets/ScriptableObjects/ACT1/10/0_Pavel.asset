@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
-  m_Name: 0_PAVEL
+  m_Name: 0_Pavel
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: PAVEL
+  sentences: Who are you?
+  children:
+  - {fileID: 11400000, guid: a2ce045cd51986b4a8cce54212831a31, type: 2}
   conditions: []

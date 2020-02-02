@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 8_Radinka
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
+  speaker: RADINKA
+  sentences: The only thing I noticed wer e the cracks in the Mess Hall windows.
+    I'm going to make an educated guess that you'll eventually find more mechanical
+    issues on the submarine, Hopefully this won't interfere with our mission too
+    much.
   children: []
   conditions: []

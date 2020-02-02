@@ -4465,7 +4465,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8d6af04cc7a87d549953d30171172506, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  curDialog: {fileID: 11400000, guid: 90a67e68cdcbec947899e2b209d1bdeb, type: 2}
+  curDialog: {fileID: 11400000, guid: 91bd11aef43aad4458aeaaa0c09c781d, type: 2}
   dialogWindow: {fileID: 2104593704}
   dialogText: {fileID: 1921995208}
   speakerText: {fileID: 1372482550}

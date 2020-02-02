@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 0_Sasha
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: SASHA
+  sentences: Radinka. Are you well?
+  children:
+  - {fileID: 11400000, guid: bfe48706ebb35194bb7610a4647b7b65, type: 2}
   conditions: []

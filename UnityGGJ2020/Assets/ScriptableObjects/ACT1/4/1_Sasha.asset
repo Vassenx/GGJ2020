@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
-  m_Name: 1_SASHA
+  m_Name: 1_Sasha
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: SASHA
+  sentences: Jurgis. Did you see what happened?
+  children:
+  - {fileID: 11400000, guid: e0e2286be88a32a4a9c29901f298aa1d, type: 2}
   conditions: []

@@ -12,7 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 4_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
-  conditions: []
+  speaker: KAZIMIR
+  sentences: Toilet by the crew's quarters is backed up. Wouldn't mind giving it
+    a look, would you?
+  children:
+  - {fileID: 11400000, guid: d718845e55133c14da98ce9eef279802, type: 2}
+  conditions:
+  - {fileID: 0}

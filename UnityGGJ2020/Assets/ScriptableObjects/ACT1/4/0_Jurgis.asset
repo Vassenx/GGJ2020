@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
-  m_Name: New Choice
+  m_Name: 0_Jurgis
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: JURGIS
+  sentences: Sasha.
+  children:
+  - {fileID: 11400000, guid: 1d17eeafe49d1894c99fdf63ae9b1685, type: 2}
   conditions: []

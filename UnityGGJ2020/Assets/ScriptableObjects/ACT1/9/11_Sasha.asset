@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 11_Sasha
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: SASHA
+  sentences: Goodbye.
+  children:
+  - {fileID: 11400000, guid: f5d80b578b5b5ed4882d0329c1d94606, type: 2}
   conditions: []

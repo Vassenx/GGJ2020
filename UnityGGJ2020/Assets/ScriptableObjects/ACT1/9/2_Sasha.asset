@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 2_Sasha
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: SASHA
+  sentences: Yes it seems like we collided into some debris, but the submarine's
+    in good shape now.
+  children:
+  - {fileID: 11400000, guid: 912c2b46d80ef454fae5a6e1e44fb3c2, type: 2}
   conditions: []

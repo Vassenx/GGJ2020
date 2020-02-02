@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
-  m_Name: 7
+  m_Name: 7_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
+  speaker: KAZIMIR
+  sentences: "It was loud, dude like one big\u2014"
   children: []
   conditions: []

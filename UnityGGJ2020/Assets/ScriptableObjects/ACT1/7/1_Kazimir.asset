@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 1_Kazimir
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
+  speaker: Kazimir
+  sentences: Oh, yeah, definitely. It was a monter.
+  children:
+  - {fileID: 11400000, guid: b10d7982889632e40b786a57303aa140, type: 2}
   conditions: []

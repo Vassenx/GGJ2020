@@ -12,7 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 12_Radinka
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
+  speaker: RADINKA
+  sentences: We must show the world that the Soviet Union is stronger and more unified
+    than the Americans. That is why.
   children: []
   conditions: []

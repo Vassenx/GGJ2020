@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: SASHA
   sentences: Let's go to work then.
-  children: []
+  children:
+  - {fileID: 11400000, guid: 27b7d89cf310afb45809e24fadf6f89d, type: 2}
   conditions: []

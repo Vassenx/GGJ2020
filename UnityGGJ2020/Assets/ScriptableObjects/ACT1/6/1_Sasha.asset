@@ -12,7 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
   m_Name: 1_Sasha
   m_EditorClassIdentifier: 
-  speaker: 
-  sentences: 
-  children: []
-  conditions: []
+  speaker: SASHA
+  sentences: Hey Kaz. Were you the one creepily wailing like a baby earlier?
+  children:
+  - {fileID: 11400000, guid: 126f74e55b3122a4596b02eb18692aed, type: 2}
+  conditions:
+  - {fileID: 0}
