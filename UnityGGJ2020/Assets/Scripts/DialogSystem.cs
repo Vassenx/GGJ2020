@@ -25,6 +25,13 @@ public class DialogSystem : MonoBehaviour
         choiceObjects = new List<GameObject>();
         InventorySystem.OnOpenInventory += InventoryInterrupt;
         dialogWindow.gameObject.SetActive(false);
+
+        ActSystem.OnActChange += SwitchActDialog;
+    }
+
+    void SwitchActDialog(int actNum)
+    {
+
     }
 
     void Update()

@@ -8,6 +8,7 @@ public class Repairable : MonoBehaviour
 {
     public bool isFixed = false;
     public List<Tool> toolsNeeded = new List<Tool>();
+    [SerializeField] private ActSystem actSystem = null;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -26,6 +27,7 @@ public class Repairable : MonoBehaviour
             if(toolsNeeded.Count == 0)
             {
                 isFixed = true;
+                actSystem.UpdateAct();
                 Debug.Log("I am repaired");
             }
         }
