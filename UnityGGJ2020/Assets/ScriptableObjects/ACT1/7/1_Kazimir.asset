@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1_Kazimir
   m_EditorClassIdentifier: 
   speaker: Kazimir
-  sentences: Oh, yeah, definitely. It was a monter.
+  sentences: Oh, yeah, definitely. It was a monster.
   children:
   - {fileID: 11400000, guid: b10d7982889632e40b786a57303aa140, type: 2}
   conditions: []
