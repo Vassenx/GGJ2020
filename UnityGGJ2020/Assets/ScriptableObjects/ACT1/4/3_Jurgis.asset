@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
+  m_Name: 3_Jurgis
+  m_EditorClassIdentifier: 
+  speaker: JURGIS
+  sentences: 'Regardless, I have commands from captain Vera: fix the cracked windows
+    in the Mess Hall as soon as possible. ONce that''s done, you''ll do a round of
+    check-ups on all of our systems. Understood?'
+  children:
+  - {fileID: 11400000, guid: cfe79922b065b26419438b94c73ee37a, type: 2}
+  conditions: []

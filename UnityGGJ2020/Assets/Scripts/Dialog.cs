@@ -6,6 +6,5 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Dialog")]
 public class Dialog : ScriptableObject
 {
-    public string speaker;
     public Choice[] choices;
 }
