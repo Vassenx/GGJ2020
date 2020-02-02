@@ -9,6 +9,7 @@ public class DialogSystem : MonoBehaviour
     [SerializeField] private Dialog curDialog = null;
     [SerializeField] private Image dialogWindow = null;
     [SerializeField] private Text dialogText = null;
+    [SerializeField] private Text speakerText = null;
     [SerializeField] private GameObject choicePrefab = null;
 
     private bool doneSentence = true;
@@ -28,13 +29,10 @@ public class DialogSystem : MonoBehaviour
 
     void Update()
     {
-        //TODO, when interact
-        if (Input.GetKeyDown(KeyCode.E) && doneDialog)
+        //TEST ONLY
+        if (Input.GetKeyDown(KeyCode.T))
         {
-            pickedChoiceIndex = 0;
-            doneDialog = false;
-            //curDialog = dialog;
-            StartDialog();
+            StartDialog(curDialog);
         }
 
         if (curDialog == null)
@@ -56,10 +54,15 @@ public class DialogSystem : MonoBehaviour
         }
     }
 
-    public void StartDialog()
+    public void StartDialog(Dialog dialog)
     {
+        if (!doneDialog)
+            return;
+
+        pickedChoiceIndex = 0;
+        doneDialog = false;
         dialogWindow.gameObject.SetActive(true);
-        dialogText.text = curDialog.speaker + ':';
+        speakerText.text = curDialog.speaker + ':';
 
         DisplayChoice(curDialog.choices[0]);
 
