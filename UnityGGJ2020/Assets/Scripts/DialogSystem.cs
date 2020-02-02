@@ -29,13 +29,18 @@ public class DialogSystem : MonoBehaviour
 
     }
 
-    public void PickActDialog(Dialog[] dialogs)
+    public void PickActDialog(NPCInteract npc)
     {
-        foreach(var dialog in dialogs)
+        for(int i = 0; i < npc.dialogs.Length; i++)
         {
+            var dialog = npc.dialogs[i];
+            if (dialog == null)
+                continue;
+
             if(dialog.actNum == actSystem.act)
             {
                 curDialog = dialog;
+                npc.dialogs[i] = null;
             }
         }
     }

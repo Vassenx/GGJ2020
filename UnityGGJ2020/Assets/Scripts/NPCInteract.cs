@@ -6,7 +6,7 @@ using UnityEngine;
 public class NPCInteract : MonoBehaviour, Interactable
 {
     [SerializeField] private DialogSystem dialogSystem = null;
-    [SerializeField] private Dialog[] dialogs = null;
+    [SerializeField] public Dialog[] dialogs = null;
 
     public void HoverInteract()
     {
@@ -29,6 +29,6 @@ public class NPCInteract : MonoBehaviour, Interactable
     public void KeyInteract()
     {
         
-        dialogSystem.PickActDialog(dialogs);
+        dialogSystem.PickActDialog(this);
     }
 }
