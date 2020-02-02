@@ -20,7 +20,13 @@ public class InventorySystem : MonoBehaviour
 
     public void Add(ItemData item)
     {
-        itemList[(int)item.itemAsset] = item;
+        for (int i = 0; i < itemList.Length; i++)
+        {
+            if (itemList[(int)item.itemAsset] == null)
+            {
+                itemList[(int)item.itemAsset] = item;
+            }
+        }
     } 
 
     void Start()
