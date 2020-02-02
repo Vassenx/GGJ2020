@@ -2,11 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NPCInteract : MonoBehaviour, Interactable
+public class ItemInteract : MonoBehaviour, Interactable
 {
-    [SerializeField] private DialogSystem dialogSystem = null;
-    [SerializeField] private Dialog dialog = null;
-
     public void HoverInteract()
     {
 
@@ -19,6 +16,6 @@ public class NPCInteract : MonoBehaviour, Interactable
 
     public void KeyInteract()
     {
-        dialogSystem.StartDialog(dialog);
+
     }
 }
