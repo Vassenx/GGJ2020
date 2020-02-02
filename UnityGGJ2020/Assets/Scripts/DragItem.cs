@@ -10,6 +10,7 @@ public class DragItem : MonoBehaviour, IDragHandler, IEndDragHandler
     private GameObject triggerObject;
     Collider itemCollider;
     private Vector3 triggerPosition;
+    [SerializeField] private InventorySystem inventorySystem;
 
     //camera shake import
 
@@ -22,11 +23,11 @@ public class DragItem : MonoBehaviour, IDragHandler, IEndDragHandler
 
     public void Update()
     {
-
-        if (transform.position == triggerPosition)
+        if (Vector2.Distance(transform.position, triggerPosition) <= 50f)
         {
-            Debug.Log("It's hitting!");
-            Camera.main.GetComponent<CameraShake>().ShakeCamera();
+            //Debug.Log("It's hitting!");
+            //Camera.main.GetComponent<CameraShake>().ShakeCamera();
+            inventorySystem.Add(GetComponent<Item>().itemData);
         }
     }
 
