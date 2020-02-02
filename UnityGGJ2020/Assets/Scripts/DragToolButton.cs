@@ -6,8 +6,16 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 {
     [SerializeField] private InventorySystem inventorySystem = null;
     [SerializeField] private GameObject dragClonePrefab = null;
+    [SerializeField] private GameObject[] triggerObjects = null;
     [SerializeField] private Tool tool;
     private GameObject dragClone;
+
+    /*Vector2 raycaster;
+
+    private void Start()
+    {
+        raycaster = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+    }*/
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -18,17 +26,27 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnDrag(PointerEventData eventData)
     {
-        //TODO:
+        if (dragClone == null)
+            return;
 
-        /*if (Vector2.Distance(dragClone.transform.position, repairable.transform.position) <= 50f)
-        {
-            repairable.CollideWithTool(tool);
-        }*/
         dragClone.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
+        foreach(var triggerObj in triggerObjects)
+        {
+            if (Vector2.Distance(Camera.main.ScreenToWorldPoint(Input.mousePosition), triggerObj.transform.position) <= 50f)
+            {
+                triggerObj.GetComponent<Repairable>().Fix(tool);
+                Destroy(dragClone);
+            }
+        }
+
     }
 
     public void OnEndDrag(PointerEventData eventData)
     {
+        if (dragClone == null)
+            return;
+
         Destroy(dragClone);
     }
 }
