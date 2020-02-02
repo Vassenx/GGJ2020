@@ -7,18 +7,18 @@ public class InventorySystem : MonoBehaviour
 {
     [SerializeField] private GameObject inventoryUI = null;
 
-    [SerializeField] private Item[] itemList = new Item[15];
+    [SerializeField] private ItemData[] itemList = new ItemData[(int)I.SIZE];
     [SerializeField] private Button[] itembuttons = new Button[15];
 
     public static System.Action<bool> OnOpenInventory;
 
-    public void Remove(Item item)
+    public void Remove(ItemData item)
     {
         itemList[(int)item.itemAsset] = null;
         itembuttons[(int)item.itemAsset].image.sprite = null;
     }
 
-    public void Add(Item item)
+    public void Add(ItemData item)
     {
         itemList[(int)item.itemAsset] = item;
     } 
@@ -42,4 +42,4 @@ public class InventorySystem : MonoBehaviour
 }
 
     public enum I { apple, banana, carrot, dog, elephant, fuck, gorilla, help, intense, james, kelome, lagrange, macdonald,
-    nomad, octopus, prakash };
+    nomad, octopus, prakash, SIZE };

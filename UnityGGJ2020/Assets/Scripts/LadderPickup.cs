@@ -1,15 +1,25 @@
 ﻿using UnityEngine;
 
-public class LadderPickup : Interactable
+public class LadderPickup : MonoBehaviour, Interactable
 {
     // [SerializeField] private Item item;
     [SerializeField] private GameObject player;
     
-    protected override void Interact()
-    {
-        base.Interact();
 
+    public void HoverInteract()
+    {
         //teleport the player up the stairs or start animation
         //player.transform.position = ;
+
+    }
+
+    public void KeyInteract()
+    {
+
+    }
+
+    public void ClickInteract()
+    {
+
     }
 }
