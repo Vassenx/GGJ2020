@@ -22,5 +22,3 @@ public class Repairable : MonoBehaviour
         }
     }
 }
-
-public enum Tool { drill, solderingIron, wrench, adhesive, nutsNBots };

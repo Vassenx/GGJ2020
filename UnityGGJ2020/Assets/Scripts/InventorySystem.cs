@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
@@ -7,24 +8,24 @@ public class InventorySystem : MonoBehaviour
 {
     [SerializeField] private GameObject inventoryUI = null;
 
-    [SerializeField] private ItemData[] itemList = new ItemData[(int)I.SIZE];
+    [SerializeField] private ItemData[] itemList = new ItemData[(int)Enum.GetValues(typeof(Tool)).Length];
     [SerializeField] private Button[] itembuttons = new Button[15];
 
     public static System.Action<bool> OnOpenInventory;
 
     public void Remove(ItemData item)
     {
-        itemList[(int)item.itemAsset] = null;
-        itembuttons[(int)item.itemAsset].image.sprite = null;
+        itemList[(int)item.toolAsset] = null;
+        itembuttons[(int)item.toolAsset].image.sprite = null;
     }
 
     public void Add(ItemData item)
     {
         for (int i = 0; i < itemList.Length; i++)
         {
-            if (itemList[(int)item.itemAsset] == null)
+            if (itemList[(int)item.toolAsset] == null)
             {
-                itemList[(int)item.itemAsset] = item;
+                itemList[(int)item.toolAsset] = item;
             }
         }
     } 
@@ -47,5 +48,4 @@ public class InventorySystem : MonoBehaviour
     }
 }
 
-    public enum I { apple, banana, carrot, dog, elephant, fuck, gorilla, help, intense, james, kelome, lagrange, macdonald,
-    nomad, octopus, prakash, SIZE };
+public enum Tool { drill, solderingIron, wrench, adhesive, nutsNBots }; 
