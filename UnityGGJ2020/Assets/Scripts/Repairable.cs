@@ -7,18 +7,20 @@ using UnityEngine;
 public class Repairable : MonoBehaviour
 {
     public bool isFixed = false;
-    public List<Tool> toolsNeeded = new List<Tool>();
+    public Tool[] toolsNeeded;
     [SerializeField] private ActSystem actSystem = null;
+    private int curIndex = 0;
 
-    public void CollideWithTool(Tool tool)
+    public void Fix(Tool tool)
     {
-        toolsNeeded.Remove(tool);
-
-        if(toolsNeeded.Count == 0)
+        if(!isFixed && toolsNeeded[curIndex] == tool)
         {
-            isFixed = true;
-            actSystem.UpdateAct();
-            Debug.Log("I am repaired");
+            if(curIndex == toolsNeeded.Length)
+            {
+                isFixed = true;
+                actSystem.UpdateAct(); //check if this finishes the act
+                Debug.Log("I am repaired");
+            }
         }
     }
 }
