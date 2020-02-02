@@ -12,5 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd3aedf94f4811d4c973bee552fe1e2f, type: 3}
   m_Name: Dialog
   m_EditorClassIdentifier: 
-  choices:
-  - {fileID: 11400000, guid: 2ed1522ce2aa29943b45dd50155a38d6, type: 2}
+  rootChoice: {fileID: 11400000, guid: 2ed1522ce2aa29943b45dd50155a38d6, type: 2}

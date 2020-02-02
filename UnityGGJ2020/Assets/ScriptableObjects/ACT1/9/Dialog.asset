@@ -12,17 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd3aedf94f4811d4c973bee552fe1e2f, type: 3}
   m_Name: Dialog
   m_EditorClassIdentifier: 
-  choices:
-  - {fileID: 11400000, guid: c9839293b26ca434ea3a8edffa122915, type: 2}
-  - {fileID: 11400000, guid: bfe48706ebb35194bb7610a4647b7b65, type: 2}
-  - {fileID: 11400000, guid: 43be71a0c7177154a8204376f4b7ba28, type: 2}
-  - {fileID: 11400000, guid: 912c2b46d80ef454fae5a6e1e44fb3c2, type: 2}
-  - {fileID: 11400000, guid: 5efb1449334b15b458c873e85eee67b3, type: 2}
-  - {fileID: 11400000, guid: 86ba5a3a0f2a5e8489c1e19b95f68850, type: 2}
-  - {fileID: 11400000, guid: abdcf7e97694b2b49b5005a1854ac7d1, type: 2}
-  - {fileID: 11400000, guid: bdd7bed145640904a958bc110caca81b, type: 2}
-  - {fileID: 11400000, guid: 2297df623f8cf6c4da888c9d00e25756, type: 2}
-  - {fileID: 11400000, guid: 1ee988076d592524082d0aef671af411, type: 2}
-  - {fileID: 11400000, guid: 91d4ed237481f1d4b8a1d70dba055b2e, type: 2}
-  - {fileID: 11400000, guid: 9097a12005c6c5d4ebeb7c8dac2b6916, type: 2}
-  - {fileID: 11400000, guid: f5d80b578b5b5ed4882d0329c1d94606, type: 2}
+  rootChoice: {fileID: 11400000, guid: c9839293b26ca434ea3a8edffa122915, type: 2}

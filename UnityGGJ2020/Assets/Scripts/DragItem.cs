@@ -6,31 +6,25 @@ using UnityEngine.EventSystems;
 public class DragItem : MonoBehaviour, IDragHandler, IEndDragHandler
 {
     private Vector3 lastPosition;
-    [SerializeField]
-    private GameObject triggerObject;
-    Collider itemCollider;
-    private Vector3 triggerPosition;
-    [SerializeField] private InventorySystem inventorySystem;
+     
+    [SerializeField] private GameObject triggerObject = null;
+    [SerializeField] private InventorySystem inventorySystem = null;
 
     //camera shake import
-
 
     public void Start()
     {
         lastPosition = transform.position;
-        triggerPosition = triggerObject.transform.position;
     }
 
     public void Update()
     {
-        if (Vector2.Distance(transform.position, triggerPosition) <= 50f)
+        if (triggerObject != null && Vector2.Distance(transform.position, triggerObject.transform.position) <= 50f)
         {
-            //Debug.Log("It's hitting!");
             //Camera.main.GetComponent<CameraShake>().ShakeCamera();
             inventorySystem.Add(GetComponent<Item>().itemData);
         }
     }
-
 
     public void OnDrag(PointerEventData eventData)
     {

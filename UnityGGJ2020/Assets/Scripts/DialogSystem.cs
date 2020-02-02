@@ -107,7 +107,7 @@ public class DialogSystem : MonoBehaviour
         doneDialog = false;
         dialogWindow.gameObject.SetActive(true);
 
-        curChoice = curDialog.choices[0];
+        curChoice = curDialog.rootChoice;
         StartCoroutine(DisplayDescription());
     }
 
