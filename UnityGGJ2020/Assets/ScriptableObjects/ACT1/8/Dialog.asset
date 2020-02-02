@@ -13,3 +13,4 @@ MonoBehaviour:
   m_Name: Dialog
   m_EditorClassIdentifier: 
   rootChoice: {fileID: 11400000, guid: 907aac5c8a609a34bb00e9465cdf5429, type: 2}
+  actNums: 1
