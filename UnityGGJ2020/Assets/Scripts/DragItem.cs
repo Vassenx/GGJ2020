@@ -1,9 +1,11 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class DragItem : MonoBehaviour
+public class DragItem : MonoBehaviour, IDragHandler, IEndDragHandler
 {
+    /*
     [SerializeField]
     private bool isDragable = false;
 
@@ -23,7 +25,7 @@ public class DragItem : MonoBehaviour
             RaycastHit2D[] touches = Physics2D.RaycastAll(inputPos, inputPos, 0.5f);
             if(touches.Length >0){
                 var hit = touches[0];
-                if(hit.transform != null)
+                if(hit.transform != )
                 {
                     isDragable = true;
                     toDrag = hit.transform.gameObject;
@@ -60,6 +62,24 @@ public class DragItem : MonoBehaviour
             }
 
         }
+    }
+    */
+    private Vector2 lastPosition;
+
+    public void Start()
+    {
+        lastPosition = transform.position;
+    }
+
+
+    public void OnDrag(PointerEventData eventData)
+    {
+        transform.position = Input.mousePosition;
+    }
+
+    public void OnEndDrag(PointerEventData eventData)
+    {
+        transform.localPosition = lastPosition;
     }
 }
 
