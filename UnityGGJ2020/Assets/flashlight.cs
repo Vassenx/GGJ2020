@@ -16,9 +16,9 @@ public class flashlight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hold = transform.localRotation.eulerAngles;
-        hold.z = iso.lastDir * 45;
+        hold = transform.rotation.eulerAngles;
+        hold.z = (iso.lastDir * 45f);
 
-        transform.eulerAngles.Set(hold.x, hold.y, hold.z);
+        transform.rotation = Quaternion.Euler(hold.x, hold.y, hold.z);
     }
 }
