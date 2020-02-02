@@ -31,6 +31,7 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
         dragClone.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
+        Debug.Log("a");
         foreach(var triggerObj in triggerObjects)
         {
             if (Vector2.Distance(Camera.main.ScreenToWorldPoint(Input.mousePosition), triggerObj.transform.position) <= 50f)

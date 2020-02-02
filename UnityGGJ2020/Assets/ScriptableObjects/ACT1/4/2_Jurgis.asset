@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 2_Jurgis
   m_EditorClassIdentifier: 
   speaker: JURGIS
-  sentences: No, only heard. I was down by th eballast when the sound came through
+  sentences: No, only heard. I was down by the ballast when the sound came through
     the ship. Seems the submarine is damaged, considering that the emergency lights
     are on.
   children:

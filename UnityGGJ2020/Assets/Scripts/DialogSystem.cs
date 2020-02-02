@@ -125,7 +125,6 @@ public class DialogSystem : MonoBehaviour
 
         curChoice = curDialog.rootChoice;
 
-        Debug.Log(curChoice);
         StartCoroutine(DisplayDescription());
     }
 
@@ -149,7 +148,6 @@ public class DialogSystem : MonoBehaviour
 
         if (curChoice.children.Length == 0)
         {
-            Debug.Log("end");
             EndDialog();
         }
         else if (curChoice.children.Length > 1)
