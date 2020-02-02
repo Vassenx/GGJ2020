@@ -10,26 +10,15 @@ public class Repairable : MonoBehaviour
     public List<Tool> toolsNeeded = new List<Tool>();
     [SerializeField] private ActSystem actSystem = null;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    public void CollideWithTool(Tool tool)
     {
-        var tool = collision.GetComponent<Item>();
+        toolsNeeded.Remove(tool);
 
-        if (tool != null)
+        if(toolsNeeded.Count == 0)
         {
-            foreach(Tool toolEnum in Enum.GetValues(typeof(Tool)))
-            {
-                if (tool.itemData.name.Equals(tool.name))
-                {
-                    toolsNeeded.Remove(toolEnum);
-                }
-            }
-
-            if(toolsNeeded.Count == 0)
-            {
-                isFixed = true;
-                actSystem.UpdateAct();
-                Debug.Log("I am repaired");
-            }
+            isFixed = true;
+            actSystem.UpdateAct();
+            Debug.Log("I am repaired");
         }
     }
 }

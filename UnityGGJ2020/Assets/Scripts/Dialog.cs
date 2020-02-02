@@ -6,5 +6,6 @@ using UnityEngine;
 [CreateAssetMenu(menuName = "Dialog")]
 public class Dialog : ScriptableObject
 {
-    public Choice[] choices;
+    public Choice rootChoice;
+    public int actNums;
 }
