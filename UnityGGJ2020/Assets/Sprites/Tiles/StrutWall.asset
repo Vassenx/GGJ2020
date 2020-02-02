@@ -22,6 +22,8 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 6f959a4195eb9ab4b8ebb83fdb390b0f, type: 2}
   - {fileID: 11400000, guid: 19286ef7748dc6b4288fe9765a5c1395, type: 2}
   - {fileID: 11400000, guid: 0bda0c2d4dfdb1e41847b4155198812d, type: 2}
+  - {fileID: 11400000, guid: e3ab0d6873fba0e4682cf2e080ab7ea2, type: 2}
+  - {fileID: 11400000, guid: 84517defce27c904b875271cbbf91cdc, type: 2}
   m_TilingRules:
   - m_Id: 1
     m_Sprites:
