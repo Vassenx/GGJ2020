@@ -11,6 +11,11 @@ public class ActSystem : MonoBehaviour
     //subscribe to if you want to know of act changes
     public static System.Action<int> OnActChange;
 
+    private void Start()
+    {
+        act = 1;
+    }
+
     public void UpdateAct()
     {
         var repairs = act == 1 ? repairablesAct1 : repairablesAct2;
