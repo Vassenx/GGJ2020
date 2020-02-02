@@ -218,6 +218,96 @@ TextureImporter:
   - first:
       213: -8108855746646581095
     second: WalkingCombo_35
+  - first:
+      213: -2811018398652941454
+    second: WalkingCombo_36
+  - first:
+      213: 6848652122482137945
+    second: WalkingCombo_37
+  - first:
+      213: -800196684801577620
+    second: WalkingCombo_38
+  - first:
+      213: -7082841421533175991
+    second: WalkingCombo_39
+  - first:
+      213: 1291451835581644900
+    second: WalkingCombo_40
+  - first:
+      213: -2907628373948700202
+    second: WalkingCombo_41
+  - first:
+      213: 6184269335718244605
+    second: WalkingCombo_42
+  - first:
+      213: -4704969790688609375
+    second: WalkingCombo_43
+  - first:
+      213: -2936687699533632707
+    second: WalkingCombo_44
+  - first:
+      213: -1925810305660914658
+    second: WalkingCombo_45
+  - first:
+      213: 8741051486722681110
+    second: WalkingCombo_46
+  - first:
+      213: 3769596285510775605
+    second: WalkingCombo_47
+  - first:
+      213: 1485755645774523003
+    second: WalkingCombo_48
+  - first:
+      213: -7356167504768752537
+    second: WalkingCombo_49
+  - first:
+      213: -2468284090244963459
+    second: WalkingCombo_50
+  - first:
+      213: -2551452616894646488
+    second: WalkingCombo_51
+  - first:
+      213: 159724314139389254
+    second: WalkingCombo_52
+  - first:
+      213: -2439066134497653455
+    second: WalkingCombo_53
+  - first:
+      213: -5230822787287160277
+    second: WalkingCombo_36
+  - first:
+      213: -7567840807642418141
+    second: WalkingCombo_37
+  - first:
+      213: -4690238750012883568
+    second: WalkingCombo_38
+  - first:
+      213: 3814825935714456632
+    second: WalkingCombo_39
+  - first:
+      213: 1087278654582677104
+    second: WalkingCombo_40
+  - first:
+      213: -7678441285950502297
+    second: WalkingCombo_41
+  - first:
+      213: 8635165030261066741
+    second: WalkingCombo_42
+  - first:
+      213: -5880416809221599961
+    second: WalkingCombo_43
+  - first:
+      213: 1523263334913002261
+    second: WalkingCombo_44
+  - first:
+      213: -6611342242817100014
+    second: WalkingCombo_45
+  - first:
+      213: -8393637505779220547
+    second: WalkingCombo_46
+  - first:
+      213: 2812889126788080759
+    second: WalkingCombo_47
   externalObjects: {}
   serializedVersion: 10
   mipmaps:
@@ -302,78 +392,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: WalkingCombo_0
-      rect:
-        serializedVersion: 2
-        x: 0
-        y: 1144
-        width: 54
-        height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63722a10ac6748660800000000000000
-      internalID: 7387159898777331510
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkingCombo_1
-      rect:
-        serializedVersion: 2
-        x: 54
-        y: 1144
-        width: 54
-        height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5f627fac81b0a9dc0800000000000000
-      internalID: -3631577948408568075
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: WalkingCombo_2
-      rect:
-        serializedVersion: 2
-        x: 108
-        y: 1144
-        width: 54
-        height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 0ee9de8bff800f4b0800000000000000
-      internalID: -5408813258059702560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: WalkingCombo_3
       rect:
         serializedVersion: 2
         x: 0
-        y: 1040
+        y: 1456
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -390,11 +417,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 1040
+        y: 1456
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -411,11 +438,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 1040
+        y: 1456
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -432,11 +459,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 936
+        y: 1352
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -453,11 +480,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 936
+        y: 1352
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -474,11 +501,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 936
+        y: 1352
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -495,11 +522,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 832
+        y: 1248
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -516,11 +543,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 832
+        y: 1248
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -537,11 +564,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 832
+        y: 1248
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -558,11 +585,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 728
+        y: 1144
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -579,11 +606,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 728
+        y: 1144
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -600,11 +627,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 728
+        y: 1144
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -621,11 +648,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 624
+        y: 1040
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -642,11 +669,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 624
+        y: 1040
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -663,11 +690,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 624
+        y: 1040
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -684,11 +711,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 520
+        y: 936
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -705,11 +732,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 520
+        y: 936
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -726,11 +753,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 520
+        y: 936
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -747,11 +774,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 416
+        y: 832
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -768,11 +795,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 416
+        y: 832
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -789,11 +816,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 416
+        y: 832
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -810,11 +837,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 312
+        y: 728
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -831,11 +858,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 312
+        y: 728
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -852,11 +879,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 312
+        y: 728
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -873,11 +900,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 208
+        y: 624
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -894,11 +921,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 208
+        y: 624
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -915,11 +942,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 208
+        y: 624
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -936,11 +963,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 104
+        y: 520
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -957,11 +984,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 104
+        y: 520
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -978,11 +1005,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 104
+        y: 520
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -999,11 +1026,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
+        y: 416
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1020,11 +1047,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 54
-        y: 0
+        y: 416
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1041,11 +1068,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 108
-        y: 0
+        y: 416
         width: 54
         height: 104
-      alignment: 9
-      pivot: {x: 0.5, y: 0.13}
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1053,6 +1080,321 @@ TextureImporter:
       bones: []
       spriteID: 990ee3639ae877f80800000000000000
       internalID: -8108855746646581095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1560
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dd81cc49051a650800000000000000
+      internalID: 6242359158521781522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1560
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a45bad5dfcd32b0800000000000000
+      internalID: -5603093843974731200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1560
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0667d9a36bcf100800000000000000
+      internalID: 143189651035152603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2aeab893626867b0800000000000000
+      internalID: -5230822787287160277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_37
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 312
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 324b4cfa1e0a9f690800000000000000
+      internalID: -7567840807642418141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_38
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 312
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09db5b1f4bce8eeb0800000000000000
+      internalID: -4690238750012883568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834153a0afbf0f430800000000000000
+      internalID: 3814825935714456632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_40
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 208
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07ed34afc2ac61f00800000000000000
+      internalID: 1087278654582677104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_41
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 208
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76a0a322552b07590800000000000000
+      internalID: -7678441285950502297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_42
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fb069d08d446d770800000000000000
+      internalID: 8635165030261066741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_43
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 104
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72d4c1b5110946ea0800000000000000
+      internalID: -5880416809221599961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_44
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 104
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51bcdd8bee7b32510800000000000000
+      internalID: 1523263334913002261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2173a50324bcf34a0800000000000000
+      internalID: -6611342242817100014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_46
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbf32aee82fc38b80800000000000000
+      internalID: -8393637505779220547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_47
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77423cae1c3690720800000000000000
+      internalID: 2812889126788080759
       vertices: []
       indices: 
       edges: []
