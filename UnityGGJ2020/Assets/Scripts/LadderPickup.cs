@@ -28,7 +28,7 @@ public class LadderPickup : MonoBehaviour, Interactable
 
     public void KeyInteract()
     {
-        if(Vector2.Distance(player.transform.position, transform.position) <= 40f)
+        if(Vector2.Distance(player.transform.position, transform.position) <= 5f)
         {
             player.transform.position = exitObject.transform.position;
         }
