@@ -10,7 +10,7 @@ public class DialogSystem : MonoBehaviour
     [SerializeField] private Image dialogWindow = null;
     [SerializeField] private Text dialogText = null;
     [SerializeField] private Text speakerText = null;
-    [SerializeField] private Text choicePrefabText = null;
+    [SerializeField] private Image choicePrefabHighlight = null;
     [SerializeField] private GameObject choiceParentPrefab = null;
 
     private bool doneDialog = true;
@@ -38,22 +38,56 @@ public class DialogSystem : MonoBehaviour
         if (curDialog == null)
             return;
 
-        if (Input.GetKeyDown(KeyCode.DownArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.RightArrow))
         {
             pickedChoiceIndex++;
             pickedChoiceIndex %= curChoice.children.Length;
+
+            //for response, when pick a choice, background appears (highlight)
+            ChangeHighlight();
+        }
+        else if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.LeftArrow)) && pickedChoiceIndex > 0)
+        {
+            pickedChoiceIndex--;
+            pickedChoiceIndex %= curChoice.children.Length;
+
+            ChangeHighlight();
         }
 
-        if (Input.GetKeyDown(KeyCode.Space) && doneDescription)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
-            foreach(var choiceObject in choiceObjects)
+            if (doneDescription)
             {
-                Destroy(choiceObject);
-            }
+                foreach (var choiceObject in choiceObjects)
+                {
+                    Destroy(choiceObject);
+                }
 
-            //now iterate through child
-            curChoice = curChoice.children[pickedChoiceIndex];
-            StartCoroutine(DisplayDescription());
+                //now iterate through child
+                curChoice = curChoice.children[pickedChoiceIndex];
+                pickedChoiceIndex = 0; //reset
+                StartCoroutine(DisplayDescription());
+            }
+            else
+            {
+                doneDescription = true;
+            }
+        }
+    }
+
+    public void SkipDescriptionScroll()
+    {
+        //skip slow text, write full sentence right away
+        dialogText.text = curChoice.sentences;
+        doneDescription = true;
+
+        if (curChoice.children.Length == 0)
+        {
+            EndDialog();
+        }
+        else if (curChoice.children.Length > 1)
+        {
+            DisplayOptions(curChoice.children);
         }
     }
 
@@ -74,20 +108,19 @@ public class DialogSystem : MonoBehaviour
     {
         speakerText.text = curChoice.speaker + ':';
         doneDescription = false;
-        dialogText.text = " ";
+        dialogText.text = "";
 
         foreach (char letter in curChoice.sentences.ToCharArray())
         {
+            if (doneDescription) //stopped from outside coroutine
+            {
+                SkipDescriptionScroll();
+                yield break;
+            }
+
             dialogText.text += letter;
             yield return new WaitForSeconds(0.1f); 
         }
-
-        /*skip slow text, write full sentence right away
-        dialogText.text.Remove(this.curSentenceIndex);
-
-        dialogText.text += choice.sentences[curSentenceIndex];
-        curSentenceIndex++;
-        doneSentence = true;*/
 
         if (curChoice.children.Length == 0)
         {
@@ -105,10 +138,12 @@ public class DialogSystem : MonoBehaviour
     {
         foreach (var choice in choices)
         {
-            Text choiceText = Instantiate(choicePrefabText, choiceParentPrefab.transform);
-            choiceText.text = choice.sentences;
-            choiceObjects.Add(choiceText.gameObject);
+            Image choiceImage = Instantiate(choicePrefabHighlight, choiceParentPrefab.transform);
+            choiceImage.GetComponentInChildren<Text>().text = choice.sentences;
+            choiceObjects.Add(choiceImage.gameObject);
         }
+
+        ChangeHighlight();
     }
 
     private void EndDialog()
@@ -116,6 +151,17 @@ public class DialogSystem : MonoBehaviour
         dialogWindow.gameObject.SetActive(false);
         curDialog = null;
         doneDialog = true;
+    }
+
+    private void ChangeHighlight()
+    {
+        for (int i = 0; i < choiceObjects.Count; i++)
+        {
+            var choiceObj = choiceObjects[i];
+            var alpha = i == pickedChoiceIndex ? 1 : 0;
+            Color newColor = new Color(choiceObj.GetComponent<Image>().color.r, choiceObj.GetComponent<Image>().color.g, choiceObj.GetComponent<Image>().color.b, alpha);
+            choiceObj.GetComponent<Image>().color = newColor;
+        }
     }
 
     private void InventoryInterrupt(bool inventoryIsOpen)

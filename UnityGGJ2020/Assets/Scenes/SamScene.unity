@@ -4469,7 +4469,7 @@ MonoBehaviour:
   dialogWindow: {fileID: 2104593704}
   dialogText: {fileID: 1921995208}
   speakerText: {fileID: 1372482550}
-  choicePrefabText: {fileID: 2030854578016966206, guid: 10b722e7075c2bd44a7599ea1c937daa,
+  choicePrefabHighlight: {fileID: 1657765544991200969, guid: caf71d845091f024a8666b2b1e439b4d,
     type: 3}
   choiceParentPrefab: {fileID: 362280498}
 --- !u!4 &1805368753
