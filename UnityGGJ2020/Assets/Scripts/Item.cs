@@ -9,6 +9,9 @@ public class Item : MonoBehaviour
 
     public void Start()
     {
-        descriptionBox.SetActive(false);
+        if(descriptionBox != null)
+        {
+            descriptionBox.SetActive(false);
+        }
     }
 }

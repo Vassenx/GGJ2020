@@ -4,7 +4,6 @@ using UnityEngine.UI;
 
 public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
-    [SerializeField] private Repairable repairable = null;
     [SerializeField] private InventorySystem inventorySystem = null;
     [SerializeField] private GameObject dragClonePrefab = null;
     [SerializeField] private Tool tool;
@@ -19,10 +18,12 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnDrag(PointerEventData eventData)
     {
-        if (Vector2.Distance(dragClone.transform.position, repairable.transform.position) <= 50f)
+        //TODO:
+
+        /*if (Vector2.Distance(dragClone.transform.position, repairable.transform.position) <= 50f)
         {
             repairable.CollideWithTool(tool);
-        }
+        }*/
         dragClone.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
     }
 

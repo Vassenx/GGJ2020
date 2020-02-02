@@ -1,14 +1,9 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 
-
-
-[CreateAssetMenu(menuName = "Item")]
+[CreateAssetMenu(menuName = "Tool")]
 public class ItemData : ScriptableObject
 {
     public Sprite sprite;
-    public I itemAsset;
+    public Tool toolAsset;
 }
-
