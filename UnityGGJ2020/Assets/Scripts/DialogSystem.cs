@@ -6,12 +6,13 @@ using UnityEngine.UI;
 public class DialogSystem : MonoBehaviour
 {
     //UI
-    [SerializeField] private Dialog curDialog = null;
+    [SerializeField] public Dialog curDialog = null;
     [SerializeField] private Image dialogWindow = null;
     [SerializeField] private Text dialogText = null;
     [SerializeField] private Text speakerText = null;
     [SerializeField] private Image choicePrefabHighlight = null;
     [SerializeField] private GameObject choiceParentPrefab = null;
+    [SerializeField] private ActSystem actSystem = null;
 
     private bool doneDialog = true;
     private bool doneDescription = true;
@@ -26,12 +27,17 @@ public class DialogSystem : MonoBehaviour
         InventorySystem.OnOpenInventory += InventoryInterrupt;
         dialogWindow.gameObject.SetActive(false);
 
-        ActSystem.OnActChange += SwitchActDialog;
     }
 
-    void SwitchActDialog(int actNum)
+    public void PickActDialog(Dialog[] dialogs)
     {
-
+        foreach(var dialog in dialogs)
+        {
+            if(dialog.actNum == actSystem.act)
+            {
+                curDialog = dialog;
+            }
+        }
     }
 
     void Update()

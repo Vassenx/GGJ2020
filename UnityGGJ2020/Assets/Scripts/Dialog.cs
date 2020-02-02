@@ -7,5 +7,6 @@ using UnityEngine;
 public class Dialog : ScriptableObject
 {
     public Choice rootChoice;
-    public int actNums;
+    public int actNum;
+
 }
