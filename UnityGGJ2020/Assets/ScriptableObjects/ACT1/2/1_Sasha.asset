@@ -10,9 +10,10 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
-  m_Name: ChoiceTest
+  m_Name: 1_Sasha
   m_EditorClassIdentifier: 
-  sentences:
-  - Bonjour hi
+  speaker: SASHA
+  sentences: "If Kazimir started shooting water slugs again\u2014"
   children:
-  - {fileID: 11400000, guid: 1fbde85e5aa3bc545915e161398002b3, type: 2}
+  - {fileID: 11400000, guid: 64a45d92f6a1c214aaad83a7fa35a203, type: 2}
+  conditions: []

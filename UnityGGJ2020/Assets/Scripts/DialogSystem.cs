@@ -10,12 +10,12 @@ public class DialogSystem : MonoBehaviour
     [SerializeField] private Image dialogWindow = null;
     [SerializeField] private Text dialogText = null;
     [SerializeField] private Text speakerText = null;
-    [SerializeField] private GameObject choicePrefab = null;
+    [SerializeField] private Text choicePrefabText = null;
+    [SerializeField] private GameObject choiceParentPrefab = null;
 
-    private bool doneSentence = true;
     private bool doneDialog = true;
-    private int curSentenceIndex = 0;
-    private int curChoiceIndex = 0;
+    private bool doneDescription = true;
+    private Choice curChoice;
     private List<GameObject> choiceObjects;
 
     private int pickedChoiceIndex = 0;
@@ -30,7 +30,7 @@ public class DialogSystem : MonoBehaviour
     void Update()
     {
         //TEST ONLY
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.T) && curDialog != null)
         {
             StartDialog(curDialog);
         }
@@ -40,17 +40,20 @@ public class DialogSystem : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.DownArrow))
         {
-            pickedChoiceIndex %= curDialog.choices[curChoiceIndex].children.Length;
+            pickedChoiceIndex++;
+            pickedChoiceIndex %= curChoice.children.Length;
         }
 
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && doneDescription)
         {
             foreach(var choiceObject in choiceObjects)
             {
                 Destroy(choiceObject);
             }
 
-            DisplayChoice(curDialog.choices[curChoiceIndex].children[pickedChoiceIndex]);
+            //now iterate through child
+            curChoice = curChoice.children[pickedChoiceIndex];
+            StartCoroutine(DisplayDescription());
         }
     }
 
@@ -62,55 +65,49 @@ public class DialogSystem : MonoBehaviour
         pickedChoiceIndex = 0;
         doneDialog = false;
         dialogWindow.gameObject.SetActive(true);
-        speakerText.text = curDialog.speaker + ':';
 
-        DisplayChoice(curDialog.choices[0]);
+        curChoice = curDialog.choices[0];
+        StartCoroutine(DisplayDescription());
+    }
 
-        curChoiceIndex++;
+    private IEnumerator DisplayDescription()
+    {
+        speakerText.text = curChoice.speaker + ':';
+        doneDescription = false;
+        dialogText.text = " ";
+
+        foreach (char letter in curChoice.sentences.ToCharArray())
+        {
+            dialogText.text += letter;
+            yield return new WaitForSeconds(0.1f); 
+        }
+
+        /*skip slow text, write full sentence right away
+        dialogText.text.Remove(this.curSentenceIndex);
+
+        dialogText.text += choice.sentences[curSentenceIndex];
+        curSentenceIndex++;
+        doneSentence = true;*/
+
+        if (curChoice.children.Length == 0)
+        {
+            EndDialog();
+        }
+        else if (curChoice.children.Length > 1)
+        {
+            DisplayOptions(curChoice.children);
+        }
+
+        doneDescription = true;
     }
 
     private void DisplayOptions(Choice[] choices)
     {
-        //TODO
-        foreach(var choice in choices)
+        foreach (var choice in choices)
         {
-            choiceObjects.Add(Instantiate(choicePrefab, dialogWindow.transform));
-        }
-    }
-
-    private void DisplayChoice(Choice choice, int curSentenceIndex = 0)
-    {
-        //done with current choice
-        if (curSentenceIndex >= choice.sentences.Length)
-        {
-            return;
-        }
-
-        doneSentence = false;
-        StartCoroutine(TypeSentence(choice.sentences[curSentenceIndex]));
-
-        if (doneSentence == true)
-        {
-            DisplayChoice(choice, ++curSentenceIndex);
-        }
-        else
-        {
-            //skip slow text, write full sentence right away
-            dialogText.text.Remove(this.curSentenceIndex);
-
-            dialogText.text += choice.sentences[curSentenceIndex];
-            curSentenceIndex++;
-            doneSentence = true;
-        }
-
-        //done with dialog
-        if (choice.children.Length == 0)
-        {
-            EndDialog();
-        }
-        else
-        {
-            DisplayOptions(choice.children);
+            Text choiceText = Instantiate(choicePrefabText, choiceParentPrefab.transform);
+            choiceText.text = choice.sentences;
+            choiceObjects.Add(choiceText.gameObject);
         }
     }
 
@@ -118,25 +115,7 @@ public class DialogSystem : MonoBehaviour
     {
         dialogWindow.gameObject.SetActive(false);
         curDialog = null;
-        doneSentence = true;
         doneDialog = true;
-        curChoiceIndex = 0;
-        curSentenceIndex = 0;
-        return;
-    }
-
-    private IEnumerator TypeSentence(string sentence)
-    {
-        curSentenceIndex = dialogText.text.ToCharArray().Length;
-        dialogText.text += ' ';
-
-        foreach (char letter in sentence.ToCharArray())
-        {
-            dialogText.text += letter;
-            yield return new WaitForSeconds(0.1f); //deltaTime?
-        }
-        curSentenceIndex++;
-        doneSentence = true;
     }
 
     private void InventoryInterrupt(bool inventoryIsOpen)
