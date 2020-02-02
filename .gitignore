@@ -10,6 +10,14 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+UnityGGJ2020/[Ll]ibrary/
+UnityGGJ2020/[Tt]emp/
+UnityGGJ2020/[Oo]bj/
+UnityGGJ2020/[Bb]uild/
+UnityGGJ2020/[Bb]uilds/
+UnityGGJ2020/[Ll]ogs/
+UnityGGJ2020/[Mm]emoryCaptures/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
 
@@ -58,3 +66,7 @@ sysinfo.txt
 # Crashlytics generated file
 crashlytics-build.properties
 
+
+UnityGGJ2020/Library/
+
+UnityGGJ2020/Temp/

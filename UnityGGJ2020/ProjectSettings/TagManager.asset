@@ -41,3 +41,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Walls
+    uniqueID: 3406831147
+    locked: 0
+  - name: Furniture
+    uniqueID: 476712703
+    locked: 0
+  - name: Actor
+    uniqueID: 3430914477
+    locked: 0
+  - name: Overlay
+    uniqueID: 4200889331
+    locked: 0

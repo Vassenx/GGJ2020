@@ -1,0 +1,1510 @@
+fileFormatVersion: 2
+guid: 37702171203a1e242b8431cb309adb6f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -495037507556979190
+    second: Furniture_Tilesheet_0
+  - first:
+      213: -8179475213928915414
+    second: Furniture_Tilesheet_1
+  - first:
+      213: -2396580208187134727
+    second: Furniture_Tilesheet_2
+  - first:
+      213: 6889247312249651806
+    second: Furniture_Tilesheet_3
+  - first:
+      213: -7564045651156210891
+    second: Furniture_Tilesheet_4
+  - first:
+      213: 5832993798299009078
+    second: Furniture_Tilesheet_5
+  - first:
+      213: 4618239516970339874
+    second: Furniture_Tilesheet_6
+  - first:
+      213: 7296770980522408142
+    second: Furniture_Tilesheet_7
+  - first:
+      213: -8190575549787843830
+    second: Furniture_Tilesheet_8
+  - first:
+      213: -4009051365595299156
+    second: Furniture_Tilesheet_9
+  - first:
+      213: 659650197310425360
+    second: Furniture_Tilesheet_0
+  - first:
+      213: -3525456692053926495
+    second: Furniture_Tilesheet_1
+  - first:
+      213: 2190854354902761594
+    second: Furniture_Tilesheet_2
+  - first:
+      213: 8891473323709758811
+    second: Furniture_Tilesheet_3
+  - first:
+      213: 451965500445097481
+    second: Furniture_Tilesheet_4
+  - first:
+      213: 64266759312971224
+    second: Furniture_Tilesheet_5
+  - first:
+      213: 5613792271293024780
+    second: Furniture_Tilesheet_6
+  - first:
+      213: -1665652746410176066
+    second: Furniture_Tilesheet_7
+  - first:
+      213: 1421807743641747034
+    second: Furniture_Tilesheet_8
+  - first:
+      213: 5117467757616308244
+    second: Furniture_Tilesheet_9
+  - first:
+      213: 5953513318479844600
+    second: Furniture_Tilesheet_10
+  - first:
+      213: -4009299780518592888
+    second: Furniture_Tilesheet_10
+  - first:
+      213: -8213071657267793280
+    second: Furniture_Tilesheet_11
+  - first:
+      213: -1181853136092961190
+    second: Furniture_Tilesheet_12
+  - first:
+      213: -7064187610106304149
+    second: Furniture_Tilesheet_13
+  - first:
+      213: -907895578698962152
+    second: Furniture_Tilesheet_14
+  - first:
+      213: -2316449734578768313
+    second: Furniture_Tilesheet_15
+  - first:
+      213: -8163472069891495317
+    second: Furniture_Tilesheet_16
+  - first:
+      213: 3892149682223360913
+    second: Furniture_Tilesheet_17
+  - first:
+      213: -7636417024917898993
+    second: Furniture_Tilesheet_18
+  - first:
+      213: 2187837473629968859
+    second: Furniture_Tilesheet_19
+  - first:
+      213: -149742043536960838
+    second: Furniture_Tilesheet_20
+  - first:
+      213: 1553227631763360688
+    second: Furniture_Tilesheet_21
+  - first:
+      213: 3993226443832920450
+    second: Furniture_Tilesheet_11
+  - first:
+      213: 7153527084347166721
+    second: Furniture_Tilesheet_12
+  - first:
+      213: 2644473047676027204
+    second: Furniture_Tilesheet_13
+  - first:
+      213: -3480678058383871402
+    second: Furniture_Tilesheet_14
+  - first:
+      213: -6335795743281186061
+    second: Furniture_Tilesheet_15
+  - first:
+      213: 3056036790017092676
+    second: Furniture_Tilesheet_16
+  - first:
+      213: 255456976825746196
+    second: Furniture_Tilesheet_17
+  - first:
+      213: -3663069491595091566
+    second: Furniture_Tilesheet_18
+  - first:
+      213: -3507969665506067119
+    second: Furniture_Tilesheet_19
+  - first:
+      213: 389068405974461823
+    second: Furniture_Tilesheet_20
+  - first:
+      213: -7442565997165876080
+    second: Furniture_Tilesheet_21
+  - first:
+      213: 1857820461968195757
+    second: Furniture_Tilesheet_22
+  - first:
+      213: 101107726743702651
+    second: Furniture_Tilesheet_23
+  - first:
+      213: 1836134701828018809
+    second: Furniture_Tilesheet_24
+  - first:
+      213: 5147716415268127144
+    second: Furniture_Tilesheet_25
+  - first:
+      213: 1461007153794556421
+    second: Furniture_Tilesheet_26
+  - first:
+      213: 8749179071411029038
+    second: Furniture_Tilesheet_27
+  - first:
+      213: 4376076053077006233
+    second: Furniture_Tilesheet_28
+  - first:
+      213: -8963761670439278646
+    second: Furniture_Tilesheet_29
+  - first:
+      213: 8875031240783147453
+    second: Furniture_Tilesheet_22
+  - first:
+      213: -8967275440764255774
+    second: Furniture_Tilesheet_23
+  - first:
+      213: 489556214408563526
+    second: Furniture_Tilesheet_24
+  - first:
+      213: 1895862799569754436
+    second: Furniture_Tilesheet_25
+  - first:
+      213: -7671030324791128069
+    second: Furniture_Tilesheet_26
+  - first:
+      213: 6701791030495861287
+    second: Furniture_Tilesheet_27
+  - first:
+      213: 4673730625112513728
+    second: Furniture_Tilesheet_28
+  - first:
+      213: -328818942460109176
+    second: Furniture_Tilesheet_29
+  - first:
+      213: 5517696527450733097
+    second: Furniture_Tilesheet_30
+  - first:
+      213: 7674525417382709921
+    second: Furniture_Tilesheet_31
+  - first:
+      213: 6100738826013834262
+    second: Furniture_Tilesheet_32
+  - first:
+      213: -5735021448131146164
+    second: Furniture_Tilesheet_33
+  - first:
+      213: -2112596207649650475
+    second: Furniture_Tilesheet_34
+  - first:
+      213: -6189912605256996861
+    second: Furniture_Tilesheet_35
+  - first:
+      213: 6593670832688176764
+    second: Furniture_Tilesheet_36
+  - first:
+      213: 7709944961118249599
+    second: Furniture_Tilesheet_37
+  - first:
+      213: 8753496030647058729
+    second: Furniture_Tilesheet_38
+  - first:
+      213: -4413390790759449424
+    second: Furniture_Tilesheet_39
+  - first:
+      213: 6363203712355339930
+    second: Furniture_Tilesheet_30
+  - first:
+      213: -8922996119478443378
+    second: Furniture_Tilesheet_31
+  - first:
+      213: 7597022352271185670
+    second: Furniture_Tilesheet_32
+  - first:
+      213: 6011260857482650096
+    second: Furniture_Tilesheet_33
+  - first:
+      213: 838508011837688509
+    second: Furniture_Tilesheet_34
+  - first:
+      213: 4675333880966697612
+    second: Furniture_Tilesheet_35
+  - first:
+      213: -8299731949124378674
+    second: Furniture_Tilesheet_36
+  - first:
+      213: 7188275791789888479
+    second: Furniture_Tilesheet_37
+  - first:
+      213: 5360730300636338596
+    second: Furniture_Tilesheet_38
+  - first:
+      213: 6539082215902132448
+    second: Furniture_Tilesheet_39
+  - first:
+      213: -4242338302349895660
+    second: Furniture_Tilesheet_40
+  - first:
+      213: -4619360717011591872
+    second: Furniture_Tilesheet_40
+  - first:
+      213: 3438640737153883614
+    second: Furniture_Tilesheet_41
+  - first:
+      213: -6512860246093259078
+    second: Furniture_Tilesheet_42
+  - first:
+      213: -9097621058935259982
+    second: Furniture_Tilesheet_43
+  - first:
+      213: -5229006196867554655
+    second: Furniture_Tilesheet_44
+  - first:
+      213: -8888919122520233854
+    second: Furniture_Tilesheet_41
+  - first:
+      213: -5444885645366959010
+    second: Furniture_Tilesheet_42
+  - first:
+      213: -7755179188633890980
+    second: Furniture_Tilesheet_43
+  - first:
+      213: -8539089681002805517
+    second: Furniture_Tilesheet_44
+  - first:
+      213: -559589450893729978
+    second: Furniture_Tilesheet_45
+  - first:
+      213: 5892044346984190427
+    second: Furniture_Tilesheet_46
+  - first:
+      213: 943285957943231111
+    second: Furniture_Tilesheet_47
+  - first:
+      213: 3578660055574737850
+    second: Furniture_Tilesheet_48
+  - first:
+      213: -5902452565940555027
+    second: Furniture_Tilesheet_49
+  - first:
+      213: 3350150194659776564
+    second: Furniture_Tilesheet_50
+  - first:
+      213: -658708232369185176
+    second: Furniture_Tilesheet_51
+  - first:
+      213: -8033853547844458592
+    second: Furniture_Tilesheet_52
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01944b60c5c872900800000000000000
+      internalID: 659650197310425360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad1a1731df031fc0800000000000000
+      internalID: -3525456692053926495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70c89a9d6a776e10800000000000000
+      internalID: 2190854354902761594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5df49df0ebd46b70800000000000000
+      internalID: 8891473323709758811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ef2c06a34b54600800000000000000
+      internalID: 451965500445097481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d517bfe64254e000800000000000000
+      internalID: 64266759312971224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0a014dd35238ed40800000000000000
+      internalID: 5613792271293024780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_7
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb15113f6a962e8e0800000000000000
+      internalID: -1665652746410176066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_8
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5e7aaa1c964bb310800000000000000
+      internalID: 1421807743641747034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_9
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1445
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4102c32efc5e40740800000000000000
+      internalID: 5117467757616308244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e3320871b1c58c0800000000000000
+      internalID: -4009299780518592888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2898b5c2b4aca6730800000000000000
+      internalID: 3993226443832920450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 10016a17bfe664360800000000000000
+      internalID: 7153527084347166721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44103d0d93e03b420800000000000000
+      internalID: 2644473047676027204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_14
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65278805fb522bfc0800000000000000
+      internalID: -3480678058383871402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_15
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fafa48075bb218a0800000000000000
+      internalID: -6335795743281186061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_16
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44c6e79d449396a20800000000000000
+      internalID: 3056036790017092676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_17
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 413081754c09b8300800000000000000
+      internalID: 255456976825746196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_18
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29167e584b92a2dc0800000000000000
+      internalID: -3663069491595091566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_19
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1156
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15d3aacdc20315fc0800000000000000
+      internalID: -3507969665506067119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7d6f6367af366500800000000000000
+      internalID: 389068405974461823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09ce68178a1b6b890800000000000000
+      internalID: -7442565997165876080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1bf5d34e17a2b70800000000000000
+      internalID: 8875031240783147453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_23
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1892e4f76dd8380800000000000000
+      internalID: -8967275440764255774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_24
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64b486188c04bc600800000000000000
+      internalID: 489556214408563526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_25
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4499b37eb257f4a10800000000000000
+      internalID: 1895862799569754436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_26
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bff439dff860b8590800000000000000
+      internalID: -7671030324791128069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_27
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72ada934f6b810d50800000000000000
+      internalID: 6701791030495861287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_28
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc12b5bd3d6cd040800000000000000
+      internalID: 4673730625112513728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_29
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 867
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ede3bf9eccf6bf0800000000000000
+      internalID: -328818942460109176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e036c0014ae4850800000000000000
+      internalID: 6363203712355339930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_31
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e826c4e2e462b2480800000000000000
+      internalID: -8922996119478443378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_32
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60793d1249b0e6960800000000000000
+      internalID: 7597022352271185670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_33
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f1a67e96e94c6350800000000000000
+      internalID: 6011260857482650096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_34
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dba87ea189af2ab00800000000000000
+      internalID: 838508011837688509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_35
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c825e5dc46f12e040800000000000000
+      internalID: 4675333880966697612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_36
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecf1b7124cd61dc80800000000000000
+      internalID: -8299731949124378674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_37
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd31d2d5fb2e1c360800000000000000
+      internalID: 7188275791789888479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_38
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a91a1a5ec3256a40800000000000000
+      internalID: 5360730300636338596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_39
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e8bbeb31ac7fba50800000000000000
+      internalID: 6539082215902132448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04d512df6ebb4efb0800000000000000
+      internalID: -4619360717011591872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_41
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2882101572734a480800000000000000
+      internalID: -8888919122520233854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_42
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5467419a51ef64b0800000000000000
+      internalID: -5444885645366959010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_43
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5f89fbdd91106490800000000000000
+      internalID: -7755179188633890980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_44
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f6cf9a5d2f0f7980800000000000000
+      internalID: -8539089681002805517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_45
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64f5c67fb50fb38f0800000000000000
+      internalID: -559589450893729978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_46
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd157debd1fb4c150800000000000000
+      internalID: 5892044346984190427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_47
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78202dcb499371d00800000000000000
+      internalID: 943285957943231111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_48
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab379682c54f9a130800000000000000
+      internalID: 3578660055574737850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_49
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de2358fe9a6461ea0800000000000000
+      internalID: -5902452565940555027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 438d6e82adf1e7e20800000000000000
+      internalID: 3350150194659776564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_51
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86e52074a5ccbd6f0800000000000000
+      internalID: -658708232369185176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Tilesheet_52
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7283f63c4028090800000000000000
+      internalID: -8033853547844458592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

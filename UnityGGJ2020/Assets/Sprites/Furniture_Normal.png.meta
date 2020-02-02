@@ -1,0 +1,826 @@
+fileFormatVersion: 2
+guid: cbcff821508c68c4c9e79b39dcb2cdfe
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1775348061287129022
+    second: Furniture Normal Map_0
+  - first:
+      213: -1680684667136703079
+    second: Furniture_Normal_0
+  - first:
+      213: 3700332836481320651
+    second: Furniture_Normal_1
+  - first:
+      213: 4561549021280418223
+    second: Furniture_Normal_2
+  - first:
+      213: -4271012418566094601
+    second: Furniture_Normal_3
+  - first:
+      213: 8824947134926403984
+    second: Furniture_Normal_4
+  - first:
+      213: 9146830548266092228
+    second: Furniture_Normal_5
+  - first:
+      213: 9152084851176193234
+    second: Furniture_Normal_6
+  - first:
+      213: 8239737665571857640
+    second: Furniture_Normal_7
+  - first:
+      213: -2106992474984389803
+    second: Furniture_Normal_8
+  - first:
+      213: -2775082440000159583
+    second: Furniture_Normal_9
+  - first:
+      213: 5833165114713979239
+    second: Furniture_Normal_10
+  - first:
+      213: 5734775605346649769
+    second: Furniture_Normal_11
+  - first:
+      213: -4965111542762430133
+    second: Furniture_Normal_12
+  - first:
+      213: 7361551205538300434
+    second: Furniture_Normal_13
+  - first:
+      213: 6020111359282909659
+    second: Furniture_Normal_14
+  - first:
+      213: -7569203238444945243
+    second: Furniture_Normal_15
+  - first:
+      213: -5754280334225709809
+    second: Furniture_Normal_16
+  - first:
+      213: -6635123990225962108
+    second: Furniture_Normal_17
+  - first:
+      213: -3011525825850899251
+    second: Furniture_Normal_18
+  - first:
+      213: -2876777009247349201
+    second: Furniture_Normal_19
+  - first:
+      213: -3963605738774497575
+    second: Furniture_Normal_20
+  - first:
+      213: -8293880110102242940
+    second: Furniture_Normal_21
+  - first:
+      213: -7065641729971580456
+    second: Furniture_Normal_22
+  - first:
+      213: -3773372469019869140
+    second: Furniture_Normal_23
+  - first:
+      213: 3218135699258173096
+    second: Furniture_Normal_24
+  - first:
+      213: 2054970630566787331
+    second: Furniture_Normal_25
+  - first:
+      213: 6166816831718816452
+    second: Furniture_Normal_26
+  - first:
+      213: -7370267720675684210
+    second: Furniture_Normal_27
+  - first:
+      213: -3292167759757122115
+    second: Furniture_Normal_28
+  - first:
+      213: -8028253750503902817
+    second: Furniture_Normal_29
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    sRGBTexture: 0
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 1
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furniture_Normal_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9950fdb23320da8e0800000000000000
+      internalID: -1680684667136703079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_1
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc6ce2d0c193a5330800000000000000
+      internalID: 3700332836481320651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_2
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa933feaaa0ed4f30800000000000000
+      internalID: 4561549021280418223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_3
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f0061885d05ab4c0800000000000000
+      internalID: -4271012418566094601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_4
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099b3e2a9a2887a70800000000000000
+      internalID: 8824947134926403984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_5
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c68712fbe110fe70800000000000000
+      internalID: 9146830548266092228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_6
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dc379caeacb20f70800000000000000
+      internalID: 9152084851176193234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_7
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e421d630cd695270800000000000000
+      internalID: 8239737665571857640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_8
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5536220e18572c2e0800000000000000
+      internalID: -2106992474984389803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_9
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 578
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a0cd5d493dec79d0800000000000000
+      internalID: -2775082440000159583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7693ab234c093f050800000000000000
+      internalID: 5833165114713979239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_11
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a643476704069f40800000000000000
+      internalID: 5734775605346649769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b41247fab51681bb0800000000000000
+      internalID: -4965111542762430133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_13
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21285f971db792660800000000000000
+      internalID: 7361551205538300434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_14
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd11a56a26bbb8350800000000000000
+      internalID: 6020111359282909659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_15
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0b0cb02c9c4f690800000000000000
+      internalID: -7569203238444945243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_16
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05e5740680b420b0800000000000000
+      internalID: -5754280334225709809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_17
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48bb8e1a2ed4be3a0800000000000000
+      internalID: -6635123990225962108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_18
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc40e369739e436d0800000000000000
+      internalID: -3011525825850899251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_19
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 289
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f261dc94d82a318d0800000000000000
+      internalID: -2876777009247349201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d675a6a4917ef8c0800000000000000
+      internalID: -3963605738774497575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_21
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4899da39bf736ec80800000000000000
+      internalID: -8293880110102242940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d11ede284cc1fd90800000000000000
+      internalID: -7065641729971580456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_23
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2005da4bb942abc0800000000000000
+      internalID: -3773372469019869140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_24
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a669493e5d19ac20800000000000000
+      internalID: 3218135699258173096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_25
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3093bca96e8b48c10800000000000000
+      internalID: 2054970630566787331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_26
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4caff793c3fe49550800000000000000
+      internalID: 6166816831718816452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_27
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e801991be8c87b990800000000000000
+      internalID: -7370267720675684210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_28
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db5eeaa7ddedf42d0800000000000000
+      internalID: -3292167759757122115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Normal_29
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 0
+        width: 146
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f91748adfb9e59090800000000000000
+      internalID: -8028253750503902817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
