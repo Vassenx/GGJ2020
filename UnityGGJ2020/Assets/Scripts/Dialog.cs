@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -6,6 +7,5 @@ using UnityEngine;
 public class Dialog : ScriptableObject
 {
     public string speaker;
-    public string[] sentences;
-    //public Items[] conditions = { Items.HasCarrot };
+    public Choice[] choices;
 }

@@ -9,10 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fd3aedf94f4811d4c973bee552fe1e2f, type: 3}
-  m_Name: DialogTest
+  m_Script: {fileID: 11500000, guid: 49bcb39a16024c34ebde8ce9618150b2, type: 3}
+  m_Name: Child
   m_EditorClassIdentifier: 
-  speaker: NPC
-  choices:
-  - {fileID: 11400000, guid: fbbb30b423e2e3f4692b2da5e0059ed0, type: 2}
-  - {fileID: 11400000, guid: 1fbde85e5aa3bc545915e161398002b3, type: 2}
+  sentences:
+  - Excusez-moi, its bonjour
+  children: []
