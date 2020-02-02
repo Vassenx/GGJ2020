@@ -1,0 +1,967 @@
+fileFormatVersion: 2
+guid: 773e195fa033d1747802b38b7fa9d3c1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6242359158521781522
+    second: WalkingCombo_0
+  - first:
+      213: -5603093843974731200
+    second: WalkingCombo_1
+  - first:
+      213: 143189651035152603
+    second: WalkingCombo_2
+  - first:
+      213: 5113460488455615515
+    second: WalkingCombo_3
+  - first:
+      213: -6308218024279275385
+    second: WalkingCombo_4
+  - first:
+      213: 4412280417349957080
+    second: WalkingCombo_5
+  - first:
+      213: 8765268037397177870
+    second: WalkingCombo_6
+  - first:
+      213: -1993397636977813266
+    second: WalkingCombo_7
+  - first:
+      213: 5157425800470570663
+    second: WalkingCombo_8
+  - first:
+      213: -8657399315229550671
+    second: WalkingCombo_9
+  - first:
+      213: -7679347986082533634
+    second: WalkingCombo_10
+  - first:
+      213: -7540542910965300993
+    second: WalkingCombo_11
+  - first:
+      213: 969389453784409684
+    second: WalkingCombo_12
+  - first:
+      213: -6732101231450348010
+    second: WalkingCombo_13
+  - first:
+      213: -8064388889901267479
+    second: WalkingCombo_14
+  - first:
+      213: 3517001820847220517
+    second: WalkingCombo_15
+  - first:
+      213: -1042448458762698077
+    second: WalkingCombo_16
+  - first:
+      213: -4357176189029145163
+    second: WalkingCombo_17
+  - first:
+      213: -5892322830476860311
+    second: WalkingCombo_18
+  - first:
+      213: -2402903886504551941
+    second: WalkingCombo_19
+  - first:
+      213: -9079897951029465019
+    second: WalkingCombo_20
+  - first:
+      213: -4807045772977570802
+    second: WalkingCombo_21
+  - first:
+      213: -6563330453671489912
+    second: WalkingCombo_22
+  - first:
+      213: 5131406120211220675
+    second: WalkingCombo_23
+  - first:
+      213: 7980437416837261712
+    second: WalkingCombo_24
+  - first:
+      213: 2836317136207904304
+    second: WalkingCombo_25
+  - first:
+      213: 1700302428372378920
+    second: WalkingCombo_26
+  - first:
+      213: -4788815983926369609
+    second: WalkingCombo_27
+  - first:
+      213: 1895767179074753128
+    second: WalkingCombo_28
+  - first:
+      213: 3348591961789408308
+    second: WalkingCombo_29
+  - first:
+      213: 1903149028006176640
+    second: WalkingCombo_30
+  - first:
+      213: -7151546532994248751
+    second: WalkingCombo_31
+  - first:
+      213: 1248344355483719299
+    second: WalkingCombo_32
+  - first:
+      213: 3459076400017883052
+    second: WalkingCombo_33
+  - first:
+      213: -510865213517562003
+    second: WalkingCombo_34
+  - first:
+      213: 6294795985930737575
+    second: WalkingCombo_35
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: WalkingCombo_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1144
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21dd81cc49051a650800000000000000
+      internalID: 6242359158521781522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1144
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04a45bad5dfcd32b0800000000000000
+      internalID: -5603093843974731200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_2
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1144
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd0667d9a36bcf100800000000000000
+      internalID: 143189651035152603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1040
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b147463d839a6f640800000000000000
+      internalID: 5113460488455615515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 1040
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7880e191125b478a0800000000000000
+      internalID: -6308218024279275385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_5
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 1040
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d57e8d89a19b3d30800000000000000
+      internalID: 4412280417349957080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 936
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e422f6dc74a970800000000000000
+      internalID: 8765268037397177870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 936
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee895df19670654e0800000000000000
+      internalID: -1993397636977813266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_8
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 936
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a6ab78b07bd29740800000000000000
+      internalID: 5157425800470570663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 832
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b75801113dbad780800000000000000
+      internalID: -8657399315229550671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_10
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 832
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efe60fe81b97d6590800000000000000
+      internalID: -7679347986082533634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 832
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff0c25a8c2c9a5790800000000000000
+      internalID: -7540542910965300993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 728
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45664d97296f37d00800000000000000
+      internalID: 969389453784409684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_13
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 728
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 616ae632995c292a0800000000000000
+      internalID: -6732101231450348010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_14
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 728
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e504d61809851090800000000000000
+      internalID: -8064388889901267479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 624
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 527200ea586eec030800000000000000
+      internalID: 3517001820847220517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_16
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 624
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a2cbce56aa7881f0800000000000000
+      internalID: -1042448458762698077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_17
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 624
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5a02567533883c0800000000000000
+      internalID: -4357176189029145163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 520
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964a083ca934a3ea0800000000000000
+      internalID: -5892322830476860311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_19
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 520
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf99d7775ab27aed0800000000000000
+      internalID: -2402903886504551941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_20
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 520
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5407710cbe8bdf180800000000000000
+      internalID: -9079897951029465019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cf0aa9651f94db0800000000000000
+      internalID: -4807045772977570802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_22
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 416
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e4865f9bd5ae4a0800000000000000
+      internalID: -6563330453671489912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_23
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 416
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c88471ddaa663740800000000000000
+      internalID: 5131406120211220675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 312
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09922d66c8530ce60800000000000000
+      internalID: 7980437416837261712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_25
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 312
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e760e686f9c5720800000000000000
+      internalID: 2836317136207904304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_26
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 312
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 825aeddcc00b89710800000000000000
+      internalID: 1700302428372378920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 208
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b22b5f1c35ba8db0800000000000000
+      internalID: -4788815983926369609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_28
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 208
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8625895843e1f4a10800000000000000
+      internalID: 1895767179074753128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_29
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 208
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434af2cc5a6987e20800000000000000
+      internalID: 3348591961789408308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 104
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08720f825f7596a10800000000000000
+      internalID: 1903149028006176640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_31
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 104
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1df833a915a90cc90800000000000000
+      internalID: -7151546532994248751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_32
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 104
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38698f9c392035110800000000000000
+      internalID: 1248344355483719299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_33
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafb00aa8ab110030800000000000000
+      internalID: 3459076400017883052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_34
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 0
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6f7e248bca09e8f0800000000000000
+      internalID: -510865213517562003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: WalkingCombo_35
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 54
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a7d4f2199b9b5750800000000000000
+      internalID: 6294795985930737575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
