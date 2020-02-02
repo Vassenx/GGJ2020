@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(Collider2D))]
 public class NPCInteract : MonoBehaviour, Interactable
 {
     [SerializeField] private DialogSystem dialogSystem = null;
-    [SerializeField] private Dialog dialog = null;
+    [SerializeField] private Dialog[] dialogs = null;
 
     public void HoverInteract()
     {
@@ -17,8 +18,17 @@ public class NPCInteract : MonoBehaviour, Interactable
 
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if(collision.tag == "Player")
+        {
+            KeyInteract();
+        }
+    }
+
     public void KeyInteract()
     {
-        dialogSystem.StartDialog(dialog);
+        
+        dialogSystem.PickActDialog(dialogs);
     }
 }
