@@ -40,6 +40,7 @@ public class DialogSystem : MonoBehaviour
             if(dialog.actNum == actSystem.act)
             {
                 curDialog = dialog;
+                StartDialog(curDialog);
                 npc.dialogs[i] = null;
             }
         }
@@ -48,10 +49,10 @@ public class DialogSystem : MonoBehaviour
     void Update()
     {
         //TEST ONLY
-        if (Input.GetKeyDown(KeyCode.T) && curDialog != null)
+        /*if (Input.GetKeyDown(KeyCode.T) && curDialog != null)
         {
             StartDialog(curDialog);
-        }
+        }*/
 
         if (curDialog == null)
             return;
@@ -82,7 +83,11 @@ public class DialogSystem : MonoBehaviour
                 }
 
                 //now iterate through child
-                curChoice = curChoice.children[pickedChoiceIndex];
+                if(curChoice.children.Length != 0)
+                {
+                    curChoice = curChoice.children[pickedChoiceIndex];
+                }
+                
                 pickedChoiceIndex = 0; //reset
                 StartCoroutine(DisplayDescription());
             }
@@ -119,6 +124,8 @@ public class DialogSystem : MonoBehaviour
         dialogWindow.gameObject.SetActive(true);
 
         curChoice = curDialog.rootChoice;
+
+        Debug.Log(curChoice);
         StartCoroutine(DisplayDescription());
     }
 
@@ -142,6 +149,7 @@ public class DialogSystem : MonoBehaviour
 
         if (curChoice.children.Length == 0)
         {
+            Debug.Log("end");
             EndDialog();
         }
         else if (curChoice.children.Length > 1)
