@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: JURGIS
   sentences: No, only heard. I was down by the ballast when the sound came through
-    the ship. Seems the submarine is damaged, considering that the emergency lights
-    are on.
+    the ship. Seems the submarine is damaged, seeing as the emergency lights are
+    on.
   children:
   - {fileID: 11400000, guid: b0d621e2a260da14a8b671d77c30a167, type: 2}
   conditions: []

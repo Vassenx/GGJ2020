@@ -15,7 +15,7 @@ MonoBehaviour:
   speaker: KAZIMIR
   sentences: Sasha, my man. Think about it. We're so fucking deep in the sea, dude,
     in a test submarine, of all things. Those dicks up there sent us down here to
-    scope the 'scape right?
+    scope the 'scape, right?
   children:
   - {fileID: 11400000, guid: c3decea945cc5fe458786e34f54a3259, type: 2}
   conditions: []

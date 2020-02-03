@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: 1_Radinka
   m_EditorClassIdentifier: 
   speaker: RADINKA
-  sentences: I am alright, thank you. I assume all the necessary repairs are done?
+  sentences: I am alright, thank you. I assume all the necessary repairs have been
+    made?
   children:
   - {fileID: 11400000, guid: 43be71a0c7177154a8204376f4b7ba28, type: 2}
   conditions: []

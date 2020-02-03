@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 4_Sasha
   m_EditorClassIdentifier: 
   speaker: SASHA
-  sentences: Ok... So anyways, it was just one hit?
+  sentences: Ok... so, anyway, it was just one hit?
   children:
   - {fileID: 11400000, guid: c168d2da936fe2647892dc4a3750fd42, type: 2}
   conditions: []

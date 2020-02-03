@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 0_Sasha
   m_EditorClassIdentifier: 
   speaker: SASHA
-  sentences: Ooga Booga
+  sentences: Ooga booga
   children: []
   conditions: []

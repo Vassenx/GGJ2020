@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: RADINKA
   sentences: "No, no\u2014it seems like the ship has been damaged, given the cracks
-    in the Mess Hall windows. If if were the torpedo launcher, it woud not have caused
+    on the Mess Hall windows. If it were the torpedo launcher, it woud not have caused
     this sort of damage, correct?"
   children:
   - {fileID: 11400000, guid: ea4aa9cc82f4542409361987599de428, type: 2}

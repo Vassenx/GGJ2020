@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 5_Kazimir
   m_EditorClassIdentifier: 
   speaker: KAZIMIR
-  sentences: "Nah. After the first one, I turn around and face the window\u2014you
-    know, the one that has all the cracks one. Crackless."
+  sentences: "Nah. After the first one, I turned around and faced the window\u2014you
+    know, the one that has all the cracks? Crackless."
   children:
   - {fileID: 11400000, guid: e1934a7d21d63dc46af428ea8cc66ade, type: 2}
   conditions: []

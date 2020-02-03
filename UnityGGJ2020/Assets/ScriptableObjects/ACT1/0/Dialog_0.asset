@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fd3aedf94f4811d4c973bee552fe1e2f, type: 3}
-  m_Name: Dialog
+  m_Name: Dialog_0
   m_EditorClassIdentifier: 
-  rootChoice: {fileID: 11400000, guid: c9839293b26ca434ea3a8edffa122915, type: 2}
-  actNums: 1
+  rootChoice: {fileID: 11400000, guid: e5bb29627f71aeb4382fb9da94c6a277, type: 2}
+  actNum: 1

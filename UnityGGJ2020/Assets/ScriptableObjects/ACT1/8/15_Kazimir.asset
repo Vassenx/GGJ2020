@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 15_Kazimir
   m_EditorClassIdentifier: 
   speaker: KAZIMIR
-  sentences: Anyways, I tihnk we're fine for now. It slapped us around a bit, but
-    it got bored as soon as the lights went out. Well then, call me when you need
-    me to shoot something.
+  sentences: Anyway, I tihnk we're fine for now. It slapped us around a bit, but
+    it got bored as soon as the lights went out. Rest easy, comrade. Call me when
+    you need me to shoot something.
   children: []
   conditions: []

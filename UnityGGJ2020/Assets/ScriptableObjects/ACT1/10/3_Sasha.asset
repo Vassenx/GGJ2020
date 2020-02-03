@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 3_Sasha
   m_EditorClassIdentifier: 
   speaker: SASHA
-  sentences: Hold on - how long have you been here?
+  sentences: "Hold on\u2014how long have you been here?"
   children:
   - {fileID: 11400000, guid: 22c77ad392420a44189db40858438e68, type: 2}
   conditions: []

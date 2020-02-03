@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 2_Sasha
   m_EditorClassIdentifier: 
   speaker: SASHA
-  sentences: Yes it seems like we collided into some debris, but the submarine's
-    in good shape now.
+  sentences: Yes. It seems like we collided into some debris, but the submarine's
+    alright for now.
   children:
   - {fileID: 11400000, guid: 912c2b46d80ef454fae5a6e1e44fb3c2, type: 2}
   conditions: []

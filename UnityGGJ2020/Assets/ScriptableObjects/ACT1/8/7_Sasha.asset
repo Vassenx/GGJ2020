@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 7_Sasha
   m_EditorClassIdentifier: 
   speaker: SASHA
-  sentences: See...what?
+  sentences: See... what?
   children:
   - {fileID: 11400000, guid: 3b8613c50e7295343b2ac1bddfd6e45f, type: 2}
   conditions: []
