@@ -7,7 +7,7 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     [SerializeField] private InventorySystem inventorySystem = null;
     [SerializeField] private GameObject dragClonePrefab = null;
     [SerializeField] private GameObject[] triggerObjects = null;
-    [SerializeField] private Tool tool;
+    [SerializeField] private Tool tool = Tool.drill;
     private GameObject dragClone;
 
     /*Vector2 raycaster;

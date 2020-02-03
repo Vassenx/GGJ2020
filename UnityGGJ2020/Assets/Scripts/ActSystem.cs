@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class ActSystem : MonoBehaviour
 {
-    [SerializeField] Repairable[] repairablesAct1;
-    [SerializeField] Repairable[] repairablesAct2;
+    [SerializeField] Repairable[] repairablesAct1 = null;
+    [SerializeField] Repairable[] repairablesAct2 = null;
     public int act { get; private set; }
 
     //subscribe to if you want to know of act changes

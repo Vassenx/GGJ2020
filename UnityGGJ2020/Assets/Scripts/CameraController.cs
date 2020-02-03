@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CameraController : MonoBehaviour
 {
-    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject player = null;
     private float smoothSpeed = 0.125f;
 
     void FixedUpdate()

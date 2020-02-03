@@ -3,7 +3,7 @@
 public class LadderPickup : MonoBehaviour
 {
     // [SerializeField] private Item item;
-    [SerializeField] private GameObject player;
+    [SerializeField] private GameObject player = null;
     public GameObject exitObject;
     public bool open;
 
