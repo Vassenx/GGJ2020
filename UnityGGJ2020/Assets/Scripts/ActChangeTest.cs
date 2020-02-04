@@ -7,7 +7,7 @@ public class ActChangeTest : MonoBehaviour
 {
     private int inc = 0;
 
-    [SerializeField] private DialogSystem temp;
+    [SerializeField] private DialogSystem temp = null;
     // Start is called before the first frame update
     void Start()
     {

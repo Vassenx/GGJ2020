@@ -13,9 +13,8 @@ MonoBehaviour:
   m_Name: 8_Radinka
   m_EditorClassIdentifier: 
   speaker: RADINKA
-  sentences: The only thing I noticed wer e the cracks in the Mess Hall windows.
-    I'm going to make an educated guess that you'll eventually find more mechanical
-    issues on the submarine, Hopefully this won't interfere with our mission too
-    much.
+  sentences: The only thing I noticed were the cracks on the Mess Hall windows. I
+    assume you will eventually find more mechanical issues on the submarine. Hopefully
+    this won't interfere with our mission too much.
   children: []
   conditions: []

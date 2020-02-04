@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: 4_Sasha
   m_EditorClassIdentifier: 
   speaker: SASHA
-  sentences: I wouldn't be just yet. We still have two kilometers to go before we
-    reach the bottom of the Marianskaya Trench.
+  sentences: I wouldn't relax just yet. We still have two kilometers to go before
+    we reach the bottom of the Marianskaya Trench.
   children:
   - {fileID: 11400000, guid: 86ba5a3a0f2a5e8489c1e19b95f68850, type: 2}
   conditions: []

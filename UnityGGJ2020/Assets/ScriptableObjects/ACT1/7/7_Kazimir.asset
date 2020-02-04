@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: 7_Kazimir
   m_EditorClassIdentifier: 
   speaker: KAZIMIR
-  sentences: "It was loud, dude like one big\u2014"
+  sentences: "It was loud, dude, like one big\u2014"
   children: []
   conditions: []

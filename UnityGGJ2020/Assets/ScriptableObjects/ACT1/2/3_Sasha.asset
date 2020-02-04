@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 3_Sasha
   m_EditorClassIdentifier: 
   speaker: SASHA
-  sentences: This could be serious. I'll go check it out.
+  sentences: Right... this could be serious. I'll go check it out.
   children:
   - {fileID: 11400000, guid: e4beb9b0cd133f44ca4241be138f5927, type: 2}
   - {fileID: 11400000, guid: 419f83f0b48232c44b89d9e0fbdb1165, type: 2}

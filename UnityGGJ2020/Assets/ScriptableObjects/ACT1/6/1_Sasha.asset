@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 1_Sasha
   m_EditorClassIdentifier: 
   speaker: SASHA
-  sentences: Hey Kaz. Were you the one creepily wailing like a baby earlier?
+  sentences: Hey Kaz. Were you the one wailing like a baby earlier?
   children:
   - {fileID: 11400000, guid: 126f74e55b3122a4596b02eb18692aed, type: 2}
   conditions:

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: KAZIMIR
   sentences: I'm standing there, thinking, damn, that was scary, but at least the
-    sub's fine. And then I see it.
+    sub's fine. Well, mostly fine. *And then I see it*.
   children:
   - {fileID: 11400000, guid: 0dd20f0ef22b69c4c8ed7fe0388bcf28, type: 2}
   conditions: []

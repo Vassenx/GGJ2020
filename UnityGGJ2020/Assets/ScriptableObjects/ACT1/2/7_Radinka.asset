@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: 7_Radinka
   m_EditorClassIdentifier: 
   speaker: RADINKA
-  sentences: A man of action, as always. Having you around really puts my mind at
-    ease.
+  sentences: Thank you. Having you around puts my mind at ease.
   children:
   - {fileID: 11400000, guid: 8eb299adc93337542ac74cf37dc14ff6, type: 2}
   conditions: []

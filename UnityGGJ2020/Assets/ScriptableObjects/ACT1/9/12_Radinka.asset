@@ -14,6 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: RADINKA
   sentences: We must show the world that the Soviet Union is stronger and more unified
-    than the Americans. That is why.
+    than the Americans. *That* is why.
   children: []
   conditions: []

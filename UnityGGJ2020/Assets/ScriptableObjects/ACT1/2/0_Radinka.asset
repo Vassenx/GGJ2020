@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 0_Radinka
   m_EditorClassIdentifier: 
   speaker: RADINKA
-  sentences: Sasha, there you are. Something's wrong with the ship.
+  sentences: Sasha, there you are. There is something wrong with the ship.
   children:
   - {fileID: 11400000, guid: f83f7d21eb4c51a4e9b953775b622170, type: 2}
   conditions: []

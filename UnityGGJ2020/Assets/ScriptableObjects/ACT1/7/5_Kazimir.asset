@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speaker: KAZIMIR
   sentences: Yeah, yeah, exactly. I go into the mess hall, and I'm tip-tapping my
-    way to the food when suddenly, there's this thump.
+    way to the food when suddenly, there's this *thump*.
   children:
   - {fileID: 0}
   conditions: []
