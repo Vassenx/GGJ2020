@@ -36,7 +36,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 320, y: 75}
+  m_SizeDelta: {x: 220, y: 75}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &1657765544991200968
 CanvasRenderer:
@@ -89,7 +89,7 @@ PrefabInstance:
     - target: {fileID: 2030854578016966206, guid: 10b722e7075c2bd44a7599ea1c937daa,
         type: 3}
       propertyPath: m_FontData.m_Alignment
-      value: 3
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2030854578016966206, guid: 10b722e7075c2bd44a7599ea1c937daa,
         type: 3}
@@ -97,6 +97,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 12800000, guid: 3c0f7a3a62e4fca4ba1dd46038a24aff,
         type: 3}
+    - target: {fileID: 2030854578016966206, guid: 10b722e7075c2bd44a7599ea1c937daa,
+        type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2030854578016966207, guid: 10b722e7075c2bd44a7599ea1c937daa,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -165,12 +170,12 @@ PrefabInstance:
     - target: {fileID: 2030854578016966207, guid: 10b722e7075c2bd44a7599ea1c937daa,
         type: 3}
       propertyPath: m_SizeDelta.x
-      value: 300
+      value: 170
       objectReference: {fileID: 0}
     - target: {fileID: 2030854578016966207, guid: 10b722e7075c2bd44a7599ea1c937daa,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 50
+      value: 60
       objectReference: {fileID: 0}
     - target: {fileID: 2030854578016966207, guid: 10b722e7075c2bd44a7599ea1c937daa,
         type: 3}
@@ -201,6 +206,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Pivot.y
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030854578016966207, guid: 10b722e7075c2bd44a7599ea1c937daa,
+        type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2030854578016966207, guid: 10b722e7075c2bd44a7599ea1c937daa,
+        type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1.2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 10b722e7075c2bd44a7599ea1c937daa, type: 3}

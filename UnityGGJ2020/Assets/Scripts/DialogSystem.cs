@@ -13,6 +13,7 @@ public class DialogSystem : MonoBehaviour
     [SerializeField] private Image choicePrefabHighlight = null;
     [SerializeField] private GameObject choiceParentPrefab = null;
     [SerializeField] private ActSystem actSystem = null;
+    [SerializeField] private float scrollWaitTime = 0.05f;
 
     private bool doneDialog = true;
     private bool doneDescription = true;
@@ -143,7 +144,7 @@ public class DialogSystem : MonoBehaviour
             }
 
             dialogText.text += letter;
-            yield return new WaitForSeconds(0.1f); 
+            yield return new WaitForSeconds(scrollWaitTime); 
         }
 
         if (curChoice.children.Length == 0)
