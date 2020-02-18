@@ -1,5 +1,90 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1933945263
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1933945264}
+  - component: {fileID: 1933945266}
+  - component: {fileID: 1933945265}
+  m_Layer: 0
+  m_Name: Point Light 2D (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1933945264
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933945263}
+  m_LocalRotation: {x: -0, y: -0, z: 0.8706848, w: 0.4918415}
+  m_LocalPosition: {x: 1.5999985, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4243663421431737077}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 789.63}
+--- !u!114 &1933945266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933945263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.725
+  m_Color: {r: 1, g: 0.8476401, b: 0.6745283, a: 1}
+  m_Intensity: 5
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: 00000000
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 1
+  m_LightOrder: 0
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 0
+  m_PointLightInnerAngle: 42.71
+  m_PointLightOuterAngle: 51.38
+  m_PointLightInnerRadius: 17.85477
+  m_PointLightOuterRadius: 154.93045
+  m_PointLightDistance: 1
+  m_PointLightQuality: 0
+  m_ShapeLightParametricSides: 5
+  m_ShapeLightParametricAngleOffset: 0
+  m_ShapeLightParametricRadius: 1
+  m_ShapeLightFalloffSize: 0.5
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
+--- !u!114 &1933945265
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1933945263}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70d557cb5d1f1c14b8aaa12e3c15009b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4243663421431737086
 GameObject:
   m_ObjectHideFlags: 0
@@ -18,7 +103,7 @@ GameObject:
   - component: {fileID: 4818348936275645525}
   m_Layer: 0
   m_Name: Mechanic
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -36,6 +121,7 @@ Transform:
   m_Children:
   - {fileID: 4818348936628578078}
   - {fileID: 8942123882506350070}
+  - {fileID: 1933945264}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -57,7 +143,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a97c105638bdf8b4a8650670310a4cd3, type: 2}
+  - {fileID: 2100000, guid: 765db66f68926464887409e9ce7297b2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -105,7 +191,7 @@ CircleCollider2D:
   m_UsedByComposite: 0
   m_Offset: {x: -2, y: 0}
   serializedVersion: 2
-  m_Radius: 6
+  m_Radius: 8
 --- !u!50 &4243663421431737080
 Rigidbody2D:
   serializedVersion: 4
@@ -155,10 +241,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_ShadowGroup: 0
   m_HasRenderer: 1
-  m_UseRendererSilhouette: 0
+  m_UseRendererSilhouette: 1
   m_CastsShadows: 1
   m_SelfShadows: 0
-  m_ApplyToSortingLayers: 
+  m_ApplyToSortingLayers: 000000002b1e10cbff0e6a1cad997fccf37b64fa
   m_ShapePath:
   - {x: -9.5125885, y: 2.984436, z: 0}
   - {x: -4.0476913, y: -3.0621643, z: 0}
@@ -167,7 +253,7 @@ MonoBehaviour:
   - {x: -3.5007362, y: 6.4637756, z: 0}
   m_ShapePathHash: 1897840327
   m_Mesh: {fileID: 0}
-  m_InstanceId: 21422
+  m_InstanceId: -1182
 --- !u!95 &4818348936275645526
 Animator:
   serializedVersion: 3
@@ -225,13 +311,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4818348936628578079}
-  m_LocalRotation: {x: -0, y: -0, z: 0.9106256, w: 0.41323256}
+  m_LocalRotation: {x: -0, y: -0, z: 0.8706848, w: 0.4918415}
   m_LocalPosition: {x: 1.5999985, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4243663421431737077}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 789.63}
 --- !u!114 &4818348936628578076
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -248,11 +334,11 @@ MonoBehaviour:
   m_BlendStyleIndex: 0
   m_FalloffIntensity: 0.5
   m_Color: {r: 1, g: 0.8476401, b: 0.6745283, a: 1}
-  m_Intensity: 1
+  m_Intensity: 4
   m_LightVolumeOpacity: 0
-  m_ApplyToSortingLayers: 00000000ff0e6a1c2b1e10cb
+  m_ApplyToSortingLayers: ff0e6a1c2b1e10cb
   m_LightCookieSprite: {fileID: 0}
-  m_UseNormalMap: 0
+  m_UseNormalMap: 1
   m_LightOrder: 0
   m_AlphaBlendOnOverlap: 0
   m_ShadowIntensity: 0
@@ -260,9 +346,9 @@ MonoBehaviour:
   m_PointLightInnerAngle: 42.71
   m_PointLightOuterAngle: 51.38
   m_PointLightInnerRadius: 39.966568
-  m_PointLightOuterRadius: 155.81128
-  m_PointLightDistance: 3
-  m_PointLightQuality: 1
+  m_PointLightOuterRadius: 154.93045
+  m_PointLightDistance: 1
+  m_PointLightQuality: 0
   m_ShapeLightParametricSides: 5
   m_ShapeLightParametricAngleOffset: 0
   m_ShapeLightParametricRadius: 1
