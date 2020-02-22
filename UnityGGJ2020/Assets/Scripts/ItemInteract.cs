@@ -9,11 +9,27 @@ public class ItemInteract : MonoBehaviour, Interactable
     public void Start()
     {
         item = gameObject.GetComponent<Item>();
+        if (item != null && item.descriptionBox != null)
+        {
+            item.descriptionBox.SetActive(false);
+        }
     }
 
     public void HoverInteract()
     {
         Debug.Log("HOVERING OVER ITEM");
+        StartCoroutine(DescriptionPopup());
+
+    }
+
+    private IEnumerator DescriptionPopup()
+    {
+        if(item != null && item.descriptionBox != null)
+        {
+            item.descriptionBox.SetActive(true);
+            yield return new WaitForSeconds(0.5f);
+            item.descriptionBox.SetActive(false);
+        }
     }
 
     public void ClickInteract()

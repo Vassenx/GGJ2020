@@ -1,25 +1,29 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class MouseSystem : MonoBehaviour
 {
+    [SerializeField] private Camera cam;
+    RaycastHit2D rayHit;
+
+    private void Start()
+    {
+        cam = Camera.main;
+    }
+
     void Update()
     {
-        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
-        Debug.DrawRay(ray.origin, ray.direction * 100);
+        rayHit = Physics2D.GetRayIntersection(cam.ScreenPointToRay(Input.mousePosition));
 
-        RaycastHit hit;
-        if (Physics.Raycast(ray, out hit, 1000.0f))
+        if(rayHit.collider != null)
         {
-            Debug.Log("HIT AN OBJECT");
-            Interactable target = hit.transform.gameObject.GetComponent<Interactable>();
             
-            if(Input.GetMouseButtonDown(0))
+            Interactable target = rayHit.transform.gameObject.GetComponent<Interactable>();
+            
+            if(Input.GetMouseButtonDown(0) && target != null)
             {
                 target.ClickInteract();
             }
-            else
+            else if(target != null)
             {
                 target.HoverInteract();
             }

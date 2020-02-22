@@ -10,13 +10,6 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     [SerializeField] private Tool tool = Tool.drill;
     private GameObject dragClone;
 
-    /*Vector2 raycaster;
-
-    private void Start()
-    {
-        raycaster = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-    }*/
-
     public void OnBeginDrag(PointerEventData eventData)
     {
         //inventorySystem.HideInventory();
@@ -30,8 +23,7 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             return;
 
         dragClone.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        Debug.Log("a");
+        
         foreach(var triggerObj in triggerObjects)
         {
             if (Vector2.Distance(Camera.main.ScreenToWorldPoint(Input.mousePosition), triggerObj.transform.position) <= 50f)
