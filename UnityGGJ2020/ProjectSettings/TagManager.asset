@@ -47,6 +47,9 @@ TagManager:
   - name: Furniture
     uniqueID: 476712703
     locked: 0
+  - name: Doors
+    uniqueID: 1216562567
+    locked: 0
   - name: Actor
     uniqueID: 3430914477
     locked: 0
