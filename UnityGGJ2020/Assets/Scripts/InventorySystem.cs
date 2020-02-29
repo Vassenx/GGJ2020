@@ -16,7 +16,13 @@ public class InventorySystem : MonoBehaviour
     public void Remove(ItemData item)
     {
         itemList[(int)item.toolAsset] = null;
-        itembuttons[(int)item.toolAsset].image.sprite = null;
+        itembuttons[(int)item.toolAsset].gameObject.SetActive(false);
+    }
+
+    public void RemoveAtIndex(int i)
+    {
+        itemList[i] = null;
+        itembuttons[i].gameObject.SetActive(false);
     }
 
     public void Add(ItemData item)
@@ -26,20 +32,31 @@ public class InventorySystem : MonoBehaviour
             if (itemList[(int)item.toolAsset] == null)
             {
                 itemList[(int)item.toolAsset] = item;
+                itembuttons[(int)item.toolAsset].gameObject.SetActive(true);
+                itembuttons[(int)item.toolAsset].image.sprite = item.uiSprite;
             }
         }
     } 
 
     void Start()
     {
+        //for any items preset to be automatically in inventory
+        for(int i = 0; i < itemList.Length; i++)
+        {
+            if (itemList[i] != null)
+            {
+                Add(itemList[i]);
+            }
+            else
+            {
+                RemoveAtIndex(i);
+            }
+        }
         inventoryUI.SetActive(false);
     }
 
     void Update()
     {
-        /*   if (Input.GetKey("r")) {
-           } */
-
         if (Input.GetKeyDown(KeyCode.I))
         {
             inventoryUI.SetActive(!inventoryUI.activeSelf);

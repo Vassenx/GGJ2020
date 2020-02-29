@@ -4,6 +4,6 @@ using UnityEngine.UI;
 [CreateAssetMenu(menuName = "Tool")]
 public class ItemData : ScriptableObject
 {
-    public Sprite sprite;
+    public Sprite uiSprite;
     public Tool toolAsset;
 }

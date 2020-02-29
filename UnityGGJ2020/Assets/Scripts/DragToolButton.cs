@@ -26,8 +26,9 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         
         foreach(var triggerObj in triggerObjects)
         {
-            if (Vector2.Distance(Camera.main.ScreenToWorldPoint(Input.mousePosition), triggerObj.transform.position) <= 50f)
+            if (triggerObj.GetComponent<Repairable>() != null && Vector2.Distance(Camera.main.ScreenToWorldPoint(Input.mousePosition), triggerObj.transform.position) <= 50f)
             {
+                //when click repairable, try to fix it if have correct tools in inventory
                 triggerObj.GetComponent<Repairable>().Fix(tool);
                 Destroy(dragClone);
             }

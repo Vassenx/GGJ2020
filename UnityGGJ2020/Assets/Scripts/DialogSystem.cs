@@ -12,7 +12,6 @@ public class DialogSystem : MonoBehaviour
     [SerializeField] private Text speakerText = null;
     [SerializeField] private Image choicePrefabHighlight = null;
     [SerializeField] private GameObject choiceParentPrefab = null;
-    [SerializeField] private ActSystem actSystem = null;
     [SerializeField] private float scrollWaitTime = 0.05f;
 
     private bool doneDialog = true;
@@ -21,13 +20,14 @@ public class DialogSystem : MonoBehaviour
     private List<GameObject> choiceObjects;
 
     private int pickedChoiceIndex = 0;
+    private int actNum = 1;
 
     void Start()
     {
         choiceObjects = new List<GameObject>();
         InventorySystem.OnOpenInventory += InventoryInterrupt;
         dialogWindow.gameObject.SetActive(false);
-
+        ActSystem.OnActChange += ((int newActNum) => actNum = newActNum);
     }
 
     public void PickActDialog(NPCInteract npc)
@@ -38,7 +38,7 @@ public class DialogSystem : MonoBehaviour
             if (dialog == null)
                 continue;
 
-            if(dialog.actNum == actSystem.act)
+            if(dialog.actNum == actNum)
             {
                 curDialog = dialog;
                 StartDialog(curDialog);

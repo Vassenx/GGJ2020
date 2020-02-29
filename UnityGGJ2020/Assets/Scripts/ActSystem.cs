@@ -9,6 +9,7 @@ public class ActSystem : MonoBehaviour
     public int act { get; private set; }
 
     //subscribe to if you want to know of act changes
+    //**TODO: set up act changes swap of repairables**
     public static System.Action<int> OnActChange;
 
     private void Start()
@@ -25,9 +26,8 @@ public class ActSystem : MonoBehaviour
             {
                 return;
             }
-
-            act++;
-            OnActChange.Invoke(act);
         }
+        act++;
+        OnActChange?.Invoke(act);
     }
 }

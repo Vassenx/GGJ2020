@@ -12,5 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a20e7ec901e304031a11f3bac40a05a7, type: 3}
   m_Name: SO_NutsNBolts
   m_EditorClassIdentifier: 
-  sprite: {fileID: 0}
+  uiSprite: {fileID: -5735906595358694276, guid: 586933aca5e764d89acb6c75021ed871,
+    type: 3}
   toolAsset: 4

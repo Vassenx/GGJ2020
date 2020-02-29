@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ItemInteract : MonoBehaviour, Interactable
 {
-    Item item;
+    protected Item item;
 
     public void Start()
     {
@@ -17,9 +17,8 @@ public class ItemInteract : MonoBehaviour, Interactable
 
     public void HoverInteract()
     {
-        Debug.Log("HOVERING OVER ITEM");
+        //Debug.Log("HOVERING OVER ITEM");
         StartCoroutine(DescriptionPopup());
-
     }
 
     private IEnumerator DescriptionPopup()
@@ -32,7 +31,7 @@ public class ItemInteract : MonoBehaviour, Interactable
         }
     }
 
-    public void ClickInteract()
+    public virtual void ClickInteract()
     {
         Debug.Log("CLICKING AN ITEM");
     }
