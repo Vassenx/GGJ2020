@@ -52,14 +52,14 @@ public class InventorySystem : MonoBehaviour
                 RemoveAtIndex(i);
             }
         }
-        inventoryUI.SetActive(false);
+        //inventoryUI.SetActive(false);
     }
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.I))
         {
-            inventoryUI.SetActive(!inventoryUI.activeSelf);
+            inventoryUI.GetComponent<inventorySlide>().show = !(inventoryUI.GetComponent<inventorySlide>().show);
             OnOpenInventory(inventoryUI.activeSelf);
         }
     }
