@@ -35,6 +35,8 @@ public class IsoCharacter : MonoBehaviour
     void Start()
     {
         anim = GetComponent<Animator>();
+        lastDir = 3;
+        SetDirection(Vector2.zero);
     }
 
     public void SetDirection(Vector2 direction)

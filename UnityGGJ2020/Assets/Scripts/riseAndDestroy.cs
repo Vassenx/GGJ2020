@@ -6,6 +6,7 @@ public class riseAndDestroy : MonoBehaviour
 {
     private Vector3 hold;
     public float life;
+    public bool destroy;
 
     // Start is called before the first frame update
     void Start()
@@ -23,7 +24,10 @@ public class riseAndDestroy : MonoBehaviour
         life -= 1f;
         if (life < 0)
         {
-            Destroy(gameObject);
+            if (destroy)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 }

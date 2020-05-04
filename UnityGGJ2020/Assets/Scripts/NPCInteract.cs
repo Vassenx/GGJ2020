@@ -28,7 +28,6 @@ public class NPCInteract : MonoBehaviour, Interactable
 
     public void KeyInteract()
     {
-        
         dialogSystem.PickActDialog(this);
     }
 }
