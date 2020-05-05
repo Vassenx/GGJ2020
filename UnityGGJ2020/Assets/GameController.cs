@@ -6,23 +6,28 @@ public class GameController : MonoBehaviour
 {
     public FadeToBlack blackBlock;
     public FlashFlicker flashlight;
-    public bool fadeIn = false;
+
+    public bool sequence1;
+    public bool sequence2;
+    public bool sequence3;
+
     public bool flashlightOn = false;
     public float count;
     public PlayerController player;
 
-    public NPCInteract startDialogue1;
+    public GameObject Dialog1;
 
     // Start is called before the first frame update
     void Start()
     {
         count = 10;
+        sequence1 = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!fadeIn)
+        if (sequence1)
         {
             if (!player.frozen)
             {
@@ -37,10 +42,12 @@ public class GameController : MonoBehaviour
             else
             {
                 blackBlock.FadeIn();
-                fadeIn = true;
+                sequence1 = false;
+                sequence2 = true;
+                count = 6;
             }
         }
-        else
+        else if (sequence2)
         {
             if (!flashlight.lightsChange && blackBlock.changeComplete)
             {
@@ -49,12 +56,32 @@ public class GameController : MonoBehaviour
 
             if (flashlight.lightsOn)
             {
+                if (count > 0)
+                {
+                    count -= 0.1f;
+                }
+                else
+                {
+                    Dialog1.transform.position = player.transform.position;
+                    sequence2 = false;
+                    sequence3 = true;
+                    count = 6;
+                }
+            }
+        }
+        else if (sequence3)
+        {
+            if (count > 0)
+            {
+                count -= 0.1f;
+            }
+            else
+            {
                 if (player.frozen)
                 {
                     player.frozen = false;
+                    sequence3 = false;
                 }
-
-
             }
         }
     }
