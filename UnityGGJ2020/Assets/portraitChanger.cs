@@ -6,6 +6,11 @@ using UnityEngine.UI;
 
 public class portraitChanger : MonoBehaviour
 {
+    private bool fading;
+    private Color fadeColor;
+    private float fade;
+    private Sprite holdSprite;
+
     public Sprite radinkaSprite;
     public Sprite jurgisSprite;
     public Sprite kazimirSprite;
@@ -31,40 +36,73 @@ public class portraitChanger : MonoBehaviour
     {
         if (dialoguePanel.activeSelf)
         {
-            if (speakerText.GetComponent<Text>().text == "SASHA:")
+            if (!fading)
             {
-                transform.position = rightPort.transform.position;
-                portraitRender.sprite = sashaSprite;
-            }
-            else
-            {
-                transform.position = leftPort.transform.position;
-
-                if (speakerText.GetComponent<Text>().text == "RADINKA:")
+                if (speakerText.GetComponent<Text>().text == "SASHA:")
                 {
-                    portraitRender.sprite = radinkaSprite;
-                }
-                else if (speakerText.GetComponent<Text>().text == "JURGIS:")
-                {
-                    portraitRender.sprite = jurgisSprite;
-                }
-                else if (speakerText.GetComponent<Text>().text == "KAZIMIR:")
-                {
-                    portraitRender.sprite = kazimirSprite;
-                }
-                else if (speakerText.GetComponent<Text>().text == "PAVEL:")
-                {
-                    portraitRender.sprite = pavelSprite;
+                    transform.position = rightPort.transform.position;
+                    changeSprite(sashaSprite);
                 }
                 else
                 {
-                    portraitRender.sprite = null;
+                    transform.position = leftPort.transform.position;
+
+                    if (speakerText.GetComponent<Text>().text == "RADINKA:")
+                    {
+                        changeSprite(radinkaSprite);
+                    }
+                    else if (speakerText.GetComponent<Text>().text == "JURGIS:")
+                    {
+                        changeSprite(jurgisSprite);
+                    }
+                    else if (speakerText.GetComponent<Text>().text == "KAZIMIR:")
+                    {
+                        changeSprite(kazimirSprite);
+                    }
+                    else if (speakerText.GetComponent<Text>().text == "PAVEL:")
+                    {
+                        changeSprite(pavelSprite);
+                    }
+                    else
+                    {
+                        portraitRender.sprite = null;
+                        holdSprite = null;
+                    }
+                }
+            }
+            else
+            {
+                if (fade < 1)
+                {
+                    fade += 0.08f;
+                    fadeColor = new Color(fade, fade, fade);
+                    portraitRender.color = fadeColor;
+                }
+                else
+                {
+                    fade = 1;
+                    fadeColor = new Color(1, 1, 1);
+                    portraitRender.color = fadeColor;
+                    fading = false;
                 }
             }
         }
         else
         {
             portraitRender.sprite = null;
+            holdSprite = null;
+        }
+    }
+
+    void changeSprite(Sprite changeToSprite)
+    {
+        if (holdSprite != changeToSprite)
+        {
+            portraitRender.sprite = changeToSprite;
+            holdSprite = changeToSprite;
+            fade = 0;
+            portraitRender.color = new Color(0, 0, 0);
+            fading = true;
         }
     }
 }
