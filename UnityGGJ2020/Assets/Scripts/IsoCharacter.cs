@@ -56,6 +56,11 @@ public class IsoCharacter : MonoBehaviour
         anim.Play(dirArray[lastDir]);
     }
 
+    public void SetDirectionStanding()
+    {
+        anim.Play(staticDirections[lastDir]);
+    }
+
     public static int DirectionToIndex(Vector2 dir, int count)
     {
         Vector2 normDir = dir.normalized;

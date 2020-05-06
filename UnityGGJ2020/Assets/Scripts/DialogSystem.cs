@@ -58,7 +58,7 @@ public class DialogSystem : MonoBehaviour
         if (curDialog == null)
             return;
 
-        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.RightArrow))
+        if (Input.GetKeyDown(KeyCode.DownArrow) || Input.GetKeyDown(KeyCode.RightArrow) || Input.GetKeyDown(KeyCode.D))
         {
             pickedChoiceIndex++;
             pickedChoiceIndex %= curChoice.children.Length;
@@ -66,7 +66,7 @@ public class DialogSystem : MonoBehaviour
             //for response, when pick a choice, background appears (highlight)
             ChangeHighlight();
         }
-        else if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.LeftArrow)) && pickedChoiceIndex > 0)
+        else if ((Input.GetKeyDown(KeyCode.UpArrow) || Input.GetKeyDown(KeyCode.LeftArrow)) || Input.GetKeyDown(KeyCode.A) && pickedChoiceIndex > 0)
         {
             pickedChoiceIndex--;
             pickedChoiceIndex %= curChoice.children.Length;

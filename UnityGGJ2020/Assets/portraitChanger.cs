@@ -44,7 +44,7 @@ public class portraitChanger : MonoBehaviour
                 {
                     portraitRender.sprite = radinkaSprite;
                 }
-                if (speakerText.GetComponent<Text>().text == "JURGIS:")
+                else if (speakerText.GetComponent<Text>().text == "JURGIS:")
                 {
                     portraitRender.sprite = jurgisSprite;
                 }

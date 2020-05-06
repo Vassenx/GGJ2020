@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+    public GameObject camera;
+
     public FadeToBlack blackBlock;
     public FlashFlicker flashlight;
 
-    public bool sequence1;
-    public bool sequence2;
-    public bool sequence3;
+    public int sequence;
+    private bool cameraShook;
 
     public bool flashlightOn = false;
     public float count;
@@ -20,14 +21,14 @@ public class GameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        count = 10;
-        sequence1 = true;
+        count = 12;
+        sequence = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (sequence1)
+        if (sequence == 0)
         {
             if (!player.frozen)
             {
@@ -42,12 +43,42 @@ public class GameController : MonoBehaviour
             else
             {
                 blackBlock.FadeIn();
-                sequence1 = false;
-                sequence2 = true;
                 count = 6;
+                sequence++;
             }
         }
-        else if (sequence2)
+        else if (sequence == 1)
+        {
+            if (count > 0)
+            {
+                count -= 0.1f;
+            }
+            else
+            {
+                count = 12;
+                sequence++;
+            }
+        }
+        else if (sequence == 2)
+        {
+            if (!cameraShook)
+            {
+                camera.GetComponent<CameraShake>().ShakeCamera();
+                cameraShook = true;
+            }
+            else
+            {
+                if (count > 0)
+                {
+                    count -= 0.1f;
+                }
+                else
+                {
+                    sequence++;
+                }
+            }
+        }
+        else if (sequence == 3)
         {
             if (!flashlight.lightsChange && blackBlock.changeComplete)
             {
@@ -63,13 +94,12 @@ public class GameController : MonoBehaviour
                 else
                 {
                     Dialog1.transform.position = player.transform.position;
-                    sequence2 = false;
-                    sequence3 = true;
                     count = 6;
+                    sequence++;
                 }
             }
         }
-        else if (sequence3)
+        else if (sequence == 4)
         {
             if (count > 0)
             {
@@ -80,7 +110,7 @@ public class GameController : MonoBehaviour
                 if (player.frozen)
                 {
                     player.frozen = false;
-                    sequence3 = false;
+                    sequence++;
                 }
             }
         }
