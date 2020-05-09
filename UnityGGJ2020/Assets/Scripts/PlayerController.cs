@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour
             }
             else
             {
-                //isoRend.SetDirection(Vector2.zero);
+                isoRend.SetDirectionStanding();
             }
         }
     }
