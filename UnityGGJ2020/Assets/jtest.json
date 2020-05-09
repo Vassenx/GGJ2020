@@ -1,45 +1,46 @@
 {
-  "conditions": [ "hammer", "nail" ],
+  "conditions": [ "carrot" ],
   "act": 1,
+  "colliderName":  "Radinka",
   "nodes" : [
     {
-      "id" :  1,
+      "id" :  0,
       "speaker": "sam",
       "text": "Hey, im sam",
+      "choices": [ 1 ]
+    },
+    {
+      "id":  1,
+      "speaker": "main",
+      "text": "Hey, im the main character",
       "choices": [ 2 ]
     },
     {
       "id":  2,
-      "speaker": "main",
-      "text": "Hey, im the main character",
-      "choices": [ 3 ]
-    },
-    {
-      "id":  3,
       "speaker": "sam",
       "text": "Are dogs or cats better?",
-      "choices": [ 4,5 ]
+      "choices": [ 3,4 ]
+    },
+    {
+      "id": 3,
+      "speaker": "main",
+      "text": "Lemma is watching",
+      "choices": [ 5 ]
     },
     {
       "id": 4,
       "speaker": "main",
-      "text": "Lemma is watching",
+      "text": "Cats!",
       "choices": [ 6 ]
     },
     {
       "id": 5,
-      "speaker": "main",
-      "text": "Cats!",
-      "choices": [ 7 ]
-    },
-    {
-      "id": 6,
       "speaker": "sam",
       "text": "noted.",
       "choices": []
     },
     {
-      "id": 7,
+      "id": 6,
       "speaker": "sam",
       "text": "meow",
       "choices": []
