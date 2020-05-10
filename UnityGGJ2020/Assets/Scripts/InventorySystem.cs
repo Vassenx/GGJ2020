@@ -61,7 +61,7 @@ public class InventorySystem : MonoBehaviour
         {
             inventoryUI.GetComponent<inventorySlide>().show = !(inventoryUI.GetComponent<inventorySlide>().show);
             OnOpenInventory(inventoryUI.activeSelf);
-        }
+        }        
     }
 }
 
