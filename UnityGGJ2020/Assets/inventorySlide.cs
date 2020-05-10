@@ -32,7 +32,7 @@ public class inventorySlide : MonoBehaviour
         }
 
         var newPos = new Vector3(targetLocation.position.x,
-            targetLocation.transform.position.y, transform.position.z);
+            (targetLocation.transform.position.y-57), transform.position.z);
         transform.position = Vector3.Lerp(transform.position, newPos, 0.125f);
     }
 }
