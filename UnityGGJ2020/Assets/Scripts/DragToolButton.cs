@@ -2,7 +2,7 @@
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
-public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
+public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler 
 {
     [SerializeField] private InventorySystem inventorySystem = null;
     [SerializeField] private GameObject dragClonePrefab = null;
@@ -33,7 +33,10 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
                 Destroy(dragClone);
             }
         }
+    }
 
+    public void OnMouseEnter()
+    {
     }
 
     public void OnEndDrag(PointerEventData eventData)
