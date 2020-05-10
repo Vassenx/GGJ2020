@@ -65,4 +65,5 @@ public class InventorySystem : MonoBehaviour
     }
 }
 
-public enum Tool { drill, solderingIron, wrench, adhesive, nutsNBots }; 
+public enum Tool { drill, solderingIron, wrench, adhesive, nutsNBots };
+public enum Hints { one,two,three,four,five};

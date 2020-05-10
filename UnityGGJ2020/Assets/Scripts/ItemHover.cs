@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class ItemHover : MonoBehaviour
 {
-    [SerializeField] 
+    [SerializeField] private HintItem hint = null;
+    [SerializeField] private InventorySystem invSys = null;
+     
+
     // Start is called before the first frame update
     void Start()
     {
