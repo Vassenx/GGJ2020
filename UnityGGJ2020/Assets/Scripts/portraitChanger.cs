@@ -1,8 +1,6 @@
-﻿using System;
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class portraitChanger : MonoBehaviour
 {
@@ -20,25 +18,23 @@ public class portraitChanger : MonoBehaviour
     public GameObject leftPort;
     public GameObject rightPort;
 
-    public GameObject speakerText;
+    public TextMeshProUGUI speakerText;
     private SpriteRenderer portraitRender;
 
     public GameObject dialoguePanel;
 
-    // Start is called before the first frame update
     void Start()
     {
         portraitRender = GetComponent<SpriteRenderer>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (dialoguePanel.activeSelf)
         {
             if (!fading)
             {
-                if (speakerText.GetComponent<Text>().text == "SASHA:")
+                if (speakerText.text.Equals("SASHA"))
                 {
                     transform.position = rightPort.transform.position;
                     changeSprite(sashaSprite);
@@ -47,26 +43,24 @@ public class portraitChanger : MonoBehaviour
                 {
                     transform.position = leftPort.transform.position;
 
-                    if (speakerText.GetComponent<Text>().text == "RADINKA:")
+                    switch (speakerText.text)
                     {
-                        changeSprite(radinkaSprite);
-                    }
-                    else if (speakerText.GetComponent<Text>().text == "JURGIS:")
-                    {
-                        changeSprite(jurgisSprite);
-                    }
-                    else if (speakerText.GetComponent<Text>().text == "KAZIMIR:")
-                    {
-                        changeSprite(kazimirSprite);
-                    }
-                    else if (speakerText.GetComponent<Text>().text == "PAVEL:")
-                    {
-                        changeSprite(pavelSprite);
-                    }
-                    else
-                    {
-                        portraitRender.sprite = null;
-                        holdSprite = null;
+                        case "RADINKA":
+                            changeSprite(radinkaSprite);
+                            break;
+                        case "JURGIS":
+                            changeSprite(jurgisSprite);
+                            break;
+                        case "KAZIMIR":
+                            changeSprite(kazimirSprite);
+                            break;
+                        case "PAVEL":
+                            changeSprite(pavelSprite);
+                            break;
+                        default:
+                            portraitRender.sprite = null;
+                            holdSprite = null;
+                            break;
                     }
                 }
             }

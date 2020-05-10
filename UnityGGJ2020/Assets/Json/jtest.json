@@ -1,7 +1,7 @@
 {
   "preconditions": [ "carrot", "act1" ],
   "priority": 0, 
-  "colliderName": "Radinka",
+  "colliderName": "RADINKA",
   "nodes": [
     {
       "id": 0,
@@ -11,7 +11,7 @@
     },
     {
       "id": 1,
-      "speaker": "main",
+      "speaker": "RADINKA",
       "text": "Hey, im the main character",
       "choices": [ 2 ]
     },

@@ -2,13 +2,14 @@
 using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
+using TMPro;
 
 public class DialogSystem : MonoBehaviour
 {
     //UI
     [SerializeField] private Image dialogWindow = null;
-    [SerializeField] private Text dialogText = null;
-    [SerializeField] private Text speakerText = null;
+    [SerializeField] private TextMeshProUGUI dialogText = null;
+    [SerializeField] private TextMeshProUGUI speakerText = null;
     [SerializeField] private Image choicePrefabHighlight = null;
     [SerializeField] private GameObject choiceParentPrefab = null;
     [SerializeField] private float scrollWaitTime = 0.05f;
@@ -122,7 +123,7 @@ public class DialogSystem : MonoBehaviour
 
     private IEnumerator DisplayDescription()
     {
-        speakerText.text = curChoice.speaker + ':';
+        speakerText.text = curChoice.speaker;
         doneDescription = false;
         dialogText.text = "";
 
@@ -174,7 +175,7 @@ public class DialogSystem : MonoBehaviour
             var node = curDialog.nodes[option];
 
             Image choiceImage = Instantiate(choicePrefabHighlight, choiceParentPrefab.transform);
-            choiceImage.GetComponentInChildren<Text>().text = node.text;
+            choiceImage.GetComponentInChildren<TextMeshProUGUI>().text = node.text;
             choiceObjects.Add(choiceImage.gameObject);
         }
 
