@@ -22,7 +22,6 @@ public class flashlight : MonoBehaviour
 
             transform.rotation = Quaternion.Euler(hold.x, hold.y, hold.z);
 
-
         //hold = (iso.lastDir * 45f);
 
         //light.fall = new Vector2(1, 1);
