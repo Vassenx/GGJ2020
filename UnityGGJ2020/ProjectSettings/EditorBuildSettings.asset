@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/StartScene.unity
     guid: 3d8a673666637e84d88e1ec4511e56b4
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: b8d3019d5ef2c914ebd3465475164825
+    path: Assets/Scenes/z_SamScene.unity
+    guid: dcff4b858d92648439ba583ea3df31ea
   - enabled: 1
     path: Assets/Scenes/EndScene.unity
     guid: be81be276498d91438a7793791c59858
