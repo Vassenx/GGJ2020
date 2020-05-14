@@ -1,0 +1,586 @@
+fileFormatVersion: 2
+guid: e1ad7163bfb9dce4e9f87cc5fbc4c31c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3914326834980858220
+    second: Furniture_Footprints_0
+  - first:
+      213: 2839313525089604684
+    second: Furniture_Footprints_1
+  - first:
+      213: -2764752925162612501
+    second: Furniture_Footprints_2
+  - first:
+      213: -5481202943913809799
+    second: Furniture_Footprints_3
+  - first:
+      213: 1798209048920711611
+    second: Furniture_Footprints_4
+  - first:
+      213: 7702499972864054434
+    second: Furniture_Footprints_5
+  - first:
+      213: 7403972575719601751
+    second: Furniture_Footprints_6
+  - first:
+      213: 7630191573609860833
+    second: Furniture_Footprints_7
+  - first:
+      213: -1619708191781031937
+    second: Furniture_Footprints_8
+  - first:
+      213: -1217843393488947254
+    second: Furniture_Footprints_9
+  - first:
+      213: -6795362549094230690
+    second: Furniture_Footprints_10
+  - first:
+      213: -8842700247674676344
+    second: Furniture_Footprints_11
+  - first:
+      213: -8451796503347047982
+    second: Furniture_Footprints_12
+  - first:
+      213: -6585546711972702428
+    second: Furniture_Footprints_13
+  - first:
+      213: 6978014493817503151
+    second: Furniture_Footprints_14
+  - first:
+      213: -4616527659336853096
+    second: Furniture_Footprints_15
+  - first:
+      213: 2450660583882500963
+    second: Furniture_Footprints_16
+  - first:
+      213: 3180727761528470410
+    second: Furniture_Footprints_0
+  - first:
+      213: -3801067413948616362
+    second: Furniture_Footprints_1
+  - first:
+      213: -1102000561148786395
+    second: Furniture_Footprints_2
+  - first:
+      213: 1453075673665395695
+    second: Furniture_Footprints_3
+  - first:
+      213: -1415574388052158978
+    second: Furniture_Footprints_4
+  - first:
+      213: -2783823832162323289
+    second: Furniture_Footprints_5
+  - first:
+      213: -5264265681238024978
+    second: Furniture_Footprints_6
+  - first:
+      213: 6294072921881264278
+    second: Furniture_Footprints_7
+  - first:
+      213: 2274557186044254816
+    second: Furniture_Footprints_8
+  - first:
+      213: -7392985914233976221
+    second: Furniture_Footprints_9
+  - first:
+      213: -6465469335725592149
+    second: Furniture_Footprints_10
+  - first:
+      213: 6216727654309020959
+    second: Furniture_Footprints_11
+  - first:
+      213: -3149964079783104967
+    second: Furniture_Footprints_12
+  - first:
+      213: 2279621605768358739
+    second: Furniture_Footprints_13
+  - first:
+      213: -201955137140520648
+    second: Furniture_Footprints_14
+  - first:
+      213: -4364527538155488892
+    second: Furniture_Footprints_15
+  - first:
+      213: -702429385376207105
+    second: Furniture_Footprints_16
+  - first:
+      213: -2210340586290530128
+    second: Furniture_Footprints_17
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Furniture_Footprints_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1770.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8bb0210c07342c20800000000000000
+      internalID: 3180727761528470410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_1
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 1770.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 651b7407355ef3bc0800000000000000
+      internalID: -3801067413948616362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_2
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1770.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 529027a0458e4b0f0800000000000000
+      internalID: -1102000561148786395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_3
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1770.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: feb569060ac5a2410800000000000000
+      internalID: 1453075673665395695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_4
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1770.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef59207189eda5ce0800000000000000
+      internalID: -1415574388052158978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_5
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1518.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a4b2b659fedd59d0800000000000000
+      internalID: -2783823832162323289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_6
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1518.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eec1782114291f6b0800000000000000
+      internalID: -5264265681238024978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_7
+      rect:
+        serializedVersion: 2
+        x: 1314
+        y: 1518.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 690432b99f9095750800000000000000
+      internalID: 6294072921881264278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_8
+      rect:
+        serializedVersion: 2
+        x: 146
+        y: 1266.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ada77a5b9d09f10800000000000000
+      internalID: 2274557186044254816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_9
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1266.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a0e901b76d66990800000000000000
+      internalID: -7392985914233976221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_10
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 1014.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba135e905e90646a0800000000000000
+      internalID: -6465469335725592149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_11
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1014.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f15cf6c2dd0464650800000000000000
+      internalID: 6216727654309020959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_12
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 1014.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93ea941db541944d0800000000000000
+      internalID: -3149964079783104967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_13
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 1014.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35be022c5c7d2af10800000000000000
+      internalID: 2279621605768358739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_14
+      rect:
+        serializedVersion: 2
+        x: 730
+        y: 762.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8398c2e6fd2823df0800000000000000
+      internalID: -201955137140520648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_15
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 762.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 489f4db04551e63c0800000000000000
+      internalID: -4364527538155488892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_16
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 762.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffeead412387046f0800000000000000
+      internalID: -702429385376207105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Furniture_Footprints_17
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 762.125
+        width: 146
+        height: 252.875
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b8368992fa4351e0800000000000000
+      internalID: -2210340586290530128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

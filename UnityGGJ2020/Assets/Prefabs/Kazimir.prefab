@@ -1,5 +1,66 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2279492456009694344
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4998834654146273069}
+  - component: {fileID: 572436615513067483}
+  - component: {fileID: 1880556889353143455}
+  m_Layer: 0
+  m_Name: DialogCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4998834654146273069
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279492456009694344}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6526418343653481261}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &572436615513067483
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279492456009694344}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 10
+--- !u!114 &1880556889353143455
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2279492456009694344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a04a61fad22fd40b85eef609f50ea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Kazimir
 --- !u!1 &5167485882932263963
 GameObject:
   m_ObjectHideFlags: 0
@@ -30,7 +91,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -52.899998, y: 33.300003, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 4998834654146273069}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -70,8 +132,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 476712703
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -6512860246093259078, guid: 37702171203a1e242b8431cb309adb6f,
     type: 3}
@@ -141,10 +203,12 @@ MonoBehaviour:
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 000000002b1e10cbff0e6a1cad997fccf37b64fa
   m_ShapePath:
-  - {x: -4.911701, y: -5.4864197, z: 0}
-  - {x: 7.18132, y: -0.37979126, z: 0}
-  - {x: 4.3442993, y: 7.7560196, z: 0}
-  - {x: -6.6139297, y: 3.2168121, z: 0}
-  m_ShapePathHash: 0
+  - {x: -6.333618, y: -1.9316406, z: 0}
+  - {x: -1.2723541, y: -2.748108, z: 0}
+  - {x: 4.9062653, y: 0.7576904, z: 0}
+  - {x: 4.6286774, y: 3.3482056, z: 0}
+  - {x: -0.13482666, y: 4.930237, z: 0}
+  - {x: -7.324875, y: 0.79956055, z: 0}
+  m_ShapePathHash: -1109901059
   m_Mesh: {fileID: 0}
-  m_InstanceId: -371582
+  m_InstanceId: -59890

@@ -1,5 +1,66 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &2424634386520542867
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6385229140332186979}
+  - component: {fileID: 1121380453717431136}
+  - component: {fileID: 7991357413353819024}
+  m_Layer: 0
+  m_Name: DialogCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6385229140332186979
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2424634386520542867}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4683164928906578971}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1121380453717431136
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2424634386520542867}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 10
+--- !u!114 &7991357413353819024
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2424634386520542867}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a04a61fad22fd40b85eef609f50ea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Jurgis
 --- !u!1 &4146500810055458137
 GameObject:
   m_ObjectHideFlags: 0
@@ -30,7 +91,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -114.5, y: -2.8999996, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 6385229140332186979}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -70,8 +132,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 476712703
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: -9097621058935259982, guid: 37702171203a1e242b8431cb309adb6f,
     type: 3}
@@ -139,12 +201,17 @@ MonoBehaviour:
   m_UseRendererSilhouette: 1
   m_CastsShadows: 1
   m_SelfShadows: 0
-  m_ApplyToSortingLayers: 000000002b1e10cbff0e6a1cad997fccf37b64fa
+  m_ApplyToSortingLayers: 000000002b1e10cbff0e6a1c87458348ad997fcc97cd818ff37b64fa
   m_ShapePath:
-  - {x: -9.450928, y: -3.7842197, z: 0}
-  - {x: 15.124954, y: -0.37978554, z: 0}
-  - {x: 15.124954, y: 11.160452, z: 0}
-  - {x: -11.720528, y: 6.053808, z: 0}
-  m_ShapePathHash: 0
+  - {x: -8.71106, y: -3.7843018, z: -0}
+  - {x: -5.4227295, y: -5.2786865, z: -0}
+  - {x: -2.709961, y: -3.6759033, z: -0}
+  - {x: 8.510864, y: 1.5030518, z: -0}
+  - {x: 12.579956, y: 0.0234375, z: -0}
+  - {x: 15.330322, y: 0.8898926, z: -0}
+  - {x: 14.780579, y: 3.6322021, z: -0}
+  - {x: 7.298462, y: 7.444824, z: -0}
+  - {x: -10.610718, y: -0.72802734, z: -0}
+  m_ShapePathHash: -491960001
   m_Mesh: {fileID: 0}
-  m_InstanceId: -371574
+  m_InstanceId: -59924

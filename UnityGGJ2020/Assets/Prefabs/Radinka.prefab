@@ -1,5 +1,66 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1312081615
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1312081616}
+  - component: {fileID: 1312081618}
+  - component: {fileID: 1312081617}
+  m_Layer: 0
+  m_Name: DialogCollider
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1312081616
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312081615}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 810323961235234482}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!58 &1312081618
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312081615}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 10
+--- !u!114 &1312081617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1312081615}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21a04a61fad22fd40b85eef609f50ea0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  name: Radinka
 --- !u!1 &3462054043100973322
 GameObject:
   m_ObjectHideFlags: 0
@@ -30,7 +91,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 69.6, y: 28.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1312081616}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -70,8 +132,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: 476712703
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 3438640737153883614, guid: 37702171203a1e242b8431cb309adb6f,
     type: 3}
@@ -141,10 +203,12 @@ MonoBehaviour:
   m_SelfShadows: 0
   m_ApplyToSortingLayers: 000000002b1e10cbff0e6a1cad997fccf37b64fa
   m_ShapePath:
-  - {x: -2.6420975, y: -4.3516273, z: 0}
-  - {x: 10.018341, y: -0.37979507, z: 0}
-  - {x: 8.316147, y: 8.3234215, z: 0}
-  - {x: -9.450935, y: 2.0820122, z: 0}
-  m_ShapePathHash: 0
+  - {x: -3.9074402, y: -2.6118164, z: 0}
+  - {x: -0.2011261, y: -2.7027893, z: 0}
+  - {x: 6.538681, y: -1.0124512, z: 0}
+  - {x: 7.6259155, y: 1.7092285, z: 0}
+  - {x: 3.3067017, y: 3.0689087, z: 0}
+  - {x: -5.971283, y: -0.13232422, z: 0}
+  m_ShapePathHash: -1202499651
   m_Mesh: {fileID: 0}
-  m_InstanceId: -371578
+  m_InstanceId: -59900
