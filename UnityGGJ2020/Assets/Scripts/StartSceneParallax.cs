@@ -50,7 +50,7 @@ public class StartSceneParallax : MonoBehaviour
             transformHold = layer[i].transform.position;
             transformHold.x = Mathf.Lerp(transformHold.x, mousePos.x * Mathf.Pow(i, 0.5f) * 0.05f, 0.004f);
             transformHold.y = Mathf.Lerp(transformHold.y, mousePos.y * 0.8f * Mathf.Pow(i, 0.5f) * 0.05f, 0.004f);
-            layer[i].transform.position = transformHold;
+            layer[i].transform.localPosition = transformHold;
         }
     }
 }
