@@ -443,10 +443,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 70, y: -170.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &39320821
 MonoBehaviour:
@@ -827,10 +827,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 70, y: -404.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &48370909
 SpriteRenderer:
@@ -1019,10 +1019,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 190, y: -287.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &51591395
 SpriteRenderer:
@@ -2744,7 +2744,7 @@ MonoBehaviour:
   m_UseNormalMap: 1
   m_LightOrder: 3
   m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.6
   m_ShadowVolumeIntensity: 1
   m_PointLightInnerAngle: 127
   m_PointLightOuterAngle: 127
@@ -4380,7 +4380,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 428447543}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
@@ -4479,7 +4479,7 @@ MonoBehaviour:
   m_UseNormalMap: 1
   m_LightOrder: 3
   m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.6
   m_ShadowVolumeIntensity: 1
   m_PointLightInnerAngle: 127
   m_PointLightOuterAngle: 127
@@ -4527,7 +4527,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1193203488}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &439868332
 MonoBehaviour:
@@ -4568,7 +4568,7 @@ MonoBehaviour:
   m_UseNormalMap: 1
   m_LightOrder: 3
   m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.6
   m_ShadowVolumeIntensity: 1
   m_PointLightInnerAngle: 52.19
   m_PointLightOuterAngle: 75.2
@@ -5259,7 +5259,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1193203488}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &564653707
 MonoBehaviour:
@@ -5300,7 +5300,7 @@ MonoBehaviour:
   m_UseNormalMap: 1
   m_LightOrder: 3
   m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.6
   m_ShadowVolumeIntensity: 1
   m_PointLightInnerAngle: 127
   m_PointLightOuterAngle: 127
@@ -6566,10 +6566,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 70, y: -521.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &771126507
 SpriteRenderer:
@@ -7032,7 +7032,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &878104394
 Transform:
   m_ObjectHideFlags: 0
@@ -8886,10 +8886,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 190, y: -521.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1118891156
 SpriteRenderer:
@@ -9318,7 +9318,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1193203488
 Transform:
   m_ObjectHideFlags: 0
@@ -9340,6 +9340,7 @@ Transform:
   - {fileID: 325783356}
   - {fileID: 1046306817}
   - {fileID: 432499270}
+  - {fileID: 2111602699}
   - {fileID: 439868331}
   - {fileID: 1876609595}
   - {fileID: 1649007747}
@@ -9383,10 +9384,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 190, y: -404.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1196442304
 SpriteRenderer:
@@ -13263,7 +13264,7 @@ MonoBehaviour:
   m_UseNormalMap: 1
   m_LightOrder: 3
   m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.6
   m_ShadowVolumeIntensity: 1
   m_PointLightInnerAngle: 127
   m_PointLightOuterAngle: 127
@@ -13352,7 +13353,7 @@ MonoBehaviour:
   m_UseNormalMap: 1
   m_LightOrder: 3
   m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.6
   m_ShadowVolumeIntensity: 1
   m_PointLightInnerAngle: 127
   m_PointLightOuterAngle: 127
@@ -13814,10 +13815,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 190, y: -53.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1378821621
 MonoBehaviour:
@@ -14292,7 +14293,7 @@ MonoBehaviour:
   m_UseNormalMap: 1
   m_LightOrder: 3
   m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.6
   m_ShadowVolumeIntensity: 1
   m_PointLightInnerAngle: 127
   m_PointLightOuterAngle: 127
@@ -14583,10 +14584,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 190, y: -170.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1540142292
 MonoBehaviour:
@@ -15074,7 +15075,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1193203488}
-  m_RootOrder: 12
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1649007748
 MonoBehaviour:
@@ -15115,12 +15116,12 @@ MonoBehaviour:
   m_UseNormalMap: 1
   m_LightOrder: 3
   m_AlphaBlendOnOverlap: 0
-  m_ShadowIntensity: 0.75
+  m_ShadowIntensity: 0.6
   m_ShadowVolumeIntensity: 1
   m_PointLightInnerAngle: 127
   m_PointLightOuterAngle: 127
   m_PointLightInnerRadius: 140
-  m_PointLightOuterRadius: 400
+  m_PointLightOuterRadius: 350
   m_PointLightDistance: 1
   m_PointLightQuality: 0
   m_ShapeLightParametricSides: 48
@@ -15469,10 +15470,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 70, y: -53.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!212 &1724638656
 SpriteRenderer:
@@ -15742,10 +15743,10 @@ RectTransform:
   m_Father: {fileID: 317562032}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 1}
-  m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 70, y: -287.5}
-  m_SizeDelta: {x: 100, y: 107}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1825140281
 MonoBehaviour:
@@ -16437,7 +16438,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1193203488}
-  m_RootOrder: 11
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1876609596
 MonoBehaviour:
@@ -16483,7 +16484,7 @@ MonoBehaviour:
   m_PointLightInnerAngle: 127
   m_PointLightOuterAngle: 127
   m_PointLightInnerRadius: 140
-  m_PointLightOuterRadius: 500
+  m_PointLightOuterRadius: 400
   m_PointLightDistance: 1
   m_PointLightQuality: 0
   m_ShapeLightParametricSides: 48
@@ -16689,7 +16690,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1193203488}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
 --- !u!114 &1905660397
 MonoBehaviour:
@@ -16944,7 +16945,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1936444890
 RectTransform:
   m_ObjectHideFlags: 0
@@ -18958,7 +18959,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1982059736}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 058cba836c1846c3aa1c5fd2e28aea77, type: 3}
   m_Name: 
@@ -25606,6 +25607,95 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2111602698
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2111602699}
+  - component: {fileID: 2111602701}
+  - component: {fileID: 2111602700}
+  m_Layer: 0
+  m_Name: Point Light 2D crew Furniture (8)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2111602699
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111602698}
+  m_LocalRotation: {x: -0, y: -0, z: 1, w: 0}
+  m_LocalPosition: {x: -826.5, y: 352.5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1193203488}
+  m_RootOrder: 10
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!114 &2111602700
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111602698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a45c504edbd9e8847b071380b70ef30b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  flicker: 0
+  flash: 1
+  flash_speed: 0.5
+  flash_range: 1
+--- !u!114 &2111602701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111602698}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 073797afb82c5a1438f328866b10b3f0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_LightType: 3
+  m_BlendStyleIndex: 0
+  m_FalloffIntensity: 0.2
+  m_Color: {r: 1, g: 0.039215688, b: 0.05882353, a: 1}
+  m_Intensity: 2
+  m_LightVolumeOpacity: 0
+  m_ApplyToSortingLayers: ff0e6a1c
+  m_LightCookieSprite: {fileID: 0}
+  m_UseNormalMap: 1
+  m_LightOrder: 3
+  m_AlphaBlendOnOverlap: 0
+  m_ShadowIntensity: 0
+  m_ShadowVolumeIntensity: 1
+  m_PointLightInnerAngle: 127
+  m_PointLightOuterAngle: 127
+  m_PointLightInnerRadius: 140
+  m_PointLightOuterRadius: 300
+  m_PointLightDistance: 1
+  m_PointLightQuality: 0
+  m_ShapeLightParametricSides: 48
+  m_ShapeLightParametricAngleOffset: 46
+  m_ShapeLightParametricRadius: 81.3
+  m_ShapeLightFalloffSize: 22.62
+  m_ShapeLightFalloffOffset: {x: 0, y: 0}
+  m_ShapePath:
+  - {x: -0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: -0.5, z: 0}
+  - {x: 0.5, y: 0.5, z: 0}
+  - {x: -0.5, y: 0.5, z: 0}
 --- !u!4 &768831029918844021
 Transform:
   m_ObjectHideFlags: 0
