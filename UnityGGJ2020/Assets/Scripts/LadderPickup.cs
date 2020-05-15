@@ -1,11 +1,15 @@
 ﻿using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
 
 public class LadderPickup : MonoBehaviour
 {
     // [SerializeField] private Item item;
     [SerializeField] private GameObject player = null;
+    public GameObject destinationSign;
     public GameObject exitObject;
     public bool open;
+    public string destinationName;
 
     private void Update()
     {
@@ -19,6 +23,13 @@ public class LadderPickup : MonoBehaviour
                     exitObject.SetActive(true);
                     exitObject.GetComponent<LadderPickup>().open = true;
                     open = false;
+
+
+                    if (destinationSign.GetComponent<DestinationSign>().show != true)
+                    {
+                        destinationSign.GetComponentInChildren<TextMeshProUGUI>().text = destinationName;
+                        destinationSign.GetComponent<DestinationSign>().show = true;
+                    }
                 }
             }
         }

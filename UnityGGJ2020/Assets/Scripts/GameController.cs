@@ -55,7 +55,7 @@ public class GameController : MonoBehaviour
             }
             else
             {
-                count = 12;
+                count = 6;
                 sequence++;
             }
         }
