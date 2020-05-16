@@ -30,6 +30,11 @@ public class LadderPickup : MonoBehaviour
                         destinationSign.GetComponentInChildren<TextMeshProUGUI>().text = destinationName;
                         destinationSign.GetComponent<DestinationSign>().show = true;
                     }
+                    else
+                    {
+                        destinationSign.GetComponentInChildren<TextMeshProUGUI>().text = destinationName;
+                        destinationSign.GetComponent<DestinationSign>().queued = true;
+                    }
                 }
             }
         }

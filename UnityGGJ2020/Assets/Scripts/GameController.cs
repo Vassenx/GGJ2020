@@ -16,7 +16,9 @@ public class GameController : MonoBehaviour
     public float count;
     public PlayerController player;
 
-    public GameObject Dialog1;
+    public GameObject dialog1;
+
+    public GameObject pointsOfInterest;
 
     // Start is called before the first frame update
     void Start()
@@ -93,7 +95,7 @@ public class GameController : MonoBehaviour
                 }
                 else
                 {
-                    Dialog1.transform.position = player.transform.position;
+                    dialog1.transform.position = player.transform.position;
                     count = 6;
                     sequence++;
                 }
@@ -114,5 +116,24 @@ public class GameController : MonoBehaviour
                 }
             }
         }
+        else if (sequence == 5)
+        {
+            if (Input.GetKeyDown(KeyCode.G))
+            {
+                cutTo(pointsOfInterest);
+            }
+        }
+    }
+
+    public void cutTo(GameObject destination)
+    {
+        if (!player.frozen)
+        {
+            player.frozen = true;
+        }
+
+        blackBlock.FadeOut();
+
+        mainCamera.GetComponent<CameraController>().focusOnObject(destination);
     }
 }

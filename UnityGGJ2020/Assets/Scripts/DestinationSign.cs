@@ -5,6 +5,7 @@ using UnityEngine;
 public class DestinationSign : MonoBehaviour
 {
     public bool show;
+    public bool queued;
     public float waitCount;
 
     public GameObject showLocation;
@@ -42,6 +43,17 @@ public class DestinationSign : MonoBehaviour
             targetLocation = hideLocation.transform;
 
             slide(0.2f);
+
+            if (waitCount >= 0 && queued)
+            {
+                waitCount -= 0.5f;
+            }
+            else
+            {
+                queued = false;
+                show = true;
+                waitCount = 4f;
+            }
         }
     }
 
