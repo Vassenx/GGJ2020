@@ -9,123 +9,36 @@ public class GameController : MonoBehaviour
     public FadeToBlack blackBlock;
     public FlashFlicker flashlight;
 
-    public int sequence;
-    private bool cameraShook;
-
-    public bool flashlightOn = false;
-    public float count;
     public PlayerController player;
-
     public GameObject dialog1;
 
     public GameObject pointsOfInterest;
 
-    // Start is called before the first frame update
     void Start()
     {
-        count = 12;
-        sequence = 0;
+        StartCoroutine(StartSequence());
+
+        //If ever want a cut scene
+        //CutTo(pointsOfInterest);
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator StartSequence()
     {
-        if (sequence == 0)
-        {
-            if (!player.frozen)
-            {
-                player.frozen = true;
-                flashlight.TurnOff();
-            }
-
-            if (count > 0)
-            {
-                count -= 0.1f;
-            }
-            else
-            {
-                blackBlock.FadeIn();
-                count = 6;
-                sequence++;
-            }
-        }
-        else if (sequence == 1)
-        {
-            if (count > 0)
-            {
-                count -= 0.1f;
-            }
-            else
-            {
-                count = 6;
-                sequence++;
-            }
-        }
-        else if (sequence == 2)
-        {
-            if (!cameraShook)
-            {
-                mainCamera.GetComponent<CameraShake>().ShakeCamera();
-                cameraShook = true;
-            }
-            else
-            {
-                if (count > 0)
-                {
-                    count -= 0.1f;
-                }
-                else
-                {
-                    sequence++;
-                }
-            }
-        }
-        else if (sequence == 3)
-        {
-            if (!flashlight.lightsChange && blackBlock.changeComplete)
-            {
-                flashlight.TurnOn();
-            }
-
-            if (flashlight.lightsOn)
-            {
-                if (count > 0)
-                {
-                    count -= 0.1f;
-                }
-                else
-                {
-                    dialog1.transform.position = player.transform.position;
-                    count = 6;
-                    sequence++;
-                }
-            }
-        }
-        else if (sequence == 4)
-        {
-            if (count > 0)
-            {
-                count -= 0.1f;
-            }
-            else
-            {
-                if (player.frozen)
-                {
-                    player.frozen = false;
-                    sequence++;
-                }
-            }
-        }
-        else if (sequence == 5)
-        {
-            if (Input.GetKeyDown(KeyCode.G))
-            {
-                cutTo(pointsOfInterest);
-            }
-        }
+        player.frozen = true;
+        flashlight.TurnOff();
+        yield return new WaitForSeconds(2);
+        blackBlock.FadeIn();
+        yield return new WaitForSeconds(2);
+        mainCamera.GetComponent<CameraShake>().ShakeCamera();
+        yield return new WaitForSeconds(2);
+        flashlight.TurnOn();
+        yield return new WaitForSeconds(2);
+        dialog1.transform.position = player.transform.position;
+        player.frozen = false;
     }
 
-    public void cutTo(GameObject destination)
+
+    public void CutTo(GameObject destination)
     {
         if (!player.frozen)
         {

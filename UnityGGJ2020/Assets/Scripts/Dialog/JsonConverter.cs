@@ -37,8 +37,9 @@ public class DialogTree
 {
     public string[] preconditions;
     //priority: first tree to be picked if pre-conditions are satisified. 
-    //the first tree (conversation) should have a high number
+    //the first one should have priority 0
     public int priority;
+    public bool repeatable;
     public string colliderName;
     public DialogNode[] nodes;
 }

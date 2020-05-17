@@ -1,6 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using System.Linq;
 
 [RequireComponent(typeof(Collider2D))]
@@ -16,6 +14,10 @@ public class Speaker : MonoBehaviour
         col.isTrigger = true;
 
         dialogTrees = JsonConverter.allDialogTrees?.FindAll(x => x.colliderName.ToLower().Equals(name.ToLower())).ToArray<DialogTree>();
+        if (dialogTrees.Length == 0)
+        {
+            Debug.LogAssertion("There is no dialog associated with this tree. Maybe the name: " + name + " does not match the json colliderName.");
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -36,6 +38,7 @@ public class Speaker : MonoBehaviour
     {
         //only get trees where all the pre-conditions are satisified
         var bestDialogs = dialogTrees.Where(tree => !tree.preconditions.Any(cond => !IsSatisfied(cond)));
+        bestDialogs.OrderByDescending(x => x.priority);
 
         return bestDialogs.First();
     }

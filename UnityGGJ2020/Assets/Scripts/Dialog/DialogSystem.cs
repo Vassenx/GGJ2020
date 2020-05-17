@@ -3,6 +3,7 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
+using System;
 
 public class DialogSystem : MonoBehaviour
 {
@@ -184,6 +185,10 @@ public class DialogSystem : MonoBehaviour
 
     private void EndDialog()
     {
+        if (!curDialog.repeatable)
+        {
+            JsonConverter.allDialogTrees.Remove(curDialog);
+        }
         dialogWindow.gameObject.SetActive(false);
         curDialog = null;
         doneDialog = true;

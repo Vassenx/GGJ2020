@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
@@ -8,54 +7,22 @@ public class FlashFlicker : MonoBehaviour
     public GameObject furniLight;
     public GameObject floorLight;
 
-    private float intensityHoldFurni;
-    private float intensityHoldFloor;
+    [SerializeField] private float flickerSpeed = 0.3f;
+    [SerializeField] private float intensityHoldFurni = 4;
+    [SerializeField] private float intensityHoldFloor = 4;
 
-    public float count;
-    public bool lightsChange = false;
-    public bool lightsOn = false;
-
-
-    // Start is called before the first frame update
-    void Start()
+    IEnumerator FlickerLights()
     {
-        count = 5;
-
-        intensityHoldFurni = furniLight.GetComponent<Light2D>().intensity;
-        intensityHoldFloor = floorLight.GetComponent<Light2D>().intensity;
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        if (lightsChange)
-        {
-            count -= 0.3f;
-
-            if (count > 4)
-            {
-                LightsOn();
-            }
-            else if (count > 3)
-            {
-                LightsOff();
-            }
-            else if (count > 2)
-            {
-                LightsOn();
-            }
-            else if (count < 0)
-            {
-                count = 0;
-                lightsChange = false;
-                lightsOn = true;
-            }
-        }
+        LightsOn();
+        yield return new WaitForSeconds(flickerSpeed);
+        LightsOff();
+        yield return new WaitForSeconds(flickerSpeed);
+        LightsOn();
     }
 
     public void TurnOn()
     {
-        lightsChange = true;
+        StartCoroutine(FlickerLights());
     }
 
     public void TurnOff()
