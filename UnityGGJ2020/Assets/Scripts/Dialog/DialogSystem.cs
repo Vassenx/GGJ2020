@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
 using System;
+using System.IO;
 
 public class DialogSystem : MonoBehaviour
 {
@@ -36,8 +37,10 @@ public class DialogSystem : MonoBehaviour
 
         instance = this;
 
-        //load all the possible dialog trees from json
-        JsonConverter.LoadJson("Assets/Json/jtest.json");
+        foreach (var file in Directory.EnumerateFiles("Assets/Json", "*.json"))
+        {
+            JsonConverter.LoadJson(file);
+        }
 
         curDialog = null;
     }
