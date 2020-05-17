@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
-public class flashlight : MonoBehaviour
+public class FlashlightRotation : MonoBehaviour
 {
     IsoCharacter iso;
     Vector3 hold;

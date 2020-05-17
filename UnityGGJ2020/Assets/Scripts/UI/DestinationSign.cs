@@ -44,15 +44,18 @@ public class DestinationSign : MonoBehaviour
 
             slide(0.2f);
 
-            if (waitCount >= 0 && queued)
+            if (queued)
             {
-                waitCount -= 0.5f;
-            }
-            else
-            {
-                queued = false;
-                show = true;
-                waitCount = 4f;
+                if (waitCount >= 0)
+                {
+                    waitCount -= 0.5f;
+                }
+                else
+                {
+                    queued = false;
+                    show = true;
+                    waitCount = 4f;
+                }
             }
         }
     }

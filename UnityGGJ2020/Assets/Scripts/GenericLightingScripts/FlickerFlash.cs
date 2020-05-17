@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
-public class flickerFlash : MonoBehaviour
+public class FlickerFlash : MonoBehaviour
 {
     public bool flicker;
     public bool flash;

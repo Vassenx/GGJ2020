@@ -7,7 +7,7 @@ public class GameController : MonoBehaviour
     public Camera mainCamera;
 
     public FadeToBlack blackBlock;
-    public FlashFlicker flashlight;
+    public FlashlightController flashlight;
 
     public PlayerController player;
     public GameObject dialog1;
@@ -26,13 +26,12 @@ public class GameController : MonoBehaviour
     {
         player.frozen = true;
         flashlight.TurnOff();
-        yield return new WaitForSeconds(2);
         blackBlock.FadeIn();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(4);
         mainCamera.GetComponent<CameraShake>().ShakeCamera();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         flashlight.TurnOn();
-        yield return new WaitForSeconds(2);
+        yield return new WaitForSeconds(3);
         dialog1.transform.position = player.transform.position;
         player.frozen = false;
     }
@@ -44,9 +43,7 @@ public class GameController : MonoBehaviour
         {
             player.frozen = true;
         }
-
         blackBlock.FadeOut();
-
         mainCamera.GetComponent<CameraController>().focusOnObject(destination);
     }
 }

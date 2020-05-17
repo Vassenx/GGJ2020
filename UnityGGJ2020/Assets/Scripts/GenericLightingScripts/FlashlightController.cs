@@ -2,21 +2,20 @@
 using UnityEngine;
 using UnityEngine.Experimental.Rendering.Universal;
 
-public class FlashFlicker : MonoBehaviour
+public class FlashlightController : MonoBehaviour
 {
     public GameObject furniLight;
     public GameObject floorLight;
 
-    [SerializeField] private float flickerSpeed = 0.3f;
     [SerializeField] private float intensityHoldFurni = 4;
-    [SerializeField] private float intensityHoldFloor = 4;
+    [SerializeField] private float intensityHoldFloor = 5;
 
     IEnumerator FlickerLights()
     {
         LightsOn();
-        yield return new WaitForSeconds(flickerSpeed);
+        yield return new WaitForSeconds(0.1f);
         LightsOff();
-        yield return new WaitForSeconds(flickerSpeed);
+        yield return new WaitForSeconds(0.06f);
         LightsOn();
     }
 

@@ -7,7 +7,6 @@ public class floatScript : MonoBehaviour
     public GameObject sub;
     public GameObject light1;
     public GameObject light2;
-    private float floatOffset = 0;
 
     // Start is called before the first frame update
     void Start()
