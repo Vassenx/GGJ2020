@@ -1,111 +1,14 @@
 {
   "preconditions": [ ],
   "priority": 0, 
-  "colliderName": "TUTDOOR",
+  "repeatable":  false,
+  "colliderName": "CUT1",
   "nodes": [
     {
       "id": 0,
-      "speaker": "Computer",
-      "text": "SYSTEM MALFUNCTION. LOCKDOWN INITIATED. PLEASE INSERT KEYCARD.",
-      "choices": [ 1 ]
-    },
-    {
-      "id": 1,
       "speaker": "Sasha",
-      "text": "I think I dropped my keycard somewhere in this room.",
-      "choices": []
-    },
-    {
-      "id": 2,
-      "speaker": "Computer",
-      "text": "LOGIN ACCEPTED. WELCOME BACK SASHA.",
-      "choices": [ 3, 4, 5 ]
-    },
-    {
-      "id": 3,
-      "speaker": "Computer",
-      "text": "The Passcode is 4821",
-      "choices": [ 4, 5 ]
-    },
-    {
-      "id": 4,
-      "speaker": "Sasha",
-      "text": "Where are we?",
-      "choices": [ 6 ]
-    },
-    {
-      "id": 5,
-      "speaker": "Sasha",
-      "text": "What is the status of the ship?",
-      "choices": [7]
-    },
-    {
-      "id": 6,
-      "speaker": "Computer",
-      "text": "SHIP COORDINATES : ",
-      "choices": []
-    },
-	{
-      "id": 7,
-      "speaker": "Computer",
-      "text": "meow",
-      "choices": []
-    },
-	{
-      "id": 8,
-      "speaker": "Computer",
-      "text": "meow",
-      "choices": []
-    }
-  ]
-}
-
-{
-	  "preconditions": [ ],
-  "priority": 0, 
-  "colliderName": "RADINKA",
-  "nodes": [
-    {
-      "id": 0,
-      "speaker": "sam",
-      "text": "Hey, im sam",
-      "choices": [ 1 ]
-    },
-    {
-      "id": 1,
-      "speaker": "RADINKA",
-      "text": "Hey, im the main character",
-      "choices": [ 2 ]
-    },
-    {
-      "id": 2,
-      "speaker": "sam",
-      "text": "Are dogs or cats better?",
-      "choices": [ 3, 4 ]
-    },
-    {
-      "id": 3,
-      "speaker": "main",
-      "text": "Lemma is watching",
-      "choices": [ 5 ]
-    },
-    {
-      "id": 4,
-      "speaker": "main",
-      "text": "Cats!",
-      "choices": [ 6 ]
-    },
-    {
-      "id": 5,
-      "speaker": "sam",
-      "text": "noted.",
-      "choices": []
-    },
-    {
-      "id": 6,
-      "speaker": "sam",
-      "text": "meow",
-      "choices": []
+      "text": "What was that?",
+      "choices": [  ]
     }
   ]
 }
