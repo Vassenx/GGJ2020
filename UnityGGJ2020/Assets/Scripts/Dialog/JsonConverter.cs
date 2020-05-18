@@ -1,5 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.IO;
 using UnityEngine;
 using System.Linq;
@@ -8,16 +7,19 @@ public static class JsonConverter
 {
     public static List<DialogTree> allDialogTrees;
 
-    public static void LoadJson(string path)
+    public static void LoadAllJsons()
     {
         allDialogTrees = new List<DialogTree>();
 
-        using (StreamReader r = new StreamReader(path))
+        foreach (var file in Directory.EnumerateFiles("Assets/Json", "*.json"))
         {
-            string rawJson = r.ReadToEnd();
-            DialogTree tree = JsonUtility.FromJson<DialogTree>(rawJson);
-            tree.nodes.OrderBy(node => node.id); //make sure the nodes are in order (by height)
-            allDialogTrees.Add(tree);
+            using (StreamReader r = new StreamReader(file))
+            {   
+                string rawJson = r.ReadToEnd();
+                DialogTree tree = JsonUtility.FromJson<DialogTree>(rawJson);
+                tree.nodes.OrderBy(node => node.id); //make sure the nodes are in order (by height)
+                allDialogTrees.Add(tree);
+            }
         }
     }
 

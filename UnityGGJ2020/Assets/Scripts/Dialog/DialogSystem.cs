@@ -3,8 +3,6 @@ using UnityEngine;
 using System.Collections.Generic;
 using UnityEngine.UI;
 using TMPro;
-using System;
-using System.IO;
 
 public class DialogSystem : MonoBehaviour
 {
@@ -37,10 +35,8 @@ public class DialogSystem : MonoBehaviour
 
         instance = this;
 
-        foreach (var file in Directory.EnumerateFiles("Assets/Json", "*.json"))
-        {
-            JsonConverter.LoadJson(file);
-        }
+        JsonConverter.LoadAllJsons();
+
 
         curDialog = null;
     }
