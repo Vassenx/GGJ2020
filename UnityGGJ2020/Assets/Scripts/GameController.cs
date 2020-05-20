@@ -32,10 +32,9 @@ public class GameController : MonoBehaviour
         yield return new WaitForSeconds(3);
         flashlight.TurnOn();
         yield return new WaitForSeconds(3);
-        player.frozen = false;
         dialog1.transform.position = player.transform.position;
+        player.frozen = false;
     }
-
 
     public void CutTo(GameObject destination)
     {

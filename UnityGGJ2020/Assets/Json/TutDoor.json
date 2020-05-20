@@ -6,56 +6,56 @@
   "nodes": [
     {
       "id": 0,
-      "speaker": "Computer",
-      "text": "SYSTEM MALFUNCTION. LOCKDOWN INITIATED. PLEASE INSERT KEYCARD.",
+      "speaker": "Door",
+      "text": "The door is locked with a small keypad beside it",
       "choices": [ 1 ]
     },
     {
       "id": 1,
       "speaker": "Sasha",
-      "text": "I think I dropped my keycard somewhere in this room.",
-      "choices": []
+      "text": "Darn. Forgot the passcode",
+      "choices": [ 2, 3, 4 ]
     },
     {
       "id": 2,
-      "speaker": "Computer",
-      "text": "LOGIN ACCEPTED. WELCOME BACK SASHA.",
-      "choices": [ 3, 4, 5 ]
+      "speaker": "Sasha",
+      "text": "Enter Random Numbers",
+      "choices": [ 5 ]
     },
     {
       "id": 3,
-      "speaker": "Computer",
-      "text": "The Passcode is 4821",
-      "choices": [ 4, 5 ]
-    },
-    {
-      "id": 4,
       "speaker": "Sasha",
-      "text": "Where are we?",
+      "text": "Leave",
       "choices": [ 6 ]
     },
     {
+      "id": 4,
+      "speaker": "USEITEM",
+      "text": "Enter Passcode",
+      "choices": [ 7 ]
+    },
+    {
       "id": 5,
-      "speaker": "Sasha",
-      "text": "What is the status of the ship?",
-      "choices": [7]
+      "speaker": "Keypad",
+      "text": "ACCESS DENIED.",
+      "choices": [ 8 ]
     },
     {
       "id": 6,
-      "speaker": "Computer",
-      "text": "SHIP COORDINATES : ",
-      "choices": []
+      "speaker": "Sasha",
+      "text": "I'd better find the passcode",
+      "choices": [ 8 ]
     },
 	{
       "id": 7,
-      "speaker": "Computer",
-      "text": "meow",
-      "choices": []
+      "speaker": "Keypad",
+      "text": "ACCESS GRANTED",
+      "choices": [ 8 ]
     },
 	{
       "id": 8,
-      "speaker": "Computer",
-      "text": "meow",
+      "speaker": "ENDDIALOG",
+      "text": "",
       "choices": []
     }
   ]
