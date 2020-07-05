@@ -1,14 +1,30 @@
 ﻿using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
+using TMPro;
 
-public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler 
+public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDragHandler
 {
     [SerializeField] private InventorySystem inventorySystem = null;
     [SerializeField] private GameObject dragClonePrefab = null;
     [SerializeField] private GameObject[] triggerObjects = null;
     [SerializeField] private Tool tool = Tool.drill;
+    [SerializeField] private TextMeshPro hintBox = null;
+    public GameObject hiddenObj;
+
     private GameObject dragClone;
+
+    //float posx = transform.position.x;
+    //[SerializeField] float posy;
+    //[SerializeField] float posz;
+
+    
+
+    void Start()
+    {
+        transform.position = hiddenObj.transform.position;
+      
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -23,8 +39,8 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             return;
 
         dragClone.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        
-        foreach(var triggerObj in triggerObjects)
+
+        foreach (var triggerObj in triggerObjects)
         {
             if (triggerObj.GetComponent<Repairable>() != null && Vector2.Distance(Camera.main.ScreenToWorldPoint(Input.mousePosition), triggerObj.transform.position) <= 50f)
             {
@@ -35,10 +51,6 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
         }
     }
 
-    public void OnMouseEnter()
-    {
-    }
-
     public void OnEndDrag(PointerEventData eventData)
     {
         if (dragClone == null)
@@ -46,6 +58,17 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
         Destroy(dragClone);
     }
+
+    public void OnMouseOver()
+    {
+      hintBox.transform.positio
+    }
+
+    public void OnMouseExit()
+    {
+        
+    }
+
 }
 
 
