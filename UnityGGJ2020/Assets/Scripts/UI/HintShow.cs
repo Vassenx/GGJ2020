@@ -28,11 +28,7 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {      
         Debug.Log("I am hovering");
         isShow = true;
-        Slide(0.2f);        
-    }
-    public bool isHovered()
-    {
-        return EventSystem.current.IsPointerOverGameObject();
+              
     }
 
     public void OnPointerExit(PointerEventData eventData)
