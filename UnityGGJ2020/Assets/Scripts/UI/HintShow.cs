@@ -51,7 +51,7 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         isShow = true;
         //get the description of the tool in question
 
-        tempTool = draggedTool.getToolData;
+        tempTool = draggedTool.tool;
 
         switch (tempTool)
         {

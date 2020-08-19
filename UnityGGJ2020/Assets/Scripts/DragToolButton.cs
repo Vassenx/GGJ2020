@@ -7,14 +7,16 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     [SerializeField] private InventorySystem inventorySystem = null;
     [SerializeField] private GameObject dragClonePrefab = null;
     [SerializeField] private GameObject[] triggerObjects = null;
-    [SerializeField] private Tool tool;
+    [SerializeField] public Tool tool;
     private GameObject dragClone;
-
+    
+    /*
     public Tool getToolData
     {
-        get => tool;
-        set => tool = value;
+        get => this.tool;
+        set => this.tool = value;
     }
+    */
 
     public void OnBeginDrag(PointerEventData eventData)
     {
