@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+﻿    using UnityEngine;
 using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
@@ -7,8 +7,14 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
     [SerializeField] private InventorySystem inventorySystem = null;
     [SerializeField] private GameObject dragClonePrefab = null;
     [SerializeField] private GameObject[] triggerObjects = null;
-    [SerializeField] private Tool tool = Tool.drill;
+    [SerializeField] private Tool tool;
     private GameObject dragClone;
+
+    public Tool getToolData
+    {
+        get => tool;
+        set => tool = value;
+    }
 
     public void OnBeginDrag(PointerEventData eventData)
     {
@@ -43,6 +49,8 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
         Destroy(dragClone);
     }
+
+
 }
 
 
