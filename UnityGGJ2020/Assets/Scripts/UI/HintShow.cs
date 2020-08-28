@@ -10,13 +10,13 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     [SerializeField] private GameObject hintHiddenLocation;
     [SerializeField] private GameObject targetItem;
     [SerializeField] private DragToolButton draggedTool;
+    //text pop description object, to be changed to the tool's description
+    [SerializeField] private GameObject destinationText;
     private bool isShow = false;
 
     private Transform temp;
     private Transform originalPos;
     private TMP_Text itemDescription;
-    private Tool tempTool;
-    
 
     // Start is called before the first frame update
     void Start()
@@ -36,8 +36,8 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                                                          showDescriptionPosition.position.y,
                                                          showDescriptionPosition.position.z);
 
-            targetItem.transform.position = Vector3.Lerp(targetItem.transform.position, tempPos, 0.2f);
-
+            //targetItem.transform.position = Vector3.Lerp(targetItem.transform.position, tempPos, 0.2f);
+            targetItem.transform.position = tempPos;
         }
         else
         {
@@ -50,25 +50,24 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         Debug.Log("I am hovering");
         isShow = true;
         //get the description of the tool in question
-
-        tempTool = draggedTool.tool;
-
-        switch (tempTool)
+        itemDescription = destinationText.GetComponent<TMP_Text>();
+        //set text
+        switch (draggedTool.tool)
         {
-            case Tool.drill:
-                targetItem.GetComponent<TMP_Text>().text = "Tool used to make holes.";
+            case Tool.nutsNBots:
+                itemDescription.SetText("nuts and bolts");
                 break;
             case Tool.adhesive:
-                targetItem.GetComponent<TMP_Text>().text = "some sticky material.";
+                itemDescription.SetText("adhesive");
                 break;
-            case Tool.nutsNBots:
-                targetItem.GetComponent<TMP_Text>().text = "Best game out of the Ratchet and Clank Series!";
+            case Tool.drill:
+                itemDescription.SetText("drill");
                 break;
             case Tool.solderingIron:
-                targetItem.GetComponent<TMP_Text>().text = "I'm not sure what this is used for.";
+                itemDescription.SetText("iron");
                 break;
             case Tool.wrench:
-                targetItem.GetComponent<TMP_Text>().text = "A tool so simple, even a monkey can use it!";
+                itemDescription.SetText("wrench");
                 break;
         }
 
