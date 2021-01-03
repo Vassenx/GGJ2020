@@ -34,7 +34,7 @@ public class portraitChanger : MonoBehaviour
         {
             if (!fading)
             {
-                if (speakerText.text.Equals("SASHA"))
+                if (speakerText.text.ToLower().Equals("sasha"))
                 {
                     transform.position = rightPort.transform.position;
                     changeSprite(sashaSprite);
@@ -43,18 +43,18 @@ public class portraitChanger : MonoBehaviour
                 {
                     transform.position = leftPort.transform.position;
 
-                    switch (speakerText.text)
+                    switch (speakerText.text.ToLower())
                     {
-                        case "RADINKA":
+                        case "radinka":
                             changeSprite(radinkaSprite);
                             break;
-                        case "JURGIS":
+                        case "jurgis":
                             changeSprite(jurgisSprite);
                             break;
-                        case "KAZIMIR":
+                        case "kazimir":
                             changeSprite(kazimirSprite);
                             break;
-                        case "PAVEL":
+                        case "pavel":
                             changeSprite(pavelSprite);
                             break;
                         default:

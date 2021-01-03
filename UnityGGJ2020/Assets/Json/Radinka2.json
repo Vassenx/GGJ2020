@@ -1,0 +1,38 @@
+{
+  "preconditions": [ "act1" ],
+  "priority": 1, 
+  "repeatable":  true,
+  "colliderName": "RADINKA",
+  "nodes": [
+    {
+      "id": 0,
+      "speaker": "RADINKA",
+      "text": "Sasha, any updates?",
+      "choices": [ 1, 2 ]
+    },
+    {
+      "id": 1,
+      "speaker": "SASHA",
+      "text": "Well, the engine has overheated. Not sure where to start with that problem.",
+      "choices": [ 3 ]
+    },
+    {
+      "id": 2,
+      "speaker": "SASHA",
+      "text": "Nothing yet, sorry.",
+      "choices": [  ]
+    },
+    {
+      "id": 3,
+      "speaker": "RADINKA",
+      "text": "That’s impossible. This submarine was just recently serviced, it shouldn’t be malfunctioning this early in the trip, much less at all. Go speak to Jurgis about it, if you can; he knows more about the intricacies than I do.",
+      "choices": [ 4, 5 ]
+    },
+    {
+      "id": 4,
+      "speaker": "SASHA",
+      "text": "",
+      "choices": [  ]
+    }
+  ]
+}

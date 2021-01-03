@@ -1,0 +1,26 @@
+{
+  "preconditions": [ "act1" ],
+  "priority": 0,
+  "repeatable": false,
+  "colliderName": "RADINKA",
+  "nodes": [
+    {
+      "id": 0,
+      "speaker": "RADINKA",
+      "text": "Sasha, there you are. Something’s wrong with the ship.",
+      "choices": [ 1 ]
+    },
+    {
+      "id": 1,
+      "speaker": "SASHA",
+      "text": "Maybe it’s Kazimir messing around with the torpedo launcher again.",
+      "choices": [ 2 ]
+    },
+    {
+      "id": 2,
+      "speaker": "RADINKA",
+      "text": "No, this sounded more serious. Get in touch with Vera when you can.",
+      "choices": []
+    }
+  ]
+}
