@@ -69,6 +69,9 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             case Tool.wrench:
                 itemDescription.SetText("wrench");
                 break;
+            case Tool.keyCard:
+                itemDescription.SetText("get access");
+                break;
         }
 
     }
