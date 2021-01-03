@@ -1,5 +1,5 @@
 {
-  "preconditions": [ ],
+  "pres": [ ],
   "priority": 0, 
   "repeatable":  true,
   "colliderName": "TUTDOOR",
@@ -8,55 +8,73 @@
       "id": 0,
       "speaker": "Door",
       "text": "The door is locked with a small keypad beside it",
-      "choices": [ 1 ]
+      "choices": [ 1 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 1,
       "speaker": "Sasha",
       "text": "Darn. Forgot the passcode",
-      "choices": [ 2, 3, 4 ]
+      "choices": [ 2, 3, 4 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 2,
       "speaker": "Sasha",
       "text": "Enter Random Numbers",
-      "choices": [ 5 ]
+      "choices": [ 5 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 3,
       "speaker": "Sasha",
       "text": "Leave",
-      "choices": [ 6 ]
+      "choices": [ 6 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 4,
       "speaker": "USEITEM",
       "text": "Enter Passcode",
-      "choices": [ 7 ]
+      "choices": [ 7 ],
+      "pres": [ "HAS_KEY" ],
+      "posts": []
     },
     {
       "id": 5,
       "speaker": "Keypad",
       "text": "ACCESS DENIED.",
-      "choices": [ 8 ]
+      "choices": [ 8 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 6,
       "speaker": "Sasha",
       "text": "I'd better find the passcode",
-      "choices": [ 8 ]
+      "choices": [ 8 ],
+      "pres": [],
+      "posts": []
     },
-	{
+    {
       "id": 7,
       "speaker": "Keypad",
       "text": "ACCESS GRANTED",
-      "choices": [ 8 ]
+      "choices": [ 8 ],
+      "pres": [],
+      "posts": [ "OPEN_DOOR" ]
     },
-	{
+    {
       "id": 8,
       "speaker": "ENDDIALOG",
       "text": "",
-      "choices": []
+      "choices": [],
+      "pres": [],
+      "posts": []
     }
   ]
 }

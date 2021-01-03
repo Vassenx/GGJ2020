@@ -11,7 +11,7 @@ public static class JsonConverter
     {
         allDialogTrees = new List<DialogTree>();
 
-        foreach (var file in Directory.EnumerateFiles("Assets/Json", "*.json"))
+        foreach (var file in Directory.EnumerateFiles("Assets/Json/Test", "*.json"))
         {
             using (StreamReader r = new StreamReader(file))
             {   
@@ -27,7 +27,7 @@ public static class JsonConverter
 
 /// <summary>
 /// <list type="bullet">
-/// <item> <description> conditions = PRE conditions </description> </item>
+/// <item> <description> pres = PRE conditions </description> </item>
 /// <item> <description> colliderName = obj with the speaker component on it to collide with to start the dialog </description> </item>
 /// </list>
 /// 
@@ -37,12 +37,14 @@ public static class JsonConverter
 [System.Serializable]
 public class DialogTree
 {
-    public string[] preconditions;
+    //GLOBAL pre-conditions
+    public string[] pres;
     //priority: first tree to be picked if pre-conditions are satisified. 
     //the first one should have priority 0
     public int priority;
     public bool repeatable;
     public string colliderName;
+
     public DialogNode[] nodes;
 }
 
@@ -53,4 +55,6 @@ public struct DialogNode
     public string speaker;
     public string text;
     public int[] choices;
+    public string[] pres;
+    public string[] posts;
 }
