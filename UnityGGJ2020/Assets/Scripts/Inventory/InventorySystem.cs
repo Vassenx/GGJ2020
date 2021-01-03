@@ -8,15 +8,24 @@ public class InventorySystem : MonoBehaviour
 {
     [SerializeField] private GameObject inventoryUI = null;
 
-    [SerializeField] private ItemData[] itemList = new ItemData[(int)Enum.GetValues(typeof(Tool)).Length];
+    [SerializeField] private ItemData[] itemList = new ItemData[9];
     [SerializeField] private Button[] itembuttons = new Button[15];
 
     public static System.Action<bool> OnOpenInventory;
 
     public void Remove(ItemData item)
     {
-        itemList[(int)item.toolAsset] = null;
-        itembuttons[(int)item.toolAsset].gameObject.SetActive(false);
+        for (int i = 0; i < itemList.Length; i++)
+        {
+            if(itemList[i] == item)
+            {
+                //set element of the array to null once.
+                itemList[i] = null;
+                itembuttons[i].gameObject.SetActive(false);
+                break;
+            }
+        
+        }
     }
 
     public void RemoveAtIndex(int i)
@@ -29,11 +38,18 @@ public class InventorySystem : MonoBehaviour
     {
         for (int i = 0; i < itemList.Length; i++)
         {
-            if (itemList[(int)item.toolAsset] == null)
+            if (itemList[i] == null)
             {
-                itemList[(int)item.toolAsset] = item;
-                itembuttons[(int)item.toolAsset].gameObject.SetActive(true);
-                itembuttons[(int)item.toolAsset].image.sprite = item.uiSprite;
+                //add element to the array
+                itemList[i] = item;
+                itembuttons[i].gameObject.SetActive(true);
+                itembuttons[i].image.sprite = item.uiSprite;
+                break;
+            }
+            else
+            {
+                //no more space in the inventory
+                Debug.Log("No more space in the inventory.");
             }
         }
     }
@@ -53,6 +69,7 @@ public class InventorySystem : MonoBehaviour
     void Start()
     {
         //for any items preset to be automatically in inventory
+        /*
         for(int i = 0; i < itemList.Length; i++)
         {
             if (itemList[i] != null)
@@ -64,6 +81,7 @@ public class InventorySystem : MonoBehaviour
                 RemoveAtIndex(i);
             }
         }
+        */
         //inventoryUI.SetActive(false);
     }
 
