@@ -66,6 +66,20 @@ public class InventorySystem : MonoBehaviour
         return false;
     }
 
+    public void RemoveByEnum(Tool tool)
+    {
+        for (int i = 0; i < itemList.Length; i++)
+        {
+            //check if given tool exists
+            if (itemList[i] != null && itemList[i].toolAsset == tool)
+            {
+                itemList[i] = null;
+                itembuttons[i].gameObject.SetActive(false);
+                break;
+            }
+        }
+    }
+
     void Start()
     {
         //for any items preset to be automatically in inventory
