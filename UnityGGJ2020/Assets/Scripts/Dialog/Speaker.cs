@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Linq;
+using System;
 
 [RequireComponent(typeof(Collider2D))]
 public class Speaker : MonoBehaviour
@@ -37,28 +38,13 @@ public class Speaker : MonoBehaviour
     private DialogTree GetBestDialog()
     {
         //only get trees where all the pre-conditions are satisified
-        var bestDialogs = dialogTrees.Where(tree => !tree.preconditions.Any(cond => !IsSatisfied(cond))); //TODO: and act filter
-        bestDialogs.OrderBy(x => x.priority);
-
-        return bestDialogs.First();
-    }
-
-    //TODO fill out conditions we will use
-    private bool IsSatisfied(string condition)
-    {
-        switch (condition)
+        var bestDialogs = dialogTrees.Where(tree => ConditionsManager.instance.IsSatisfied(tree.pres));
+        if(bestDialogs.FirstOrDefault() != null)
         {
-            case "carrot":
-                return true;
-            case "act1":
-                /*if (Act != 1)
-                    return false;
-                else
-                    return true;*/
-                return true;
-            default:
-                Debug.Log("Dialog pre-condition not set correctly for condition: " + condition);
-                return false;
+            bestDialogs.OrderBy(x => x.priority);
+
+            return bestDialogs.First();
         }
+        return null;
     }
 }

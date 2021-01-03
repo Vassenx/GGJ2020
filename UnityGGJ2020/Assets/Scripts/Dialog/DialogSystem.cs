@@ -81,6 +81,7 @@ public class DialogSystem : MonoBehaviour
             {
                 doneDescription = true;
             }
+            ConditionsManager.instance.SatisfyConditions(curChoice.posts);
         }
     }
 
@@ -174,9 +175,12 @@ public class DialogSystem : MonoBehaviour
         {
             var node = curDialog.nodes[option];
 
-            Image choiceImage = Instantiate(choicePrefabHighlight, choiceParentPrefab.transform);
-            choiceImage.GetComponentInChildren<TextMeshProUGUI>().text = node.text;
-            choiceObjects.Add(choiceImage.gameObject);
+            if (ConditionsManager.instance.IsSatisfied(node.pres))
+            {
+                Image choiceImage = Instantiate(choicePrefabHighlight, choiceParentPrefab.transform);
+                choiceImage.GetComponentInChildren<TextMeshProUGUI>().text = node.text;
+                choiceObjects.Add(choiceImage.gameObject);
+            }
         }
 
         ChangeHighlight();
