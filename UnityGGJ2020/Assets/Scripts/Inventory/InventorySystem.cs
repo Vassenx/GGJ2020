@@ -36,7 +36,19 @@ public class InventorySystem : MonoBehaviour
                 itembuttons[(int)item.toolAsset].image.sprite = item.uiSprite;
             }
         }
-    } 
+    }
+
+    public bool Contains(Tool tool)
+    {
+        for (int i = 0; i < itemList.Length; i++)
+        {
+            if (itemList[i] != null && itemList[i].toolAsset == tool)
+            {
+                return true;
+            }
+        }
+        return false;
+    }
 
     void Start()
     {
