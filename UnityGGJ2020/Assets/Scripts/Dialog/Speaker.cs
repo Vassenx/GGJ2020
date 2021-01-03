@@ -37,8 +37,8 @@ public class Speaker : MonoBehaviour
     private DialogTree GetBestDialog()
     {
         //only get trees where all the pre-conditions are satisified
-        var bestDialogs = dialogTrees.Where(tree => !tree.preconditions.Any(cond => !IsSatisfied(cond)));
-        bestDialogs.OrderByDescending(x => x.priority);
+        var bestDialogs = dialogTrees.Where(tree => !tree.preconditions.Any(cond => !IsSatisfied(cond))); //TODO: and act filter
+        bestDialogs.OrderBy(x => x.priority);
 
         return bestDialogs.First();
     }
