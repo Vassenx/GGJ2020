@@ -14,12 +14,15 @@ public class GameController : MonoBehaviour
 
     public GameObject pointsOfInterest;
 
+    public GameObject UI;
+
     void Start()
     {
         StartCoroutine(StartSequence());
 
         //If ever want a cut scene
         //CutTo(pointsOfInterest);
+        UI.SetActive(true);
     }
 
     IEnumerator StartSequence()

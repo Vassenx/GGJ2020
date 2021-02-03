@@ -31,6 +31,7 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             return;
 
         dragClone.transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+
         
         foreach(var triggerObj in triggerObjects)
         {
@@ -41,7 +42,6 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
                 Destroy(dragClone);
             }
         }
-
     }
 
     public void OnEndDrag(PointerEventData eventData)

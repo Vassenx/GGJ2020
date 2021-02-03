@@ -11,7 +11,7 @@ public static class JsonConverter
     {
         allDialogTrees = new List<DialogTree>();
 
-        foreach (var file in Directory.EnumerateFiles("Assets/Json/Test", "*.json"))
+        foreach (var file in Directory.EnumerateFiles("Assets/Json/Dialogs", "*.json"))
         {
             using (StreamReader r = new StreamReader(file))
             {   

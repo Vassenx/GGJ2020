@@ -1,0 +1,24 @@
+{
+  "pres": [ ],
+  "priority": 0, 
+  "repeatable": false,
+  "colliderName": "CUT1",
+  "nodes": [
+    {
+      "id": 0,
+      "speaker": "SASHA",
+      "text": "What was that?",
+      "choices": [ 1 ],
+      "pres": [ ],
+      "posts": [ ]
+    },
+	{
+      "id": 1,
+      "speaker": "SASHA",
+      "text": " ",
+      "choices": [ ],
+      "pres": [ ],
+      "posts": [ ]
+    }
+  ]
+}

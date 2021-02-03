@@ -24,7 +24,6 @@ public class InventorySystem : MonoBehaviour
                 itembuttons[i].gameObject.SetActive(false);
                 break;
             }
-        
         }
     }
 

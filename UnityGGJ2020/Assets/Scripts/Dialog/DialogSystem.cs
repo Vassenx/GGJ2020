@@ -10,7 +10,7 @@ public class DialogSystem : MonoBehaviour
     [SerializeField] private Image dialogWindow = null;
     [SerializeField] private TextMeshProUGUI dialogText = null;
     [SerializeField] private TextMeshProUGUI speakerText = null;
-    [SerializeField] private Image choicePrefabHighlight = null;
+    [SerializeField] private SpriteRenderer choicePrefabHighlight = null;
     [SerializeField] private GameObject choiceParentPrefab = null;
     [SerializeField] private float scrollWaitTime = 0.05f;
 
@@ -177,7 +177,7 @@ public class DialogSystem : MonoBehaviour
 
             if (ConditionsManager.instance.IsSatisfied(node.pres))
             {
-                Image choiceImage = Instantiate(choicePrefabHighlight, choiceParentPrefab.transform);
+                SpriteRenderer choiceImage = Instantiate(choicePrefabHighlight, choiceParentPrefab.transform);
                 choiceImage.GetComponentInChildren<TextMeshProUGUI>().text = node.text;
                 choiceObjects.Add(choiceImage.gameObject);
             }
@@ -201,7 +201,7 @@ public class DialogSystem : MonoBehaviour
     {
         for (int i = 0; i < choiceObjects.Count; i++)
         {
-            var choiceObjImage = choiceObjects[i].GetComponent<Image>();
+            var choiceObjImage = choiceObjects[i].GetComponent<SpriteRenderer>();
             var alpha = i == pickedChoiceIndex ? 1 : 0;
 
             Color newColor = new Color(choiceObjImage.color.r, choiceObjImage.color.g, choiceObjImage.color.b, alpha);

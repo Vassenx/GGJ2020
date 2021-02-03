@@ -9,7 +9,8 @@ public class ConditionsManager : MonoBehaviour
     public static Action GET_KEY;
 
 
-    [SerializeField] private LadderPickup tutorialDoorScript = null;
+    [SerializeField] private LadderPickup[] door = null;
+    [SerializeField] private ItemData[] items = null;
     [SerializeField] private InventorySystem inventory = null;
 
     #region Singleton
@@ -17,7 +18,7 @@ public class ConditionsManager : MonoBehaviour
 
     private void Awake()
     {
-        if(instance == null)
+        if (instance == null)
         {
             instance = this;
         }
@@ -33,10 +34,12 @@ public class ConditionsManager : MonoBehaviour
 
         foreach (var cond in preConditions)
         {
+            if (cond.Substring(0, 4) == "HAS_")
+            {
+                return inventory.Contains((Tool)System.Enum.Parse(typeof(Tool), cond.Substring(4)));
+            }
             switch (cond)
             {
-                case "HAS_KEY":
-                    return inventory.Contains(Tool.keyCard);
                 case "act1":
                     //if (Act1) return true;
                     break;
@@ -53,11 +56,29 @@ public class ConditionsManager : MonoBehaviour
     {
         foreach (var cond in postConditions)
         {
+            if (cond.Substring(0, 5) == "OPEN_")
+            {
+                door[Int32.Parse(cond.Substring(5))].openDoor();
+            }
+            if (cond.Substring(0, 4) == "USE_")
+            {
+                inventory.RemoveByEnum((Tool)System.Enum.Parse(typeof(Tool), cond.Substring(4)));
+            }
+            if (cond.Substring(0,4) == "GET_")
+            {
+                for (int i = 0; i < items.Length; i++)
+                {
+                    if ((cond.Substring(4).ToLower() == items[i].name.ToLower()))
+                    {
+                        inventory.Add(items[i]);
+                        break;
+                    }
+                }
+            }
+
             switch (cond)
             {
-                case "OPEN_DOOR":
-                    tutorialDoorScript.open = true;
-                    break;
+
             }
         }
     }

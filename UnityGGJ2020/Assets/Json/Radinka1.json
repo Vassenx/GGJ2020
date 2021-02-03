@@ -17,16 +17,16 @@
       "speaker": "SASHA",
       "text": "Maybe it’s Kazimir messing around with the torpedo launcher again.",
       "choices": [ 2 ],
-      "pres": [],
-      "posts": []
+      "pres": [ ],
+      "posts": [ ]
     },
     {
       "id": 2,
       "speaker": "RADINKA",
       "text": "No, this sounded more serious. Get in touch with Vera when you can.",
-      "choices": [],
-      "pres": [],
-      "posts": []
+      "choices": [ ],
+      "pres": [ ],
+      "posts": [ ]
     }
   ]
 }
