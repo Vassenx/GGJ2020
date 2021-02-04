@@ -20,9 +20,11 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
 
     public void OnBeginDrag(PointerEventData eventData)
     {
+        var button = GetComponent<Button>();
         //inventorySystem.HideInventory();
         dragClone = Instantiate(dragClonePrefab, Camera.main.ScreenToWorldPoint(Input.mousePosition), Quaternion.identity);
-        dragClone.GetComponent<SpriteRenderer>().sprite = GetComponent<Button>().image.sprite;
+        dragClone.GetComponent<SpriteRenderer>().sprite = button.image.sprite;
+        button.image.enabled = false;
     }
 
     public void OnDrag(PointerEventData eventData)
@@ -50,9 +52,8 @@ public class DragToolButton : MonoBehaviour, IBeginDragHandler, IDragHandler, IE
             return;
 
         Destroy(dragClone);
+        GetComponent<Button>().image.enabled = true;
     }
-
-
 }
 
 

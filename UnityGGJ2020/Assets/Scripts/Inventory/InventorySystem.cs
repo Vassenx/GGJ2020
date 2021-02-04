@@ -108,4 +108,4 @@ public class InventorySystem : MonoBehaviour
     }
 }
 
-public enum Tool { drill, solderingIron, wrench, adhesive, nutsNBots, keyCard }; 
+public enum Tool { KEYCARD }; 

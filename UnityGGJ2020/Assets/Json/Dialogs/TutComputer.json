@@ -8,61 +8,81 @@
       "id": 0,
       "speaker": "Computer",
       "text": "SYSTEM MALFUNCTION. LOCKDOWN INITIATED. PLEASE INSERT KEYCARD.",
-      "choices": [ 1 ]
+      "choices": [ 1 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 1,
       "speaker": "Sasha",
       "text": "I think I dropped my keycard somewhere in this room.",
-      "choices": [ 9 ]
+      "choices": [ 9 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 2,
       "speaker": "Computer",
       "text": "LOGIN ACCEPTED. WELCOME BACK SASHA.",
-      "choices": [ 3, 4, 5 ]
+      "choices": [ 3, 4, 5 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 3,
       "speaker": "Sasha",
       "text": "What is the passcode for the door?",
-      "choices": [ 6 ]
+      "choices": [ 6 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 4,
       "speaker": "Sasha",
       "text": "Where are we?", 
-      "choices": [ 7 ]
+      "choices": [ 7 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 5,
       "speaker": "Sasha",
       "text": "What is the status of the ship?",
-      "choices": [ 8 ]
+      "choices": [ 8 ],
+      "pres": [],
+      "posts": []
     },
 	{
       "id": 6,
       "speaker": "Computer",
       "text": "PASSCODE IS 4821",
-      "choices": [ 9 ]
+      "choices": [ 9 ],
+      "pres": [],
+      "posts": []
     },
     {
       "id": 7,
       "speaker": "Computer",
       "text": "SHIP COORDINATES : 70.0 N / 9.4 W",
-      "choices": [ 9 ]
+      "choices": [ 9 ],
+      "pres": [],
+      "posts": []
     },
 	{
       "id": 8,
       "speaker": "Computer",
       "text": "SHIP IS NON OPERATIONAL. CRITICAL MALFUNCTION.",
-      "choices": [ 9 ]
+      "choices": [ 9 ],
+      "pres": [],
+      "posts": []
     },
 	{
       "id": 9,
       "speaker": "ENDDIALOG",
       "text": "",
-      "choices": []
+      "choices": [],
+      "pres": [],
+      "posts": []
     }
   ]
 }

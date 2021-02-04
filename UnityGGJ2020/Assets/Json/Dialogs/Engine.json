@@ -2,49 +2,63 @@
   "preconditions": [ "carrot", "act1" ],
   "priority": 0, 
   "repeatable":  true,
-  "colliderName": "HYDVALVE",
+  "colliderName": "ENGINE",
   "nodes": [
     {
       "id": 0,
       "speaker": "sam",
       "text": "Hey, im sam",
-      "choices": [ 1 ]
+      "choices": [ 1 ],
+      "pres": [ ],
+      "posts": [ ]
     },
     {
       "id": 1,
       "speaker": "RADINKA",
       "text": "Hey, im the main character",
-      "choices": [ 2 ]
+      "choices": [ 2 ],
+      "pres": [ ],
+      "posts": [ ]
     },
     {
       "id": 2,
       "speaker": "sam",
       "text": "Are dogs or cats better?",
-      "choices": [ 3, 4 ]
+      "choices": [ 3, 4 ],
+      "pres": [ ],
+      "posts": [ ]
     },
     {
       "id": 3,
       "speaker": "main",
       "text": "Lemma is watching",
-      "choices": [ 5 ]
+      "choices": [ 5 ],
+      "pres": [ ],
+      "posts": [ ]
     },
     {
       "id": 4,
       "speaker": "main",
       "text": "Cats!",
-      "choices": [ 6 ]
+      "choices": [ 6 ],
+      "pres": [ ],
+      "posts": [ ]
     },
     {
       "id": 5,
       "speaker": "sam",
       "text": "noted.",
-      "choices": []
+      "choices": [],
+      "pres": [ ],
+      "posts": [ ]
     },
     {
       "id": 6,
       "speaker": "sam",
       "text": "meow",
-      "choices": []
+      "choices": [],
+      "pres": [ ],
+      "posts": [ ]
     }
   ]
 }

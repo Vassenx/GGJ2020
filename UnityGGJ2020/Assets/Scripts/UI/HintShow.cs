@@ -14,7 +14,6 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     [SerializeField] private GameObject destinationText;
     private bool isShow = false;
 
-    private Transform temp;
     private Transform originalPos;
     private TMP_Text itemDescription;
 
@@ -22,7 +21,6 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     void Start()
     {
         originalPos = targetItem.transform;
-       
     }
 
     // Update is called once per frame
@@ -30,11 +28,10 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         if (isShow)
         {
-            temp = targetItem.transform;
-            Transform showDescriptionPosition = hintShowLocation.transform;
-            var tempPos = new Vector3(showDescriptionPosition.position.x,
-                                                         showDescriptionPosition.position.y,
-                                                         showDescriptionPosition.position.z);
+            Vector3 showDescriptionPosition = transform.position;
+            var tempPos = new Vector3(targetItem.transform.position.x,
+                                      showDescriptionPosition.y,
+                                      showDescriptionPosition.z);
 
             //targetItem.transform.position = Vector3.Lerp(targetItem.transform.position, tempPos, 0.2f);
             targetItem.transform.position = tempPos;
@@ -54,32 +51,14 @@ public class HintShow : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         //set text
         switch (draggedTool.tool)
         {
-            case Tool.nutsNBots:
-                itemDescription.SetText("nuts and bolts");
-                break;
-            case Tool.adhesive:
-                itemDescription.SetText("adhesive");
-                break;
-            case Tool.drill:
-                itemDescription.SetText("drill");
-                break;
-            case Tool.solderingIron:
-                itemDescription.SetText("iron");
-                break;
-            case Tool.wrench:
-                itemDescription.SetText("wrench");
-                break;
-            case Tool.keyCard:
+            case Tool.KEYCARD:
                 itemDescription.SetText("get access");
                 break;
         }
-
     }
 
     public void OnPointerExit(PointerEventData eventData)
     {
         isShow = false;
     }
-
-   
 }
